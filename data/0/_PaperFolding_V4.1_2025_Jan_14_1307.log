@@ -1,0 +1,255 @@
+1.5513 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.9259 	INFO 	Loaded monitor calibration from ['2022_03_09 09:55']
+8.9345 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+10.4444 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001571B7BE5C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001571B7E7CC0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.4449 	EXP 	window1: mouseVisible = True
+10.4450 	EXP 	window1: recordFrameIntervals = False
+10.6100 	EXP 	window1: recordFrameIntervals = True
+10.7937 	DEBUG 	Screen (0) actual frame rate measured at 59.99
+10.7938 	EXP 	window1: recordFrameIntervals = False
+11.0974 	INFO 	keyboard.Keyboard is using ptb backend.
+11.1120 	EXP 	Created instr_slides = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instr_slides', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.6, 0.9]), texRes=128.0, units='height', win=Window(...))
+11.1120 	INFO 	keyboard.Keyboard is using ptb backend.
+11.1382 	EXP 	Created sample_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sample_trial.png', interpolate=True, mask=None, maskParams=None, name='sample_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.4 , 0.31]), texRes=512, units='height', win=Window(...))
+11.1382 	INFO 	keyboard.Keyboard is using ptb backend.
+11.2103 	EXP 	Created sample_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.038, italic=False, languageStyle='LTR', name='sample_txt', opacity=1, ori=0, pos=array([ 0.  , -0.36]), rgb=UNKNOWN, text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+11.2130 	EXP 	Created post_instr_slides = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='post_instr_slides', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.6, 0.9]), texRes=128.0, units='height', win=Window(...))
+11.2130 	INFO 	keyboard.Keyboard is using ptb backend.
+11.2171 	EXP 	Created Questions_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.6 , 0.22]), texRes=512, units='height', win=Window(...))
+11.2171 	INFO 	keyboard.Keyboard is using ptb backend.
+11.2208 	EXP 	Created resptrial1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.038, italic=False, languageStyle='LTR', name='resptrial1', opacity=1, ori=0, pos=array([ 0.  , -0.36]), rgb=UNKNOWN, text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+11.2278 	EXP 	Created stop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='stop', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='STOP!', units='height', win=Window(...), wrapWidth=1)
+11.2521 	EXP 	Created start_part2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='start_part2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2522 	INFO 	keyboard.Keyboard is using ptb backend.
+11.2634 	EXP 	Created respbeforetrial2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='respbeforetrial2', opacity=1, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2660 	EXP 	Created Questions_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.6 , 0.22]), texRes=512, units='height', win=Window(...))
+11.2660 	INFO 	keyboard.Keyboard is using ptb backend.
+11.2747 	EXP 	Created number = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.038, italic=False, languageStyle='LTR', name='number', opacity=1, ori=0, pos=array([ 0.  , -0.36]), rgb=UNKNOWN, text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+11.2946 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='thankyou', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2946 	INFO 	keyboard.Keyboard is using ptb backend.
+11.3006 	EXP 	Created finalslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='finalslide', opacity=1, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press the space bar to exit the experiment.', units='height', win=Window(...), wrapWidth=1)
+11.3082 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+11.3115 	EXP 	New trial (rep=0, index=0): None
+11.4211 	EXP 	instr_slides: image = 'paperfolding_instr/Slide1.png'
+11.4211 	EXP 	instr_slides: autoDraw = True
+30.6867 	DATA 	Keypress: right
+30.7243 	EXP 	New trial (rep=1, index=0): None
+30.7840 	EXP 	instr_slides: autoDraw = False
+30.7840 	EXP 	instr_slides: image = 'paperfolding_instr/Slide2.png'
+30.7840 	EXP 	instr_slides: autoDraw = True
+63.4070 	EXP 	New trial (rep=2, index=0): None
+63.4617 	DATA 	Keypress: right
+63.4688 	EXP 	instr_slides: autoDraw = False
+63.4688 	EXP 	instr_slides: image = 'paperfolding_instr/Slide3.png'
+63.4688 	EXP 	instr_slides: autoDraw = True
+85.8904 	EXP 	New trial (rep=3, index=0): None
+85.9449 	DATA 	Keypress: right
+85.9511 	EXP 	instr_slides: autoDraw = False
+85.9511 	EXP 	instr_slides: image = 'paperfolding_instr/Slide4.png'
+85.9511 	EXP 	instr_slides: autoDraw = True
+98.3080 	EXP 	New trial (rep=4, index=0): None
+98.3661 	DATA 	Keypress: right
+98.3734 	EXP 	instr_slides: autoDraw = False
+98.3734 	EXP 	instr_slides: image = 'paperfolding_instr/Slide5.png'
+98.3734 	EXP 	instr_slides: autoDraw = True
+108.3368 	DATA 	Keypress: space
+108.3681 	EXP 	instr_slides: autoDraw = False
+108.3681 	EXP 	sample_image: autoDraw = True
+108.3681 	EXP 	sample_txt: autoDraw = True
+115.0362 	DATA 	Keypress: 3
+115.0695 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+115.0745 	EXP 	New trial (rep=0, index=0): None
+115.1377 	EXP 	sample_image: autoDraw = False
+115.1377 	EXP 	sample_txt: autoDraw = False
+115.1377 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide1.png'
+115.1377 	EXP 	post_instr_slides: autoDraw = True
+118.6733 	EXP 	New trial (rep=1, index=0): None
+118.7255 	DATA 	Keypress: right
+118.7326 	EXP 	post_instr_slides: autoDraw = False
+118.7326 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide2.png'
+118.7326 	EXP 	post_instr_slides: autoDraw = True
+128.3700 	DATA 	Keypress: right
+128.4076 	EXP 	New trial (rep=2, index=0): None
+128.4752 	EXP 	post_instr_slides: autoDraw = False
+128.4752 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide3.png'
+128.4752 	EXP 	post_instr_slides: autoDraw = True
+136.5199 	DATA 	Keypress: right
+136.5573 	EXP 	New trial (rep=3, index=0): None
+136.6085 	EXP 	post_instr_slides: autoDraw = False
+136.6085 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide4.png'
+136.6085 	EXP 	post_instr_slides: autoDraw = True
+142.8569 	EXP 	New trial (rep=4, index=0): None
+142.8998 	DATA 	Keypress: right
+142.9068 	EXP 	post_instr_slides: autoDraw = False
+142.9068 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide5.png'
+142.9068 	EXP 	post_instr_slides: autoDraw = True
+151.0233 	EXP 	New trial (rep=5, index=0): None
+151.0671 	DATA 	Keypress: right
+151.0738 	EXP 	post_instr_slides: autoDraw = False
+151.0738 	EXP 	post_instr_slides: image = 'paperfolding_post_instr/Slide6.png'
+151.0738 	EXP 	post_instr_slides: autoDraw = True
+162.3103 	DEBUG 	Read excel file with openpyxl: Images_and_corrAns_Part_1.xlsx
+162.3112 	EXP 	Imported Images_and_corrAns_Part_1.xlsx as conditions, 10 conditions, 2 params
+162.3116 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+162.3120 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'paperfolding_stim_1/q1.png', 'corrAns': 1}
+162.3478 	DATA 	Keypress: space
+162.3501 	EXP 	post_instr_slides: autoDraw = False
+162.3501 	EXP 	Questions_1: image = 'paperfolding_stim_1/q1.png'
+162.3501 	EXP 	Questions_1: autoDraw = True
+162.3501 	EXP 	resptrial1: autoDraw = True
+168.0648 	DATA 	Keypress: 1
+168.0807 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'paperfolding_stim_1/q2.png', 'corrAns': 4}
+168.0969 	EXP 	Questions_1: autoDraw = False
+168.0969 	EXP 	resptrial1: autoDraw = False
+168.0969 	EXP 	Questions_1: image = 'paperfolding_stim_1/q2.png'
+168.0969 	EXP 	Questions_1: autoDraw = True
+168.0969 	EXP 	resptrial1: autoDraw = True
+175.8500 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'paperfolding_stim_1/q3.png', 'corrAns': 2}
+175.8780 	DATA 	Keypress: 2
+175.8804 	EXP 	Questions_1: autoDraw = False
+175.8804 	EXP 	resptrial1: autoDraw = False
+175.8804 	EXP 	Questions_1: image = 'paperfolding_stim_1/q3.png'
+175.8804 	EXP 	Questions_1: autoDraw = True
+175.8804 	EXP 	resptrial1: autoDraw = True
+205.7175 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'paperfolding_stim_1/q4.png', 'corrAns': 4}
+205.7468 	DATA 	Keypress: 2
+205.7490 	EXP 	Questions_1: autoDraw = False
+205.7490 	EXP 	resptrial1: autoDraw = False
+205.7490 	EXP 	Questions_1: image = 'paperfolding_stim_1/q4.png'
+205.7490 	EXP 	Questions_1: autoDraw = True
+205.7490 	EXP 	resptrial1: autoDraw = True
+220.2010 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'paperfolding_stim_1/q5.png', 'corrAns': 2}
+220.2300 	DATA 	Keypress: 4
+220.2324 	EXP 	Questions_1: autoDraw = False
+220.2324 	EXP 	resptrial1: autoDraw = False
+220.2324 	EXP 	Questions_1: image = 'paperfolding_stim_1/q5.png'
+220.2324 	EXP 	Questions_1: autoDraw = True
+220.2324 	EXP 	resptrial1: autoDraw = True
+235.0341 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'paperfolding_stim_1/q6.png', 'corrAns': 5}
+235.0605 	DATA 	Keypress: 2
+235.0628 	EXP 	Questions_1: autoDraw = False
+235.0628 	EXP 	resptrial1: autoDraw = False
+235.0628 	EXP 	Questions_1: image = 'paperfolding_stim_1/q6.png'
+235.0628 	EXP 	Questions_1: autoDraw = True
+235.0628 	EXP 	resptrial1: autoDraw = True
+268.8024 	DATA 	Keypress: 5
+268.8169 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'paperfolding_stim_1/q7.png', 'corrAns': 1}
+268.8492 	EXP 	Questions_1: autoDraw = False
+268.8492 	EXP 	resptrial1: autoDraw = False
+268.8492 	EXP 	Questions_1: image = 'paperfolding_stim_1/q7.png'
+268.8492 	EXP 	Questions_1: autoDraw = True
+268.8492 	EXP 	resptrial1: autoDraw = True
+284.5513 	DATA 	Keypress: 4
+284.5670 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'paperfolding_stim_1/q8.png', 'corrAns': 3}
+284.5969 	EXP 	Questions_1: autoDraw = False
+284.5969 	EXP 	resptrial1: autoDraw = False
+284.5969 	EXP 	Questions_1: image = 'paperfolding_stim_1/q8.png'
+284.5969 	EXP 	Questions_1: autoDraw = True
+284.5969 	EXP 	resptrial1: autoDraw = True
+295.3013 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'paperfolding_stim_1/q9.png', 'corrAns': 5}
+295.3496 	DATA 	Keypress: 3
+295.3519 	EXP 	Questions_1: autoDraw = False
+295.3519 	EXP 	resptrial1: autoDraw = False
+295.3519 	EXP 	Questions_1: image = 'paperfolding_stim_1/q9.png'
+295.3519 	EXP 	Questions_1: autoDraw = True
+295.3519 	EXP 	resptrial1: autoDraw = True
+332.6842 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'paperfolding_stim_1/q10.png', 'corrAns': 5}
+332.7251 	DATA 	Keypress: 2
+332.7281 	EXP 	Questions_1: autoDraw = False
+332.7281 	EXP 	resptrial1: autoDraw = False
+332.7281 	EXP 	Questions_1: image = 'paperfolding_stim_1/q10.png'
+332.7281 	EXP 	Questions_1: autoDraw = True
+332.7281 	EXP 	resptrial1: autoDraw = True
+342.3749 	INFO 	saved data to C:\Users\SNL General\Desktop\Session 2.2\PaperFolding_V4.1\data/0\_PaperFolding_V4.1_2025_Jan_14_1307trials.csv
+342.3830 	EXP 	Questions_1: autoDraw = False
+342.3830 	EXP 	resptrial1: autoDraw = False
+342.3830 	EXP 	stop: autoDraw = True
+342.3830 	EXP 	start_part2: autoDraw = True
+342.3830 	EXP 	respbeforetrial2: autoDraw = True
+345.9212 	DEBUG 	Read excel file with openpyxl: Images_and_corrAns_Part_2.xlsx
+345.9221 	EXP 	Imported Images_and_corrAns_Part_2.xlsx as conditions, 10 conditions, 2 params
+345.9226 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+345.9229 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'paperfolding_stim_2/q11.png', 'corrAns': 3}
+345.9437 	DATA 	Keypress: space
+345.9460 	EXP 	stop: autoDraw = False
+345.9460 	EXP 	start_part2: autoDraw = False
+345.9460 	EXP 	respbeforetrial2: autoDraw = False
+345.9460 	EXP 	Questions_2: image = 'paperfolding_stim_2/q11.png'
+345.9460 	EXP 	Questions_2: autoDraw = True
+345.9460 	EXP 	number: autoDraw = True
+350.1527 	DATA 	Keypress: 3
+350.1687 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'paperfolding_stim_2/q12.png', 'corrAns': 2}
+350.1958 	EXP 	Questions_2: autoDraw = False
+350.1958 	EXP 	number: autoDraw = False
+350.1958 	EXP 	Questions_2: image = 'paperfolding_stim_2/q12.png'
+350.1958 	EXP 	Questions_2: autoDraw = True
+350.1958 	EXP 	number: autoDraw = True
+355.0183 	DATA 	Keypress: 2
+355.0335 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'paperfolding_stim_2/q13.png', 'corrAns': 1}
+355.0624 	EXP 	Questions_2: autoDraw = False
+355.0624 	EXP 	number: autoDraw = False
+355.0624 	EXP 	Questions_2: image = 'paperfolding_stim_2/q13.png'
+355.0624 	EXP 	Questions_2: autoDraw = True
+355.0624 	EXP 	number: autoDraw = True
+361.2354 	DATA 	Keypress: 1
+361.2510 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'paperfolding_stim_2/q14.png', 'corrAns': 5}
+361.2786 	EXP 	Questions_2: autoDraw = False
+361.2786 	EXP 	number: autoDraw = False
+361.2786 	EXP 	Questions_2: image = 'paperfolding_stim_2/q14.png'
+361.2786 	EXP 	Questions_2: autoDraw = True
+361.2786 	EXP 	number: autoDraw = True
+368.6529 	DATA 	Keypress: 5
+368.6680 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'paperfolding_stim_2/q15.png', 'corrAns': 2}
+368.6975 	EXP 	Questions_2: autoDraw = False
+368.6975 	EXP 	number: autoDraw = False
+368.6975 	EXP 	Questions_2: image = 'paperfolding_stim_2/q15.png'
+368.6975 	EXP 	Questions_2: autoDraw = True
+368.6975 	EXP 	number: autoDraw = True
+379.2179 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'paperfolding_stim_2/q16.png', 'corrAns': 1}
+379.2464 	DATA 	Keypress: 2
+379.2487 	EXP 	Questions_2: autoDraw = False
+379.2487 	EXP 	number: autoDraw = False
+379.2487 	EXP 	Questions_2: image = 'paperfolding_stim_2/q16.png'
+379.2487 	EXP 	Questions_2: autoDraw = True
+379.2487 	EXP 	number: autoDraw = True
+390.8846 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'paperfolding_stim_2/q17.png', 'corrAns': 5}
+390.9131 	DATA 	Keypress: 1
+390.9154 	EXP 	Questions_2: autoDraw = False
+390.9154 	EXP 	number: autoDraw = False
+390.9154 	EXP 	Questions_2: image = 'paperfolding_stim_2/q17.png'
+390.9154 	EXP 	Questions_2: autoDraw = True
+390.9154 	EXP 	number: autoDraw = True
+403.0835 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'paperfolding_stim_2/q18.png', 'corrAns': 4}
+403.1106 	DATA 	Keypress: 2
+403.1130 	EXP 	Questions_2: autoDraw = False
+403.1130 	EXP 	number: autoDraw = False
+403.1130 	EXP 	Questions_2: image = 'paperfolding_stim_2/q18.png'
+403.1130 	EXP 	Questions_2: autoDraw = True
+403.1130 	EXP 	number: autoDraw = True
+423.3199 	DATA 	Keypress: 3
+423.3349 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'paperfolding_stim_2/q19.png', 'corrAns': 4}
+423.3673 	EXP 	Questions_2: autoDraw = False
+423.3673 	EXP 	number: autoDraw = False
+423.3673 	EXP 	Questions_2: image = 'paperfolding_stim_2/q19.png'
+423.3673 	EXP 	Questions_2: autoDraw = True
+423.3673 	EXP 	number: autoDraw = True
+437.1182 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'paperfolding_stim_2/q20.png', 'corrAns': 3}
+437.1464 	DATA 	Keypress: 4
+437.1485 	EXP 	Questions_2: autoDraw = False
+437.1485 	EXP 	number: autoDraw = False
+437.1485 	EXP 	Questions_2: image = 'paperfolding_stim_2/q20.png'
+437.1485 	EXP 	Questions_2: autoDraw = True
+437.1485 	EXP 	number: autoDraw = True
+454.9913 	INFO 	saved data to C:\Users\SNL General\Desktop\Session 2.2\PaperFolding_V4.1\data/0\_PaperFolding_V4.1_2025_Jan_14_1307trials_2.csv
+454.9962 	DATA 	Keypress: 2
+454.9981 	EXP 	Questions_2: autoDraw = False
+454.9981 	EXP 	number: autoDraw = False
+454.9981 	EXP 	thankyou: autoDraw = True
+454.9981 	EXP 	finalslide: autoDraw = True
+456.9819 	DATA 	Keypress: space
+456.9936 	EXP 	thankyou: autoDraw = False
+456.9936 	EXP 	finalslide: autoDraw = False
+456.9983 	INFO 	saved data to 'C:\\Users\\SNL General\\Desktop\\Session 2.2\\PaperFolding_V4.1\\data/0\\_PaperFolding_V4.1_2025_Jan_14_1307.csv'
+457.0011 	INFO 	saved data to C:\Users\SNL General\Desktop\Session 2.2\PaperFolding_V4.1\data/0\_PaperFolding_V4.1_2025_Jan_14_1307.psydat
+457.0938 	EXP 	window1: mouseVisible = True
+457.0940 	DEBUG 	Saving data for PaperFolding_V4.1 ExperimentHandler
