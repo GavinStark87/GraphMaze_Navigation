@@ -1,0 +1,5 @@
+cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
+stimuli/prac_apple.png,stimuli/prac_orange.png,stimuli/prac_banana.png,right,route,Apple,Orange,Banana,Banana
+stimuli/prac_apple.png,stimuli/prac_orange.png,stimuli/prac_banana.png,right,line,Apple,Orange,Banana,Banana
+stimuli/prac_apple.png,stimuli/prac_orange.png,stimuli/prac_grape.png,left,route,Apple,Orange,Grape,Orange
+stimuli/prac_apple.png,stimuli/prac_orange.png,stimuli/prac_grape.png,right,line,Apple,Orange,Grape,Grape

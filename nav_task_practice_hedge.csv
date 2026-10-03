@@ -1,0 +1,3 @@
+cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
+stimuli/maze_compass.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,right,route,Compass,Lamp Post,Snowman,Snowman
+stimuli/maze_compass.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,line,Compass,Lamp Post,Snowman,Lamp Post

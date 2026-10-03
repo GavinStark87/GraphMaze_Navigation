@@ -1,0 +1,25 @@
+cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
+stimuli/brick_chair.png,stimuli/brick_piano.png,stimuli/brick_well.png,right,route,Chair,Piano,Well,Well
+stimuli/brick_chair.png,stimuli/brick_well.png,stimuli/brick_trashcan.png,left,line,Chair,Well,Trash Can,Well
+stimuli/brick_mailbox.png,stimuli/brick_telescope.png,stimuli/brick_trashcan.png,left,route,Mailbox,Telescope,Trash Can,Telescope
+stimuli/brick_mailbox.png,stimuli/brick_trashcan.png,stimuli/brick_telescope.png,right,line,Mailbox,Trash Can,Telescope,Telescope
+stimuli/brick_telescope.png,stimuli/brick_bookshelf.png,stimuli/brick_mailbox.png,right,route,Telescope,Bookshelf,Mailbox,Mailbox
+stimuli/brick_telescope.png,stimuli/brick_mailbox.png,stimuli/brick_well.png,left,line,Telescope,Mailbox,Well,Mailbox
+stimuli/brick_plant.png,stimuli/brick_picnicTable.png,stimuli/brick_chair.png,left,route,Plant,Picnic Table,Chair,Picnic Table
+stimuli/brick_plant.png,stimuli/brick_well.png,stimuli/brick_oven.png,right,line,Plant,Well,Oven,Oven
+stimuli/brick_oven.png,stimuli/brick_chair.png,stimuli/brick_picnicTable.png,right,route,Oven,Chair,Picnic Table,Picnic Table
+stimuli/brick_oven.png,stimuli/brick_plant.png,stimuli/brick_trashcan.png,left,line,Oven,Plant,Trash Can,Plant
+stimuli/brick_trashcan.png,stimuli/brick_mailbox.png,stimuli/brick_bookshelf.png,right,route,Trash Can,Mailbox,Bookshelf,Bookshelf
+stimuli/brick_trashcan.png,stimuli/brick_mailbox.png,stimuli/brick_piano.png,right,line,Trash Can,Mailbox,Piano,Piano
+stimuli/brick_picnicTable.png,stimuli/brick_mailbox.png,stimuli/brick_wheelbarrow.png,right,route,Picnic Table,Mailbox,Wheelbarrow,Wheelbarrow
+stimuli/brick_picnicTable.png,stimuli/brick_wheelbarrow.png,stimuli/brick_well.png,left,line,Picnic Table,Wheelbarrow,Well,Wheelbarrow
+stimuli/brick_harp.png,stimuli/brick_wheelbarrow.png,stimuli/brick_oven.png,left,route,Harp,Wheelbarrow,Oven,Wheelbarrow
+stimuli/brick_harp.png,stimuli/brick_oven.png,stimuli/brick_bookshelf.png,right,line,Harp,Oven,Bookshelf,Bookshelf
+stimuli/brick_well.png,stimuli/brick_telescope.png,stimuli/brick_oven.png,left,route,Well,Telescope,Oven,Telescope
+stimuli/brick_well.png,stimuli/brick_oven.png,stimuli/brick_chair.png,right,line,Well,Oven,Chair,Chair
+stimuli/brick_wheelbarrow.png,stimuli/brick_picnicTable.png,stimuli/brick_mailbox.png,left,route,Wheelbarrow,Picnic Table,Mailbox,Picnic Table
+stimuli/brick_wheelbarrow.png,stimuli/brick_trashcan.png,stimuli/brick_harp.png,right,line,Wheelbarrow,Trash Can,Harp,Harp
+stimuli/brick_bookshelf.png,stimuli/brick_trashcan.png,stimuli/brick_mailbox.png,left,route,Bookshelf,Trash Can,Mailbox,Trash Can
+stimuli/brick_bookshelf.png,stimuli/brick_mailbox.png,stimuli/brick_harp.png,right,line,Bookshelf,Mailbox,Harp,Harp
+stimuli/brick_piano.png,stimuli/brick_trashcan.png,stimuli/brick_mailbox.png,left,route,Piano,Trash Can,Mailbox,Trash Can
+stimuli/brick_piano.png,stimuli/brick_mailbox.png,stimuli/brick_bookshelf.png,right,line,Piano,Mailbox,Bookshelf,Bookshelf

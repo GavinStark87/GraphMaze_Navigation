@@ -1,0 +1,24 @@
+﻿cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel,n,cue_image.file_raw,left_image.file_raw,right_image.file_raw,trial_resp.corr_mean,trial_resp.corr_raw,trial_resp.corr_std,trial_resp.keys_raw,trial_resp.rt_mean,trial_resp.rt_raw,trial_resp.rt_std,trial_type_raw,order
+stimuli/maze_chair.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,right,route,Chair,Guitar,Space Shuttle,Space Shuttle,1.0,'stimuli/maze_chair.png','stimuli/maze_guitar.png','stimuli/maze_shuttle.png',0.0,0.0,0.0,'left',0.4885368049144745,0.4885368049144745,0.0,'route',1.0
+stimuli/maze_clock.png,stimuli/maze_compass.png,stimuli/maze_guitar.png,left,route,Clock,Compass,Guitar,Compass,1.0,'stimuli/maze_clock.png','stimuli/maze_compass.png','stimuli/maze_guitar.png',1.0,1.0,0.0,'left',0.7644935250282288,0.7644935250282288,0.0,'route',6.0
+stimuli/maze_compass.png,stimuli/maze_snowman.png,stimuli/maze_chair.png,left,route,Compass,Snowman,Chair,Snowman,1.0,'stimuli/maze_compass.png','stimuli/maze_snowman.png','stimuli/maze_chair.png',1.0,1.0,0.0,'left',1.1606887578964233,1.1606887578964233,0.0,'route',3.0
+stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_umbrella.png,right,route,Guitar,Clock,Umbrella,Umbrella,1.0,'stimuli/maze_guitar.png','stimuli/maze_clock.png','stimuli/maze_umbrella.png',0.0,0.0,0.0,'left',0.4158729016780853,0.4158729016780853,0.0,'route',13.0
+stimuli/maze_lampPost.png,stimuli/maze_snowman.png,stimuli/maze_shuttle.png,right,route,Lamp Post,Snowman,Space Shuttle,Space Shuttle,1.0,'stimuli/maze_lampPost.png','stimuli/maze_snowman.png','stimuli/maze_shuttle.png',1.0,1.0,0.0,'right',2.268915891647339,2.268915891647339,0.0,'route',14.0
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_compass.png,right,route,Snowman,Chair,Compass,Compass,1.0,'stimuli/maze_snowman.png','stimuli/maze_chair.png','stimuli/maze_compass.png',0.0,0.0,0.0,'left',0.6348395943641663,0.6348395943641663,0.0,'route',8.0
+stimuli/maze_shuttle.png,stimuli/maze_lampPost.png,stimuli/maze_clock.png,left,route,Space Shuttle,Lamp Post,Clock,Lamp Post,1.0,'stimuli/maze_shuttle.png','stimuli/maze_lampPost.png','stimuli/maze_clock.png',1.0,1.0,0.0,'left',1.918951153755188,1.918951153755188,0.0,'route',4.0
+stimuli/maze_umbrella.png,stimuli/maze_guitar.png,stimuli/maze_clock.png,left,route,Umbrella,Guitar,Clock,Guitar,1.0,'stimuli/maze_umbrella.png','stimuli/maze_guitar.png','stimuli/maze_clock.png',0.0,0.0,0.0,'right',298.7652282714844,298.7652282714844,0.0,'route',7.0
+stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,left,line,Chair,Clock,Guitar,Clock,1.0,'stimuli/maze_chair.png','stimuli/maze_clock.png','stimuli/maze_guitar.png',1.0,1.0,0.0,'left',0.30892491340637207,0.30892491340637207,0.0,'line',11.0
+stimuli/maze_clock.png,stimuli/maze_guitar.png,stimuli/maze_chair.png,right,line,Clock,Guitar,Chair,Chair,1.0,'stimuli/maze_clock.png','stimuli/maze_guitar.png','stimuli/maze_chair.png',0.0,0.0,0.0,'left',2.629915237426758,2.629915237426758,0.0,'line',0.0
+stimuli/maze_compass.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,line,Compass,Umbrella,Lamp Post,Umbrella,1.0,'stimuli/maze_compass.png','stimuli/maze_umbrella.png','stimuli/maze_lampPost.png',0.0,0.0,0.0,'right',0.7592083811759949,0.7592083811759949,0.0,'line',2.0
+stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_clock.png,left,line,Guitar,Umbrella,Clock,Umbrella,1.0,'stimuli/maze_guitar.png','stimuli/maze_umbrella.png','stimuli/maze_clock.png',0.0,0.0,0.0,'right',0.25201910734176636,0.25201910734176636,0.0,'line',12.0
+stimuli/maze_lampPost.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Lamp Post,Space Shuttle,Snowman,Space Shuttle,1.0,'stimuli/maze_lampPost.png','stimuli/maze_shuttle.png','stimuli/maze_snowman.png',1.0,1.0,0.0,'left',0.5641868710517883,0.5641868710517883,0.0,'line',9.0
+stimuli/maze_snowman.png,stimuli/maze_compass.png,stimuli/maze_lampPost.png,left,line,Snowman,Compass,Lamp Post,Compass,1.0,'stimuli/maze_snowman.png','stimuli/maze_compass.png','stimuli/maze_lampPost.png',0.0,0.0,0.0,'right',0.9291242957115173,0.9291242957115173,0.0,'line',5.0
+stimuli/maze_shuttle.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,line,Space Shuttle,Umbrella,Snowman,Umbrella,1.0,'stimuli/maze_shuttle.png','stimuli/maze_umbrella.png','stimuli/maze_snowman.png',1.0,1.0,0.0,'left',0.3630189895629883,0.3630189895629883,0.0,'line',10.0
+stimuli/maze_umbrella.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Umbrella,Space Shuttle,Snowman,Space Shuttle,1.0,'stimuli/maze_umbrella.png','stimuli/maze_shuttle.png','stimuli/maze_snowman.png',0.0,0.0,0.0,'right',0.6078001260757446,0.6078001260757446,0.0,'line',15.0
+
+extraInfo
+Participant ID,123
+date,2026-09-28_17h06.30.337
+expName,GraphMaze_Navigation
+psychopyVersion,2021.2.3
+frameRate,None

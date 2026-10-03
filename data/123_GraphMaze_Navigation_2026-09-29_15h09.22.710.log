@@ -1,0 +1,138 @@
+6.0749 	INFO 	Loaded monitor calibration from ['2026_09_21 04:14']
+6.0946 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+6.3647 	INFO 	Using renderer 'AMD Radeon RX 7900 XT' for graphics
+6.3647 	INFO 	OpenGL version supported by driver is 4..
+6.4330 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4423 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4514 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4612 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4707 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4793 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4883 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4977 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5059 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5142 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5235 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5325 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5415 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5506 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5594 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5685 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5776 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5862 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5956 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6151 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6154 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.6168 	DEBUG 	Upload of Texture Font fontname complete
+6.6360 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6459 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6557 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6560 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.6567 	DEBUG 	Upload of Texture Font fontname complete
+7.6424 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002DC35B60910>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002DC35B608B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002DC349A2500>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6425 	EXP 	window1: backgroundImage = None
+7.6425 	EXP 	window1: backgroundFit = 'cover'
+7.6457 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6457 	EXP 	window1: recordFrameIntervals = False
+7.7253 	EXP 	window1: recordFrameIntervals = True
+8.5586 	EXP 	window1: recordFrameIntervals = False
+8.5587 	EXP 	Screen (0) actual frame rate measured at 120.25Hz
+9.0163 	INFO 	keyboard.Keyboard is using ptb backend.
+9.1183 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.12), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.1202 	EXP 	Created maze_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='maze_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.03]), size=array([0.85, 0.85]), texRes=128.0, units='height', win=Window(...))
+9.1252 	EXP 	Created maze_title_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.048), italic=False, languageStyle='LTR', name='maze_title_stim', opacity=1, ori=0, pos=array([-0.55,  0.43]), rgb=UNKNOWN, text='Example Practice Maze', units='height', win=Window(...), wrapWidth=1.4)
+9.1257 	EXP 	Created env_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.048, italic=False, languageStyle='LTR', name='env_label', opacity=1, ori=0, pos=array([-0.65,  0.43]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.4)
+9.1326 	EXP 	Created env_advance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.038), italic=False, languageStyle='LTR', name='env_advance', opacity=1, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press space to continue.', units='height', win=Window(...), wrapWidth=1)
+9.1333 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.055, italic=False, languageStyle='LTR', name='question_text', opacity=1, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.5)
+9.1344 	EXP 	Created cue_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='cue_image', opacity=1, ori=0.0, pos=array([0.  , 0.12]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+9.1349 	EXP 	Created cue_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='cue_label_stim', opacity=1, ori=0, pos=array([ 0.  , -0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.5)
+9.1358 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1, ori=0.0, pos=array([-0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+9.1362 	EXP 	Created left_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='left_label_stim', opacity=1, ori=0, pos=array([-0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+9.1369 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1, ori=0.0, pos=array([ 0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+9.1374 	EXP 	Created right_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='right_label_stim', opacity=1, ori=0, pos=array([ 0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+9.1379 	EXP 	Created fb_text_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_left', opacity=1, ori=0, pos=array([-0.65,  0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+9.1380 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1401 	EXP 	Created fb_line_left = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=3.0, name='fb_line_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[-0.52, -0.07],
+       [-0.35, -0.17]]), win=Window(...), windingRule=None)
+9.1402 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1403 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1409 	EXP 	Created fb_head_left = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='fb_head_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.1414 	EXP 	Created fb_text_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_right', opacity=1, ori=0, pos=array([0.65, 0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+9.1415 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1421 	EXP 	Created fb_line_right = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=3.0, name='fb_line_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[ 0.52, -0.07],
+       [ 0.35, -0.17]]), win=Window(...), windingRule=None)
+9.1422 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1424 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+9.1430 	EXP 	Created fb_head_right = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='fb_head_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.1515 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='thankyou', opacity=1, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1554 	EXP 	Created finalslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='finalslide', opacity=1, ori=0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='Press the space bar to exit.', units='height', win=Window(...), wrapWidth=1)
+9.1607 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.39]), rgb=UNKNOWN, text='Practice Trials + Instructions', units='height', win=Window(...), wrapWidth=1.5)
+9.1774 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.036), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.03]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+9.1852 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.286,  0.216,  0.671]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0. , -0.4]), rgb=UNKNOWN, text='Blue background  =  path distance trials', units='height', win=Window(...), wrapWidth=1)
+9.1876 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.914, 0.506, 0.09 ]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1897 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.4, 0.4, 0.4]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.030999999999999996), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.47]), rgb=UNKNOWN, text='Press space to continue.', units='height', win=Window(...), wrapWidth=1)
+9.1930 	INFO 	Keyboard events cleared
+9.1929 	EXP 	unnamed TextStim: autoDraw = True
+9.1929 	EXP 	unnamed TextStim: autoDraw = True
+9.1929 	EXP 	unnamed TextStim: autoDraw = True
+9.1929 	EXP 	unnamed TextStim: autoDraw = True
+9.1929 	EXP 	unnamed TextStim: autoDraw = True
+12.3211 	EXP 	Device response: <KeyPress from None: t=12.31676869999501, value=2, duration=None>
+12.3248 	DATA 	Keypress: 2
+12.3268 	INFO 	Keyboard events cleared
+12.3267 	EXP 	unnamed TextStim: autoDraw = False
+12.3267 	EXP 	unnamed TextStim: autoDraw = False
+12.3267 	EXP 	unnamed TextStim: autoDraw = False
+12.3267 	EXP 	unnamed TextStim: autoDraw = False
+12.3267 	EXP 	unnamed TextStim: autoDraw = False
+12.3267 	EXP 	maze_image: image = 'stimuli/prac_maze.png'
+12.3267 	EXP 	maze_image: autoDraw = True
+12.3267 	EXP 	maze_title_stim: autoDraw = True
+12.5259 	EXP 	Device response: <KeyPress from None: t=12.31676869999501, value=2, duration=0.2030646000057459>
+68.7007 	DATA 	Mouse: Left button down, pos=(282,436)
+68.7662 	DATA 	Mouse:  Left button up, pos=(282,436)
+68.8997 	EXP 	Device response: <KeyPress from None: t=68.89311259999522, value=1, duration=None>
+68.9058 	DEBUG 	Read csv file with pandas: nav_task_practice_fruit.csv
+68.9065 	DEBUG 	Clearing unnamed columns from nav_task_practice_fruit.csv
+68.9069 	EXP 	Imported nav_task_practice_fruit.csv as conditions, 4 conditions, 9 params
+68.9072 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+68.9073 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_banana.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Banana'), ('corrLabel', 'Banana')])
+68.9076 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+68.9087 	DATA 	Keypress: 1
+68.9106 	EXP 	maze_image: autoDraw = False
+68.9106 	EXP 	maze_title_stim: autoDraw = False
+68.9106 	EXP 	fixation: autoDraw = True
+69.0494 	EXP 	Device response: <KeyPress from None: t=68.89311259999522, value=1, duration=0.14997880000737496>
+69.9221 	INFO 	Keyboard events cleared
+69.9221 	EXP 	fixation: autoDraw = False
+69.9221 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+69.9221 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+69.9221 	EXP 	right_image: image = 'stimuli/prac_banana.png'
+69.9221 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	cue_label_stim: text = 'Apple'
+69.9221 	EXP 	left_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	left_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	left_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	left_label_stim: text = 'Orange'
+69.9221 	EXP 	right_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	right_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	right_label_stim: height = np.float64(0.042)
+69.9221 	EXP 	right_label_stim: text = 'Banana'
+69.9221 	EXP 	question_text: height = np.float64(0.055)
+69.9221 	EXP 	question_text: height = np.float64(0.055)
+69.9221 	EXP 	question_text: height = np.float64(0.055)
+69.9221 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+69.9221 	EXP 	question_text: autoDraw = True
+69.9221 	EXP 	cue_image: autoDraw = True
+69.9221 	EXP 	cue_label_stim: autoDraw = True
+69.9221 	EXP 	left_image: autoDraw = True
+69.9221 	EXP 	left_label_stim: autoDraw = True
+69.9221 	EXP 	right_image: autoDraw = True
+69.9221 	EXP 	right_label_stim: autoDraw = True
+69.9935 	DEBUG 	Saving data for GraphMaze_Navigation ExperimentHandler
+69.9940 	INFO 	saved data to F:\Github\PaperFolding\data\123_GraphMaze_Navigation_2026-09-29_15h09.22.710.psydat
+70.0064 	INFO 	saved data to 'F:\\Github\\PaperFolding\\data\\123_GraphMaze_Navigation_2026-09-29_15h09.22.710.csv'
+70.0127 	INFO 	Stopping keyboard key buffers.

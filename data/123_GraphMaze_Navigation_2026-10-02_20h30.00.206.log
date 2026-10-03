@@ -1,0 +1,2310 @@
+7.2504 	INFO 	Loaded monitor calibration from ['2026_09_21 04:14']
+7.2564 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+7.5375 	INFO 	Using renderer 'AMD Radeon RX 7900 XT' for graphics
+7.5376 	INFO 	OpenGL version supported by driver is 4..
+7.6255 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6351 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6456 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6561 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6660 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6750 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6847 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6950 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7036 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7124 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7218 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7314 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7500 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7593 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7784 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7875 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7973 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8080 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8234 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8239 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.8261 	DEBUG 	Upload of Texture Font fontname complete
+7.8486 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8587 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8688 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8692 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.8705 	DEBUG 	Upload of Texture Font fontname complete
+8.8438 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DC6C34C850>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DC6C34F8B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DC78F7A680>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.8438 	EXP 	window1: backgroundImage = None
+8.8438 	EXP 	window1: backgroundFit = 'cover'
+8.8455 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.8455 	EXP 	window1: recordFrameIntervals = False
+8.9266 	EXP 	window1: recordFrameIntervals = True
+9.7605 	EXP 	window1: recordFrameIntervals = False
+9.7605 	EXP 	Screen (0) actual frame rate measured at 120.01Hz
+10.0905 	INFO 	keyboard.Keyboard is using ptb backend.
+10.2253 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.12), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.2273 	EXP 	Created maze_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='maze_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.03]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+10.2342 	EXP 	Created maze_title_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.048), italic=False, languageStyle='LTR', name='maze_title_stim', opacity=1, ori=0, pos=array([0.  , 0.43]), rgb=UNKNOWN, text='Example Practice Maze', units='height', win=Window(...), wrapWidth=1.4)
+10.2352 	EXP 	Created env_maze_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='env_maze_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.06]), size=array([0.72, 0.72]), texRes=128.0, units='height', win=Window(...))
+10.2360 	EXP 	Created env_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.048, italic=False, languageStyle='LTR', name='env_label', opacity=1, ori=0, pos=array([0.  , 0.43]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.4)
+10.2423 	EXP 	Created env_advance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.038), italic=False, languageStyle='LTR', name='env_advance', opacity=1, ori=0, pos=array([ 0.  , -0.46]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+10.2437 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.055, italic=False, languageStyle='LTR', name='question_text', opacity=1, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.5)
+10.2459 	EXP 	Created cue_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='cue_image', opacity=1, ori=0.0, pos=array([0.  , 0.12]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+10.2469 	EXP 	Created cue_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='cue_label_stim', opacity=1, ori=0, pos=array([ 0.  , -0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.5)
+10.2479 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1, ori=0.0, pos=array([-0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+10.2484 	EXP 	Created left_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='left_label_stim', opacity=1, ori=0, pos=array([-0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+10.2493 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1, ori=0.0, pos=array([ 0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+10.2498 	EXP 	Created right_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='right_label_stim', opacity=1, ori=0, pos=array([ 0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+10.2505 	EXP 	Created fb_text_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_left', opacity=1, ori=0, pos=array([-0.65,  0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+10.2506 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2529 	EXP 	Created fb_line_left = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=3.0, name='fb_line_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[-0.52, -0.07],
+       [-0.35, -0.17]]), win=Window(...), windingRule=None)
+10.2531 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2531 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2540 	EXP 	Created fb_head_left = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.  , 0.32, 0.  ]), fillColorSpace='rgb', fillRGB=array([0.  , 0.32, 0.  ]), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=1.5, name='fb_head_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.2543 	EXP 	Created fb_text_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_right', opacity=1, ori=0, pos=array([0.65, 0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+10.2545 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2550 	EXP 	Created fb_line_right = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=3.0, name='fb_line_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[ 0.52, -0.07],
+       [ 0.35, -0.17]]), win=Window(...), windingRule=None)
+10.2551 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2551 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+10.2558 	EXP 	Created fb_head_right = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.  , 0.32, 0.  ]), fillColorSpace='rgb', fillRGB=array([0.  , 0.32, 0.  ]), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=1.5, name='fb_head_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.2667 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='thankyou', opacity=1, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2726 	EXP 	Created finalslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='finalslide', opacity=1, ori=0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='Press any number to exit.', units='height', win=Window(...), wrapWidth=1)
+10.2791 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.39]), rgb=UNKNOWN, text='Practice Trials + Instructions', units='height', win=Window(...), wrapWidth=1.5)
+10.2954 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.036), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.03]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+10.3005 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.2 , 0.55, 0.95]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Blue background  =  path distance trials', units='height', win=Window(...), wrapWidth=1)
+10.3027 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.914, 0.506, 0.09 ]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3055 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.4, 0.4, 0.4]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.030999999999999996), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.47]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+10.3081 	INFO 	Keyboard events cleared
+10.3081 	EXP 	unnamed TextStim: autoDraw = True
+10.3081 	EXP 	unnamed TextStim: autoDraw = True
+10.3081 	EXP 	unnamed TextStim: autoDraw = True
+10.3081 	EXP 	unnamed TextStim: autoDraw = True
+10.3081 	EXP 	unnamed TextStim: autoDraw = True
+10.9698 	DATA 	Mouse: Left button down, pos=(868,754)
+11.0780 	DATA 	Mouse:  Left button up, pos=(868,754)
+12.5887 	EXP 	Device response: <KeyPress from None: t=12.579999900015537, value=2, duration=None>
+12.5950 	DATA 	Keypress: 2
+12.5980 	INFO 	Keyboard events cleared
+12.5979 	EXP 	unnamed TextStim: autoDraw = False
+12.5979 	EXP 	unnamed TextStim: autoDraw = False
+12.5979 	EXP 	unnamed TextStim: autoDraw = False
+12.5979 	EXP 	unnamed TextStim: autoDraw = False
+12.5979 	EXP 	unnamed TextStim: autoDraw = False
+12.5979 	EXP 	maze_image: image = 'stimuli/prac_maze.png'
+12.5979 	EXP 	maze_image: autoDraw = True
+12.5979 	EXP 	maze_title_stim: autoDraw = True
+12.5979 	EXP 	env_advance: autoDraw = True
+12.7690 	EXP 	Device response: <KeyPress from None: t=12.579999900015537, value=2, duration=0.1867502999957651>
+13.3858 	EXP 	Device response: <KeyPress from None: t=13.382701900030952, value=2, duration=None>
+13.3902 	DEBUG 	Read csv file with pandas: nav_task_practice_fruit.csv
+13.3908 	DEBUG 	Clearing unnamed columns from nav_task_practice_fruit.csv
+13.3912 	EXP 	Imported nav_task_practice_fruit.csv as conditions, 4 conditions, 9 params
+13.3914 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+13.3915 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_banana.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Banana'), ('corrLabel', 'Banana')])
+13.3917 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+13.3924 	DATA 	Keypress: 2
+13.3937 	EXP 	maze_image: autoDraw = False
+13.3937 	EXP 	maze_title_stim: autoDraw = False
+13.3937 	EXP 	env_advance: autoDraw = False
+13.3937 	EXP 	fixation: autoDraw = True
+13.5689 	EXP 	Device response: <KeyPress from None: t=13.382701900030952, value=2, duration=0.18502440000884235>
+14.4099 	INFO 	Keyboard events cleared
+14.4099 	EXP 	fixation: autoDraw = False
+14.4099 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+14.4099 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+14.4099 	EXP 	right_image: image = 'stimuli/prac_banana.png'
+14.4099 	EXP 	cue_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	cue_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	cue_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	cue_label_stim: text = 'Apple'
+14.4099 	EXP 	left_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	left_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	left_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	left_label_stim: text = 'Orange'
+14.4099 	EXP 	right_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	right_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	right_label_stim: height = np.float64(0.042)
+14.4099 	EXP 	right_label_stim: text = 'Banana'
+14.4099 	EXP 	question_text: height = np.float64(0.055)
+14.4099 	EXP 	question_text: height = np.float64(0.055)
+14.4099 	EXP 	question_text: height = np.float64(0.055)
+14.4099 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+14.4099 	EXP 	question_text: autoDraw = True
+14.4099 	EXP 	cue_image: autoDraw = True
+14.4099 	EXP 	cue_label_stim: autoDraw = True
+14.4099 	EXP 	left_image: autoDraw = True
+14.4099 	EXP 	left_label_stim: autoDraw = True
+14.4099 	EXP 	right_image: autoDraw = True
+14.4099 	EXP 	right_label_stim: autoDraw = True
+14.7021 	EXP 	Device response: <KeyPress from None: t=14.699822700000368, value=2, duration=None>
+14.7077 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+14.7090 	DATA 	Keypress: 2
+14.7101 	EXP 	question_text: autoDraw = False
+14.7101 	EXP 	cue_image: autoDraw = False
+14.7101 	EXP 	cue_label_stim: autoDraw = False
+14.7101 	EXP 	left_image: autoDraw = False
+14.7101 	EXP 	left_label_stim: autoDraw = False
+14.7101 	EXP 	right_image: autoDraw = False
+14.7101 	EXP 	right_label_stim: autoDraw = False
+14.7101 	EXP 	fb_text_right: height = np.float64(0.046)
+14.7101 	EXP 	fb_text_right: height = np.float64(0.046)
+14.7101 	EXP 	fb_text_right: height = np.float64(0.046)
+14.7101 	EXP 	fb_text_right: text = 'Correct answer:\nBanana'
+14.7101 	EXP 	question_text: autoDraw = True
+14.7101 	EXP 	cue_image: autoDraw = True
+14.7101 	EXP 	cue_label_stim: autoDraw = True
+14.7101 	EXP 	left_image: autoDraw = True
+14.7101 	EXP 	left_label_stim: autoDraw = True
+14.7101 	EXP 	right_image: autoDraw = True
+14.7101 	EXP 	right_label_stim: autoDraw = True
+14.7101 	EXP 	fb_text_right: autoDraw = True
+14.7101 	EXP 	fb_line_right: autoDraw = True
+14.7101 	EXP 	fb_head_right: autoDraw = True
+14.8359 	EXP 	Device response: <KeyPress from None: t=14.699822700000368, value=2, duration=0.13324789999751374>
+14.9772 	EXP 	Device response: <KeyPress from None: t=14.970331100048497, value=2, duration=None>
+14.9781 	DATA 	Keypress: 2
+15.0856 	EXP 	Device response: <KeyPress from None: t=14.970331100048497, value=2, duration=0.11145639995811507>
+15.3193 	EXP 	Device response: <KeyPress from None: t=15.316889900015667, value=2, duration=None>
+15.3205 	DATA 	Keypress: 2
+15.4360 	EXP 	Device response: <KeyPress from None: t=15.316889900015667, value=2, duration=0.11699000000953674>
+15.6939 	EXP 	Device response: <KeyPress from None: t=15.688968000002205, value=2, duration=None>
+15.6949 	DATA 	Keypress: 2
+15.7857 	EXP 	Device response: <KeyPress from None: t=15.688968000002205, value=2, duration=0.09476960002211854>
+15.9276 	EXP 	Device response: <KeyPress from None: t=15.924134500033688, value=2, duration=None>
+15.9287 	DATA 	Keypress: 2
+16.0626 	EXP 	Device response: <KeyPress from None: t=15.924134500033688, value=2, duration=0.13701989996479824>
+16.1858 	EXP 	Device response: <KeyPress from None: t=16.182683999999426, value=2, duration=None>
+16.1873 	DATA 	Keypress: 2
+16.3445 	EXP 	Device response: <KeyPress from None: t=16.182683999999426, value=2, duration=0.1554547999985516>
+16.5025 	EXP 	Device response: <KeyPress from None: t=16.500673300004564, value=2, duration=None>
+16.5033 	DATA 	Keypress: 2
+16.6358 	EXP 	Device response: <KeyPress from None: t=16.500673300004564, value=2, duration=0.13019890000578016>
+16.7117 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_banana.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Banana'), ('corrLabel', 'Banana')])
+16.7119 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+16.7192 	EXP 	question_text: autoDraw = False
+16.7192 	EXP 	cue_image: autoDraw = False
+16.7192 	EXP 	cue_label_stim: autoDraw = False
+16.7192 	EXP 	left_image: autoDraw = False
+16.7192 	EXP 	left_label_stim: autoDraw = False
+16.7192 	EXP 	right_image: autoDraw = False
+16.7192 	EXP 	right_label_stim: autoDraw = False
+16.7192 	EXP 	fb_text_right: autoDraw = False
+16.7192 	EXP 	fb_line_right: autoDraw = False
+16.7192 	EXP 	fb_head_right: autoDraw = False
+16.7192 	EXP 	fixation: autoDraw = True
+16.8191 	EXP 	Device response: <KeyPress from None: t=16.81383870000718, value=2, duration=None>
+16.8196 	DATA 	Keypress: 2
+17.0028 	EXP 	Device response: <KeyPress from None: t=16.81383870000718, value=2, duration=0.18325840000761673>
+17.7293 	INFO 	Keyboard events cleared
+17.7292 	EXP 	fixation: autoDraw = False
+17.7292 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+17.7292 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+17.7292 	EXP 	right_image: image = 'stimuli/prac_banana.png'
+17.7292 	EXP 	cue_label_stim: text = 'Apple'
+17.7292 	EXP 	left_label_stim: text = 'Orange'
+17.7292 	EXP 	right_label_stim: text = 'Banana'
+17.7292 	EXP 	question_text: height = np.float64(0.055)
+17.7292 	EXP 	question_text: height = np.float64(0.055)
+17.7292 	EXP 	question_text: height = np.float64(0.055)
+17.7292 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+17.7292 	EXP 	question_text: autoDraw = True
+17.7292 	EXP 	cue_image: autoDraw = True
+17.7292 	EXP 	cue_label_stim: autoDraw = True
+17.7292 	EXP 	left_image: autoDraw = True
+17.7292 	EXP 	left_label_stim: autoDraw = True
+17.7292 	EXP 	right_image: autoDraw = True
+17.7292 	EXP 	right_label_stim: autoDraw = True
+18.2192 	EXP 	Device response: <KeyPress from None: t=18.21570930001326, value=2, duration=None>
+18.2194 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+18.2204 	DATA 	Keypress: 2
+18.2276 	EXP 	question_text: autoDraw = False
+18.2276 	EXP 	cue_image: autoDraw = False
+18.2276 	EXP 	cue_label_stim: autoDraw = False
+18.2276 	EXP 	left_image: autoDraw = False
+18.2276 	EXP 	left_label_stim: autoDraw = False
+18.2276 	EXP 	right_image: autoDraw = False
+18.2276 	EXP 	right_label_stim: autoDraw = False
+18.2276 	EXP 	fb_text_right: text = 'Correct answer:\nBanana'
+18.2276 	EXP 	question_text: autoDraw = True
+18.2276 	EXP 	cue_image: autoDraw = True
+18.2276 	EXP 	cue_label_stim: autoDraw = True
+18.2276 	EXP 	left_image: autoDraw = True
+18.2276 	EXP 	left_label_stim: autoDraw = True
+18.2276 	EXP 	right_image: autoDraw = True
+18.2276 	EXP 	right_label_stim: autoDraw = True
+18.2276 	EXP 	fb_text_right: autoDraw = True
+18.2276 	EXP 	fb_line_right: autoDraw = True
+18.2276 	EXP 	fb_head_right: autoDraw = True
+18.4114 	EXP 	Device response: <KeyPress from None: t=18.21570930001326, value=2, duration=0.19523000001208857>
+20.2204 	EXP 	New trial (rep=0, index=2): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_grape.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Grape'), ('corrLabel', 'Orange')])
+20.2276 	INFO 	Keyboard events cleared
+20.2275 	EXP 	question_text: autoDraw = False
+20.2275 	EXP 	cue_image: autoDraw = False
+20.2275 	EXP 	cue_label_stim: autoDraw = False
+20.2275 	EXP 	left_image: autoDraw = False
+20.2275 	EXP 	left_label_stim: autoDraw = False
+20.2275 	EXP 	right_image: autoDraw = False
+20.2275 	EXP 	right_label_stim: autoDraw = False
+20.2275 	EXP 	fb_text_right: autoDraw = False
+20.2275 	EXP 	fb_line_right: autoDraw = False
+20.2275 	EXP 	fb_head_right: autoDraw = False
+20.2275 	EXP 	maze_image: image = 'stimuli/prac_maze.png'
+20.2275 	EXP 	maze_image: autoDraw = True
+20.2275 	EXP 	maze_title_stim: autoDraw = True
+20.2275 	EXP 	env_advance: autoDraw = True
+20.8365 	EXP 	Device response: <KeyPress from None: t=20.829742500034627, value=2, duration=None>
+20.8369 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+20.8375 	DATA 	Keypress: 2
+20.8445 	EXP 	maze_image: autoDraw = False
+20.8445 	EXP 	maze_title_stim: autoDraw = False
+20.8445 	EXP 	env_advance: autoDraw = False
+20.8445 	EXP 	fixation: autoDraw = True
+21.0363 	EXP 	Device response: <KeyPress from None: t=20.829742500034627, value=2, duration=0.20031549996929243>
+21.8555 	INFO 	Keyboard events cleared
+21.8554 	EXP 	fixation: autoDraw = False
+21.8554 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+21.8554 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+21.8554 	EXP 	right_image: image = 'stimuli/prac_grape.png'
+21.8554 	EXP 	cue_label_stim: text = 'Apple'
+21.8554 	EXP 	left_label_stim: text = 'Orange'
+21.8554 	EXP 	right_label_stim: height = np.float64(0.042)
+21.8554 	EXP 	right_label_stim: height = np.float64(0.042)
+21.8554 	EXP 	right_label_stim: height = np.float64(0.042)
+21.8554 	EXP 	right_label_stim: text = 'Grape'
+21.8554 	EXP 	question_text: height = np.float64(0.055)
+21.8554 	EXP 	question_text: height = np.float64(0.055)
+21.8554 	EXP 	question_text: height = np.float64(0.055)
+21.8554 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+21.8554 	EXP 	question_text: autoDraw = True
+21.8554 	EXP 	cue_image: autoDraw = True
+21.8554 	EXP 	cue_label_stim: autoDraw = True
+21.8554 	EXP 	left_image: autoDraw = True
+21.8554 	EXP 	left_label_stim: autoDraw = True
+21.8554 	EXP 	right_image: autoDraw = True
+21.8554 	EXP 	right_label_stim: autoDraw = True
+22.6285 	EXP 	Device response: <KeyPress from None: t=22.62802120001288, value=1, duration=None>
+22.6314 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+22.6326 	DATA 	Keypress: 1
+22.6363 	EXP 	question_text: autoDraw = False
+22.6363 	EXP 	cue_image: autoDraw = False
+22.6363 	EXP 	cue_label_stim: autoDraw = False
+22.6363 	EXP 	left_image: autoDraw = False
+22.6363 	EXP 	left_label_stim: autoDraw = False
+22.6363 	EXP 	right_image: autoDraw = False
+22.6363 	EXP 	right_label_stim: autoDraw = False
+22.6363 	EXP 	fb_text_left: height = np.float64(0.046)
+22.6363 	EXP 	fb_text_left: height = np.float64(0.046)
+22.6363 	EXP 	fb_text_left: height = np.float64(0.046)
+22.6363 	EXP 	fb_text_left: text = 'Correct answer:\nOrange'
+22.6363 	EXP 	question_text: autoDraw = True
+22.6363 	EXP 	cue_image: autoDraw = True
+22.6363 	EXP 	cue_label_stim: autoDraw = True
+22.6363 	EXP 	left_image: autoDraw = True
+22.6363 	EXP 	left_label_stim: autoDraw = True
+22.6363 	EXP 	right_image: autoDraw = True
+22.6363 	EXP 	right_label_stim: autoDraw = True
+22.6363 	EXP 	fb_text_left: autoDraw = True
+22.6363 	EXP 	fb_line_left: autoDraw = True
+22.6363 	EXP 	fb_head_left: autoDraw = True
+22.8538 	EXP 	Device response: <KeyPress from None: t=22.62802120001288, value=1, duration=0.22281080001266673>
+24.6378 	EXP 	New trial (rep=0, index=3): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_grape.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Grape'), ('corrLabel', 'Grape')])
+24.6381 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+24.6452 	EXP 	question_text: autoDraw = False
+24.6452 	EXP 	cue_image: autoDraw = False
+24.6452 	EXP 	cue_label_stim: autoDraw = False
+24.6452 	EXP 	left_image: autoDraw = False
+24.6452 	EXP 	left_label_stim: autoDraw = False
+24.6452 	EXP 	right_image: autoDraw = False
+24.6452 	EXP 	right_label_stim: autoDraw = False
+24.6452 	EXP 	fb_text_left: autoDraw = False
+24.6452 	EXP 	fb_line_left: autoDraw = False
+24.6452 	EXP 	fb_head_left: autoDraw = False
+24.6452 	EXP 	fixation: autoDraw = True
+25.6533 	INFO 	Keyboard events cleared
+25.6533 	EXP 	fixation: autoDraw = False
+25.6533 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+25.6533 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+25.6533 	EXP 	right_image: image = 'stimuli/prac_grape.png'
+25.6533 	EXP 	cue_label_stim: text = 'Apple'
+25.6533 	EXP 	left_label_stim: text = 'Orange'
+25.6533 	EXP 	right_label_stim: text = 'Grape'
+25.6533 	EXP 	question_text: height = np.float64(0.055)
+25.6533 	EXP 	question_text: height = np.float64(0.055)
+25.6533 	EXP 	question_text: height = np.float64(0.055)
+25.6533 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+25.6533 	EXP 	question_text: autoDraw = True
+25.6533 	EXP 	cue_image: autoDraw = True
+25.6533 	EXP 	cue_label_stim: autoDraw = True
+25.6533 	EXP 	left_image: autoDraw = True
+25.6533 	EXP 	left_label_stim: autoDraw = True
+25.6533 	EXP 	right_image: autoDraw = True
+25.6533 	EXP 	right_label_stim: autoDraw = True
+26.2957 	EXP 	Device response: <KeyPress from None: t=26.292873100028373, value=1, duration=None>
+26.2985 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+26.2994 	DATA 	Keypress: 1
+26.3037 	EXP 	question_text: autoDraw = False
+26.3037 	EXP 	cue_image: autoDraw = False
+26.3037 	EXP 	cue_label_stim: autoDraw = False
+26.3037 	EXP 	left_image: autoDraw = False
+26.3037 	EXP 	left_label_stim: autoDraw = False
+26.3037 	EXP 	right_image: autoDraw = False
+26.3037 	EXP 	right_label_stim: autoDraw = False
+26.3037 	EXP 	fb_text_right: height = np.float64(0.046)
+26.3037 	EXP 	fb_text_right: height = np.float64(0.046)
+26.3037 	EXP 	fb_text_right: height = np.float64(0.046)
+26.3037 	EXP 	fb_text_right: text = 'Correct answer:\nGrape'
+26.3037 	EXP 	question_text: autoDraw = True
+26.3037 	EXP 	cue_image: autoDraw = True
+26.3037 	EXP 	cue_label_stim: autoDraw = True
+26.3037 	EXP 	left_image: autoDraw = True
+26.3037 	EXP 	left_label_stim: autoDraw = True
+26.3037 	EXP 	right_image: autoDraw = True
+26.3037 	EXP 	right_label_stim: autoDraw = True
+26.3037 	EXP 	fb_text_right: autoDraw = True
+26.3037 	EXP 	fb_line_right: autoDraw = True
+26.3037 	EXP 	fb_head_right: autoDraw = True
+26.5204 	EXP 	Device response: <KeyPress from None: t=26.292873100028373, value=1, duration=0.2267596999881789>
+28.3175 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.036), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.12]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+28.3223 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.4, 0.4, 0.4]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.030999999999999996), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.47]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+28.3242 	INFO 	Keyboard events cleared
+28.3241 	EXP 	question_text: autoDraw = False
+28.3241 	EXP 	cue_image: autoDraw = False
+28.3241 	EXP 	cue_label_stim: autoDraw = False
+28.3241 	EXP 	left_image: autoDraw = False
+28.3241 	EXP 	left_label_stim: autoDraw = False
+28.3241 	EXP 	right_image: autoDraw = False
+28.3241 	EXP 	right_label_stim: autoDraw = False
+28.3241 	EXP 	fb_text_right: autoDraw = False
+28.3241 	EXP 	fb_line_right: autoDraw = False
+28.3241 	EXP 	fb_head_right: autoDraw = False
+28.3241 	EXP 	unnamed TextStim: autoDraw = True
+28.3241 	EXP 	unnamed TextStim: autoDraw = True
+29.4791 	EXP 	Device response: <KeyPress from None: t=29.47477450000588, value=2, duration=None>
+29.5002 	DATA 	Keypress: 2
+29.5065 	INFO 	Keyboard events cleared
+29.5064 	EXP 	unnamed TextStim: autoDraw = False
+29.5064 	EXP 	unnamed TextStim: autoDraw = False
+29.5064 	EXP 	env_label: height = np.float64(0.048)
+29.5064 	EXP 	env_label: height = np.float64(0.048)
+29.5064 	EXP 	env_label: height = np.float64(0.048)
+29.5064 	EXP 	env_label: text = 'Environment: brick maze'
+29.5064 	EXP 	env_maze_image: image = 'stimuli/brick_maze.png'
+29.5064 	EXP 	env_label: autoDraw = True
+29.5064 	EXP 	env_maze_image: autoDraw = True
+29.5064 	EXP 	env_advance: autoDraw = True
+29.6626 	EXP 	Device response: <KeyPress from None: t=29.47477450000588, value=2, duration=0.18690410000272095>
+30.2042 	EXP 	Device response: <KeyPress from None: t=30.20283439999912, value=2, duration=None>
+30.2069 	DEBUG 	Read csv file with pandas: nav_task_practice_brick.csv
+30.2073 	DEBUG 	Clearing unnamed columns from nav_task_practice_brick.csv
+30.2077 	EXP 	Imported nav_task_practice_brick.csv as conditions, 2 conditions, 9 params
+30.2078 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+30.2079 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_plant.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Telescope'), ('leftLabel', 'Plant'), ('rightLabel', 'Well'), ('corrLabel', 'Plant')])
+30.2081 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+30.2085 	DATA 	Keypress: 2
+30.2121 	EXP 	env_label: autoDraw = False
+30.2121 	EXP 	env_maze_image: autoDraw = False
+30.2121 	EXP 	env_advance: autoDraw = False
+30.2121 	EXP 	fixation: autoDraw = True
+30.4377 	EXP 	Device response: <KeyPress from None: t=30.20283439999912, value=2, duration=0.23281800001859665>
+31.2288 	INFO 	Keyboard events cleared
+31.2287 	EXP 	fixation: autoDraw = False
+31.2287 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+31.2287 	EXP 	left_image: image = 'stimuli/brick_plant.png'
+31.2287 	EXP 	right_image: image = 'stimuli/brick_well.png'
+31.2287 	EXP 	cue_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	cue_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	cue_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	cue_label_stim: text = 'Telescope'
+31.2287 	EXP 	left_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	left_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	left_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	left_label_stim: text = 'Plant'
+31.2287 	EXP 	right_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	right_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	right_label_stim: height = np.float64(0.042)
+31.2287 	EXP 	right_label_stim: text = 'Well'
+31.2287 	EXP 	question_text: height = np.float64(0.055)
+31.2287 	EXP 	question_text: height = np.float64(0.055)
+31.2287 	EXP 	question_text: height = np.float64(0.055)
+31.2287 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+31.2287 	EXP 	question_text: autoDraw = True
+31.2287 	EXP 	cue_image: autoDraw = True
+31.2287 	EXP 	cue_label_stim: autoDraw = True
+31.2287 	EXP 	left_image: autoDraw = True
+31.2287 	EXP 	left_label_stim: autoDraw = True
+31.2287 	EXP 	right_image: autoDraw = True
+31.2287 	EXP 	right_label_stim: autoDraw = True
+31.9470 	DATA 	Keypress: 2
+31.9547 	EXP 	Device response: <KeyPress from None: t=31.946093900012784, value=2, duration=None>
+31.9606 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+31.9639 	EXP 	question_text: autoDraw = False
+31.9639 	EXP 	cue_image: autoDraw = False
+31.9639 	EXP 	cue_label_stim: autoDraw = False
+31.9639 	EXP 	left_image: autoDraw = False
+31.9639 	EXP 	left_label_stim: autoDraw = False
+31.9639 	EXP 	right_image: autoDraw = False
+31.9639 	EXP 	right_label_stim: autoDraw = False
+31.9639 	EXP 	fb_text_left: height = np.float64(0.046)
+31.9639 	EXP 	fb_text_left: height = np.float64(0.046)
+31.9639 	EXP 	fb_text_left: height = np.float64(0.046)
+31.9639 	EXP 	fb_text_left: text = 'Correct answer:\nPlant'
+31.9639 	EXP 	question_text: autoDraw = True
+31.9639 	EXP 	cue_image: autoDraw = True
+31.9639 	EXP 	cue_label_stim: autoDraw = True
+31.9639 	EXP 	left_image: autoDraw = True
+31.9639 	EXP 	left_label_stim: autoDraw = True
+31.9639 	EXP 	right_image: autoDraw = True
+31.9639 	EXP 	right_label_stim: autoDraw = True
+31.9639 	EXP 	fb_text_left: autoDraw = True
+31.9639 	EXP 	fb_line_left: autoDraw = True
+31.9639 	EXP 	fb_head_left: autoDraw = True
+32.2142 	EXP 	Device response: <KeyPress from None: t=31.946093900012784, value=2, duration=0.2674183000344783>
+33.9646 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_plant.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Telescope'), ('leftLabel', 'Plant'), ('rightLabel', 'Well'), ('corrLabel', 'Plant')])
+33.9651 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+33.9713 	EXP 	question_text: autoDraw = False
+33.9713 	EXP 	cue_image: autoDraw = False
+33.9713 	EXP 	cue_label_stim: autoDraw = False
+33.9713 	EXP 	left_image: autoDraw = False
+33.9713 	EXP 	left_label_stim: autoDraw = False
+33.9713 	EXP 	right_image: autoDraw = False
+33.9713 	EXP 	right_label_stim: autoDraw = False
+33.9713 	EXP 	fb_text_left: autoDraw = False
+33.9713 	EXP 	fb_line_left: autoDraw = False
+33.9713 	EXP 	fb_head_left: autoDraw = False
+33.9713 	EXP 	fixation: autoDraw = True
+34.9815 	INFO 	Keyboard events cleared
+34.9815 	EXP 	fixation: autoDraw = False
+34.9815 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+34.9815 	EXP 	left_image: image = 'stimuli/brick_plant.png'
+34.9815 	EXP 	right_image: image = 'stimuli/brick_well.png'
+34.9815 	EXP 	cue_label_stim: text = 'Telescope'
+34.9815 	EXP 	left_label_stim: text = 'Plant'
+34.9815 	EXP 	right_label_stim: text = 'Well'
+34.9815 	EXP 	question_text: height = np.float64(0.055)
+34.9815 	EXP 	question_text: height = np.float64(0.055)
+34.9815 	EXP 	question_text: height = np.float64(0.055)
+34.9815 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+34.9815 	EXP 	question_text: autoDraw = True
+34.9815 	EXP 	cue_image: autoDraw = True
+34.9815 	EXP 	cue_label_stim: autoDraw = True
+34.9815 	EXP 	left_image: autoDraw = True
+34.9815 	EXP 	left_label_stim: autoDraw = True
+34.9815 	EXP 	right_image: autoDraw = True
+34.9815 	EXP 	right_label_stim: autoDraw = True
+35.2881 	EXP 	Device response: <KeyPress from None: t=35.28200430003926, value=2, duration=None>
+35.2883 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+35.2893 	DATA 	Keypress: 2
+35.2964 	EXP 	question_text: autoDraw = False
+35.2964 	EXP 	cue_image: autoDraw = False
+35.2964 	EXP 	cue_label_stim: autoDraw = False
+35.2964 	EXP 	left_image: autoDraw = False
+35.2964 	EXP 	left_label_stim: autoDraw = False
+35.2964 	EXP 	right_image: autoDraw = False
+35.2964 	EXP 	right_label_stim: autoDraw = False
+35.2964 	EXP 	fb_text_left: text = 'Correct answer:\nPlant'
+35.2964 	EXP 	question_text: autoDraw = True
+35.2964 	EXP 	cue_image: autoDraw = True
+35.2964 	EXP 	cue_label_stim: autoDraw = True
+35.2964 	EXP 	left_image: autoDraw = True
+35.2964 	EXP 	left_label_stim: autoDraw = True
+35.2964 	EXP 	right_image: autoDraw = True
+35.2964 	EXP 	right_label_stim: autoDraw = True
+35.2964 	EXP 	fb_text_left: autoDraw = True
+35.2964 	EXP 	fb_line_left: autoDraw = True
+35.2964 	EXP 	fb_head_left: autoDraw = True
+35.5299 	EXP 	Device response: <KeyPress from None: t=35.28200430003926, value=2, duration=0.2459106000023894>
+37.2989 	INFO 	Keyboard events cleared
+37.3019 	DEBUG 	Read csv file with pandas: nav_task_conditions_brick.csv
+37.3024 	DEBUG 	Clearing unnamed columns from nav_task_conditions_brick.csv
+37.3031 	EXP 	Imported nav_task_conditions_brick.csv as conditions, 24 conditions, 9 params
+37.3034 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+37.3035 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/brick_chair.png'), ('leftImage', 'stimuli/brick_well.png'), ('rightImage', 'stimuli/brick_trashcan.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Chair'), ('leftLabel', 'Well'), ('rightLabel', 'Trash Can'), ('corrLabel', 'Well')])
+37.3038 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+37.3057 	EXP 	question_text: autoDraw = False
+37.3057 	EXP 	cue_image: autoDraw = False
+37.3057 	EXP 	cue_label_stim: autoDraw = False
+37.3057 	EXP 	left_image: autoDraw = False
+37.3057 	EXP 	left_label_stim: autoDraw = False
+37.3057 	EXP 	right_image: autoDraw = False
+37.3057 	EXP 	right_label_stim: autoDraw = False
+37.3057 	EXP 	fb_text_left: autoDraw = False
+37.3057 	EXP 	fb_line_left: autoDraw = False
+37.3057 	EXP 	fb_head_left: autoDraw = False
+37.3057 	EXP 	fixation: autoDraw = True
+38.3637 	INFO 	Keyboard events cleared
+38.3635 	EXP 	fixation: autoDraw = False
+38.3635 	EXP 	cue_image: image = 'stimuli/brick_chair.png'
+38.3635 	EXP 	left_image: image = 'stimuli/brick_well.png'
+38.3635 	EXP 	right_image: image = 'stimuli/brick_trashcan.png'
+38.3635 	EXP 	cue_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	cue_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	cue_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	cue_label_stim: text = 'Chair'
+38.3635 	EXP 	left_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	left_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	left_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	left_label_stim: text = 'Well'
+38.3635 	EXP 	right_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	right_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	right_label_stim: height = np.float64(0.042)
+38.3635 	EXP 	right_label_stim: text = 'Trash Can'
+38.3635 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+38.3635 	EXP 	question_text: autoDraw = True
+38.3635 	EXP 	cue_image: autoDraw = True
+38.3635 	EXP 	cue_label_stim: autoDraw = True
+38.3635 	EXP 	left_image: autoDraw = True
+38.3635 	EXP 	left_label_stim: autoDraw = True
+38.3635 	EXP 	right_image: autoDraw = True
+38.3635 	EXP 	right_label_stim: autoDraw = True
+38.7976 	DATA 	Keypress: 1
+38.8053 	EXP 	Device response: <KeyPress from None: t=38.79694369999925, value=1, duration=None>
+38.8061 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/brick_wheelbarrow.png'), ('leftImage', 'stimuli/brick_trashcan.png'), ('rightImage', 'stimuli/brick_harp.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Wheelbarrow'), ('leftLabel', 'Trash Can'), ('rightLabel', 'Harp'), ('corrLabel', 'Harp')])
+38.8064 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+38.8134 	EXP 	question_text: autoDraw = False
+38.8134 	EXP 	cue_image: autoDraw = False
+38.8134 	EXP 	cue_label_stim: autoDraw = False
+38.8134 	EXP 	left_image: autoDraw = False
+38.8134 	EXP 	left_label_stim: autoDraw = False
+38.8134 	EXP 	right_image: autoDraw = False
+38.8134 	EXP 	right_label_stim: autoDraw = False
+38.8134 	EXP 	fixation: autoDraw = True
+39.0388 	EXP 	Device response: <KeyPress from None: t=38.79694369999925, value=1, duration=0.23722609999822453>
+39.8372 	INFO 	Keyboard events cleared
+39.8371 	EXP 	fixation: autoDraw = False
+39.8371 	EXP 	cue_image: image = 'stimuli/brick_wheelbarrow.png'
+39.8371 	EXP 	left_image: image = 'stimuli/brick_trashcan.png'
+39.8371 	EXP 	right_image: image = 'stimuli/brick_harp.png'
+39.8371 	EXP 	cue_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	cue_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	cue_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	cue_label_stim: text = 'Wheelbarrow'
+39.8371 	EXP 	left_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	left_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	left_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	left_label_stim: text = 'Trash Can'
+39.8371 	EXP 	right_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	right_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	right_label_stim: height = np.float64(0.042)
+39.8371 	EXP 	right_label_stim: text = 'Harp'
+39.8371 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+39.8371 	EXP 	question_text: autoDraw = True
+39.8371 	EXP 	cue_image: autoDraw = True
+39.8371 	EXP 	cue_label_stim: autoDraw = True
+39.8371 	EXP 	left_image: autoDraw = True
+39.8371 	EXP 	left_label_stim: autoDraw = True
+39.8371 	EXP 	right_image: autoDraw = True
+39.8371 	EXP 	right_label_stim: autoDraw = True
+49.8405 	EXP 	New trial (rep=0, index=2): OrderedDict([('cueImage', 'stimuli/brick_picnicTable.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_wheelbarrow.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Picnic Table'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Wheelbarrow'), ('corrLabel', 'Wheelbarrow')])
+49.8408 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+49.8480 	EXP 	question_text: autoDraw = False
+49.8480 	EXP 	cue_image: autoDraw = False
+49.8480 	EXP 	cue_label_stim: autoDraw = False
+49.8480 	EXP 	left_image: autoDraw = False
+49.8480 	EXP 	left_label_stim: autoDraw = False
+49.8480 	EXP 	right_image: autoDraw = False
+49.8480 	EXP 	right_label_stim: autoDraw = False
+49.8480 	EXP 	fixation: autoDraw = True
+50.8594 	INFO 	Keyboard events cleared
+50.8593 	EXP 	fixation: autoDraw = False
+50.8593 	EXP 	cue_image: image = 'stimuli/brick_picnicTable.png'
+50.8593 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+50.8593 	EXP 	right_image: image = 'stimuli/brick_wheelbarrow.png'
+50.8593 	EXP 	cue_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	cue_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	cue_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	cue_label_stim: text = 'Picnic Table'
+50.8593 	EXP 	left_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	left_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	left_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	left_label_stim: text = 'Mailbox'
+50.8593 	EXP 	right_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	right_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	right_label_stim: height = np.float64(0.042)
+50.8593 	EXP 	right_label_stim: text = 'Wheelbarrow'
+50.8593 	EXP 	question_text: height = np.float64(0.055)
+50.8593 	EXP 	question_text: height = np.float64(0.055)
+50.8593 	EXP 	question_text: height = np.float64(0.055)
+50.8593 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+50.8593 	EXP 	question_text: autoDraw = True
+50.8593 	EXP 	cue_image: autoDraw = True
+50.8593 	EXP 	cue_label_stim: autoDraw = True
+50.8593 	EXP 	left_image: autoDraw = True
+50.8593 	EXP 	left_label_stim: autoDraw = True
+50.8593 	EXP 	right_image: autoDraw = True
+50.8593 	EXP 	right_label_stim: autoDraw = True
+51.9660 	EXP 	Device response: <KeyPress from None: t=51.963793400034774, value=2, duration=None>
+51.9666 	EXP 	New trial (rep=0, index=3): OrderedDict([('cueImage', 'stimuli/brick_mailbox.png'), ('leftImage', 'stimuli/brick_trashcan.png'), ('rightImage', 'stimuli/brick_telescope.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Mailbox'), ('leftLabel', 'Trash Can'), ('rightLabel', 'Telescope'), ('corrLabel', 'Telescope')])
+51.9668 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+51.9673 	DATA 	Keypress: 2
+51.9734 	EXP 	question_text: autoDraw = False
+51.9734 	EXP 	cue_image: autoDraw = False
+51.9734 	EXP 	cue_label_stim: autoDraw = False
+51.9734 	EXP 	left_image: autoDraw = False
+51.9734 	EXP 	left_label_stim: autoDraw = False
+51.9734 	EXP 	right_image: autoDraw = False
+51.9734 	EXP 	right_label_stim: autoDraw = False
+51.9734 	EXP 	fixation: autoDraw = True
+52.1821 	EXP 	Device response: <KeyPress from None: t=51.963793400034774, value=2, duration=0.21213130000978708>
+52.9845 	INFO 	Keyboard events cleared
+52.9844 	EXP 	fixation: autoDraw = False
+52.9844 	EXP 	cue_image: image = 'stimuli/brick_mailbox.png'
+52.9844 	EXP 	left_image: image = 'stimuli/brick_trashcan.png'
+52.9844 	EXP 	right_image: image = 'stimuli/brick_telescope.png'
+52.9844 	EXP 	cue_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	cue_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	cue_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	cue_label_stim: text = 'Mailbox'
+52.9844 	EXP 	left_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	left_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	left_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	left_label_stim: text = 'Trash Can'
+52.9844 	EXP 	right_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	right_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	right_label_stim: height = np.float64(0.042)
+52.9844 	EXP 	right_label_stim: text = 'Telescope'
+52.9844 	EXP 	question_text: height = np.float64(0.055)
+52.9844 	EXP 	question_text: height = np.float64(0.055)
+52.9844 	EXP 	question_text: height = np.float64(0.055)
+52.9844 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+52.9844 	EXP 	question_text: autoDraw = True
+52.9844 	EXP 	cue_image: autoDraw = True
+52.9844 	EXP 	cue_label_stim: autoDraw = True
+52.9844 	EXP 	left_image: autoDraw = True
+52.9844 	EXP 	left_label_stim: autoDraw = True
+52.9844 	EXP 	right_image: autoDraw = True
+52.9844 	EXP 	right_label_stim: autoDraw = True
+53.1739 	EXP 	Device response: <KeyPress from None: t=53.170870000030845, value=1, duration=None>
+53.1745 	EXP 	New trial (rep=0, index=4): OrderedDict([('cueImage', 'stimuli/brick_plant.png'), ('leftImage', 'stimuli/brick_picnicTable.png'), ('rightImage', 'stimuli/brick_chair.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Plant'), ('leftLabel', 'Picnic Table'), ('rightLabel', 'Chair'), ('corrLabel', 'Picnic Table')])
+53.1748 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+53.1753 	DATA 	Keypress: 1
+53.1820 	EXP 	question_text: autoDraw = False
+53.1820 	EXP 	cue_image: autoDraw = False
+53.1820 	EXP 	cue_label_stim: autoDraw = False
+53.1820 	EXP 	left_image: autoDraw = False
+53.1820 	EXP 	left_label_stim: autoDraw = False
+53.1820 	EXP 	right_image: autoDraw = False
+53.1820 	EXP 	right_label_stim: autoDraw = False
+53.1820 	EXP 	fixation: autoDraw = True
+53.3902 	EXP 	Device response: <KeyPress from None: t=53.170870000030845, value=1, duration=0.2151995999738574>
+54.1947 	INFO 	Keyboard events cleared
+54.1946 	EXP 	fixation: autoDraw = False
+54.1946 	EXP 	cue_image: image = 'stimuli/brick_plant.png'
+54.1946 	EXP 	left_image: image = 'stimuli/brick_picnicTable.png'
+54.1946 	EXP 	right_image: image = 'stimuli/brick_chair.png'
+54.1946 	EXP 	cue_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	cue_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	cue_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	cue_label_stim: text = 'Plant'
+54.1946 	EXP 	left_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	left_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	left_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	left_label_stim: text = 'Picnic Table'
+54.1946 	EXP 	right_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	right_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	right_label_stim: height = np.float64(0.042)
+54.1946 	EXP 	right_label_stim: text = 'Chair'
+54.1946 	EXP 	question_text: height = np.float64(0.055)
+54.1946 	EXP 	question_text: height = np.float64(0.055)
+54.1946 	EXP 	question_text: height = np.float64(0.055)
+54.1946 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+54.1946 	EXP 	question_text: autoDraw = True
+54.1946 	EXP 	cue_image: autoDraw = True
+54.1946 	EXP 	cue_label_stim: autoDraw = True
+54.1946 	EXP 	left_image: autoDraw = True
+54.1946 	EXP 	left_label_stim: autoDraw = True
+54.1946 	EXP 	right_image: autoDraw = True
+54.1946 	EXP 	right_label_stim: autoDraw = True
+54.3823 	EXP 	Device response: <KeyPress from None: t=54.382014200033154, value=2, duration=None>
+54.3830 	DATA 	Keypress: 2
+54.3911 	EXP 	New trial (rep=0, index=5): OrderedDict([('cueImage', 'stimuli/brick_mailbox.png'), ('leftImage', 'stimuli/brick_telescope.png'), ('rightImage', 'stimuli/brick_trashcan.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Mailbox'), ('leftLabel', 'Telescope'), ('rightLabel', 'Trash Can'), ('corrLabel', 'Telescope')])
+54.3914 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+54.3990 	EXP 	question_text: autoDraw = False
+54.3990 	EXP 	cue_image: autoDraw = False
+54.3990 	EXP 	cue_label_stim: autoDraw = False
+54.3990 	EXP 	left_image: autoDraw = False
+54.3990 	EXP 	left_label_stim: autoDraw = False
+54.3990 	EXP 	right_image: autoDraw = False
+54.3990 	EXP 	right_label_stim: autoDraw = False
+54.3990 	EXP 	fixation: autoDraw = True
+54.6995 	EXP 	Device response: <KeyPress from None: t=54.382014200033154, value=2, duration=0.31090869999025017>
+55.4063 	EXP 	Device response: <KeyPress from None: t=55.398231099999975, value=1, duration=None>
+55.4087 	DATA 	Keypress: 1
+55.4107 	INFO 	Keyboard events cleared
+55.4106 	EXP 	fixation: autoDraw = False
+55.4106 	EXP 	cue_image: image = 'stimuli/brick_mailbox.png'
+55.4106 	EXP 	left_image: image = 'stimuli/brick_telescope.png'
+55.4106 	EXP 	right_image: image = 'stimuli/brick_trashcan.png'
+55.4106 	EXP 	cue_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	cue_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	cue_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	cue_label_stim: text = 'Mailbox'
+55.4106 	EXP 	left_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	left_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	left_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	left_label_stim: text = 'Telescope'
+55.4106 	EXP 	right_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	right_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	right_label_stim: height = np.float64(0.042)
+55.4106 	EXP 	right_label_stim: text = 'Trash Can'
+55.4106 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+55.4106 	EXP 	question_text: autoDraw = True
+55.4106 	EXP 	cue_image: autoDraw = True
+55.4106 	EXP 	cue_label_stim: autoDraw = True
+55.4106 	EXP 	left_image: autoDraw = True
+55.4106 	EXP 	left_label_stim: autoDraw = True
+55.4106 	EXP 	right_image: autoDraw = True
+55.4106 	EXP 	right_label_stim: autoDraw = True
+55.6076 	EXP 	Device response: <KeyPress from None: t=55.398231099999975, value=1, duration=0.20264339999994263>
+55.8091 	DATA 	Keypress: 1
+55.8155 	EXP 	Device response: <KeyPress from None: t=55.80701590003446, value=1, duration=None>
+55.8160 	EXP 	New trial (rep=0, index=6): OrderedDict([('cueImage', 'stimuli/brick_oven.png'), ('leftImage', 'stimuli/brick_plant.png'), ('rightImage', 'stimuli/brick_trashcan.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Oven'), ('leftLabel', 'Plant'), ('rightLabel', 'Trash Can'), ('corrLabel', 'Plant')])
+55.8162 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+55.8236 	EXP 	question_text: autoDraw = False
+55.8236 	EXP 	cue_image: autoDraw = False
+55.8236 	EXP 	cue_label_stim: autoDraw = False
+55.8236 	EXP 	left_image: autoDraw = False
+55.8236 	EXP 	left_label_stim: autoDraw = False
+55.8236 	EXP 	right_image: autoDraw = False
+55.8236 	EXP 	right_label_stim: autoDraw = False
+55.8236 	EXP 	fixation: autoDraw = True
+56.0326 	EXP 	Device response: <KeyPress from None: t=55.80701590003446, value=1, duration=0.21903400000883266>
+56.7989 	EXP 	Device response: <KeyPress from None: t=56.795759800006635, value=2, duration=None>
+56.7997 	DATA 	Keypress: 2
+56.8697 	INFO 	Keyboard events cleared
+56.8696 	EXP 	fixation: autoDraw = False
+56.8696 	EXP 	cue_image: image = 'stimuli/brick_oven.png'
+56.8696 	EXP 	left_image: image = 'stimuli/brick_plant.png'
+56.8696 	EXP 	right_image: image = 'stimuli/brick_trashcan.png'
+56.8696 	EXP 	cue_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	cue_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	cue_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	cue_label_stim: text = 'Oven'
+56.8696 	EXP 	left_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	left_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	left_label_stim: height = np.float64(0.042)
+56.8696 	EXP 	left_label_stim: text = 'Plant'
+56.8696 	EXP 	right_label_stim: text = 'Trash Can'
+56.8696 	EXP 	question_text: height = np.float64(0.055)
+56.8696 	EXP 	question_text: height = np.float64(0.055)
+56.8696 	EXP 	question_text: height = np.float64(0.055)
+56.8696 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+56.8696 	EXP 	question_text: autoDraw = True
+56.8696 	EXP 	cue_image: autoDraw = True
+56.8696 	EXP 	cue_label_stim: autoDraw = True
+56.8696 	EXP 	left_image: autoDraw = True
+56.8696 	EXP 	left_label_stim: autoDraw = True
+56.8696 	EXP 	right_image: autoDraw = True
+56.8696 	EXP 	right_label_stim: autoDraw = True
+57.0076 	EXP 	Device response: <KeyPress from None: t=56.795759800006635, value=2, duration=0.2111670000012964>
+57.1825 	EXP 	Device response: <KeyPress from None: t=57.176114800036885, value=2, duration=None>
+57.1832 	EXP 	New trial (rep=0, index=7): OrderedDict([('cueImage', 'stimuli/brick_well.png'), ('leftImage', 'stimuli/brick_telescope.png'), ('rightImage', 'stimuli/brick_oven.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Well'), ('leftLabel', 'Telescope'), ('rightLabel', 'Oven'), ('corrLabel', 'Telescope')])
+57.1835 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+57.1840 	DATA 	Keypress: 2
+57.1906 	EXP 	question_text: autoDraw = False
+57.1906 	EXP 	cue_image: autoDraw = False
+57.1906 	EXP 	cue_label_stim: autoDraw = False
+57.1906 	EXP 	left_image: autoDraw = False
+57.1906 	EXP 	left_label_stim: autoDraw = False
+57.1906 	EXP 	right_image: autoDraw = False
+57.1906 	EXP 	right_label_stim: autoDraw = False
+57.1906 	EXP 	fixation: autoDraw = True
+57.3738 	EXP 	Device response: <KeyPress from None: t=57.176114800036885, value=2, duration=0.19085339998127893>
+58.2015 	INFO 	Keyboard events cleared
+58.2014 	EXP 	fixation: autoDraw = False
+58.2014 	EXP 	cue_image: image = 'stimuli/brick_well.png'
+58.2014 	EXP 	left_image: image = 'stimuli/brick_telescope.png'
+58.2014 	EXP 	right_image: image = 'stimuli/brick_oven.png'
+58.2014 	EXP 	cue_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	cue_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	cue_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	cue_label_stim: text = 'Well'
+58.2014 	EXP 	left_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	left_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	left_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	left_label_stim: text = 'Telescope'
+58.2014 	EXP 	right_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	right_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	right_label_stim: height = np.float64(0.042)
+58.2014 	EXP 	right_label_stim: text = 'Oven'
+58.2014 	EXP 	question_text: height = np.float64(0.055)
+58.2014 	EXP 	question_text: height = np.float64(0.055)
+58.2014 	EXP 	question_text: height = np.float64(0.055)
+58.2014 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+58.2014 	EXP 	question_text: autoDraw = True
+58.2014 	EXP 	cue_image: autoDraw = True
+58.2014 	EXP 	cue_label_stim: autoDraw = True
+58.2014 	EXP 	left_image: autoDraw = True
+58.2014 	EXP 	left_label_stim: autoDraw = True
+58.2014 	EXP 	right_image: autoDraw = True
+58.2014 	EXP 	right_label_stim: autoDraw = True
+58.3493 	EXP 	Device response: <KeyPress from None: t=58.34704520000378, value=1, duration=None>
+58.3501 	EXP 	New trial (rep=0, index=8): OrderedDict([('cueImage', 'stimuli/brick_harp.png'), ('leftImage', 'stimuli/brick_oven.png'), ('rightImage', 'stimuli/brick_bookshelf.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Harp'), ('leftLabel', 'Oven'), ('rightLabel', 'Bookshelf'), ('corrLabel', 'Bookshelf')])
+58.3503 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+58.3508 	DATA 	Keypress: 1
+58.3574 	EXP 	question_text: autoDraw = False
+58.3574 	EXP 	cue_image: autoDraw = False
+58.3574 	EXP 	cue_label_stim: autoDraw = False
+58.3574 	EXP 	left_image: autoDraw = False
+58.3574 	EXP 	left_label_stim: autoDraw = False
+58.3574 	EXP 	right_image: autoDraw = False
+58.3574 	EXP 	right_label_stim: autoDraw = False
+58.3574 	EXP 	fixation: autoDraw = True
+58.5328 	EXP 	Device response: <KeyPress from None: t=58.34704520000378, value=1, duration=0.18467300001066178>
+59.3735 	INFO 	Keyboard events cleared
+59.3734 	EXP 	fixation: autoDraw = False
+59.3734 	EXP 	cue_image: image = 'stimuli/brick_harp.png'
+59.3734 	EXP 	left_image: image = 'stimuli/brick_oven.png'
+59.3734 	EXP 	right_image: image = 'stimuli/brick_bookshelf.png'
+59.3734 	EXP 	cue_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	cue_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	cue_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	cue_label_stim: text = 'Harp'
+59.3734 	EXP 	left_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	left_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	left_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	left_label_stim: text = 'Oven'
+59.3734 	EXP 	right_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	right_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	right_label_stim: height = np.float64(0.042)
+59.3734 	EXP 	right_label_stim: text = 'Bookshelf'
+59.3734 	EXP 	question_text: height = np.float64(0.055)
+59.3734 	EXP 	question_text: height = np.float64(0.055)
+59.3734 	EXP 	question_text: height = np.float64(0.055)
+59.3734 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+59.3734 	EXP 	question_text: autoDraw = True
+59.3734 	EXP 	cue_image: autoDraw = True
+59.3734 	EXP 	cue_label_stim: autoDraw = True
+59.3734 	EXP 	left_image: autoDraw = True
+59.3734 	EXP 	left_label_stim: autoDraw = True
+59.3734 	EXP 	right_image: autoDraw = True
+59.3734 	EXP 	right_label_stim: autoDraw = True
+59.6829 	EXP 	Device response: <KeyPress from None: t=59.6787843000493, value=2, duration=None>
+59.6838 	EXP 	New trial (rep=0, index=9): OrderedDict([('cueImage', 'stimuli/brick_well.png'), ('leftImage', 'stimuli/brick_oven.png'), ('rightImage', 'stimuli/brick_chair.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Well'), ('leftLabel', 'Oven'), ('rightLabel', 'Chair'), ('corrLabel', 'Chair')])
+59.6840 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+59.6846 	DATA 	Keypress: 2
+59.6908 	EXP 	question_text: autoDraw = False
+59.6908 	EXP 	cue_image: autoDraw = False
+59.6908 	EXP 	cue_label_stim: autoDraw = False
+59.6908 	EXP 	left_image: autoDraw = False
+59.6908 	EXP 	left_label_stim: autoDraw = False
+59.6908 	EXP 	right_image: autoDraw = False
+59.6908 	EXP 	right_label_stim: autoDraw = False
+59.6908 	EXP 	fixation: autoDraw = True
+59.9079 	EXP 	Device response: <KeyPress from None: t=59.6787843000493, value=2, duration=0.22812960000010207>
+60.7015 	INFO 	Keyboard events cleared
+60.7015 	EXP 	fixation: autoDraw = False
+60.7015 	EXP 	cue_image: image = 'stimuli/brick_well.png'
+60.7015 	EXP 	left_image: image = 'stimuli/brick_oven.png'
+60.7015 	EXP 	right_image: image = 'stimuli/brick_chair.png'
+60.7015 	EXP 	cue_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	cue_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	cue_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	cue_label_stim: text = 'Well'
+60.7015 	EXP 	left_label_stim: text = 'Oven'
+60.7015 	EXP 	right_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	right_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	right_label_stim: height = np.float64(0.042)
+60.7015 	EXP 	right_label_stim: text = 'Chair'
+60.7015 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+60.7015 	EXP 	question_text: autoDraw = True
+60.7015 	EXP 	cue_image: autoDraw = True
+60.7015 	EXP 	cue_label_stim: autoDraw = True
+60.7015 	EXP 	left_image: autoDraw = True
+60.7015 	EXP 	left_label_stim: autoDraw = True
+60.7015 	EXP 	right_image: autoDraw = True
+60.7015 	EXP 	right_label_stim: autoDraw = True
+60.8412 	EXP 	Device response: <KeyPress from None: t=60.83788380003534, value=1, duration=None>
+60.8420 	EXP 	New trial (rep=0, index=10): OrderedDict([('cueImage', 'stimuli/brick_piano.png'), ('leftImage', 'stimuli/brick_trashcan.png'), ('rightImage', 'stimuli/brick_mailbox.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Piano'), ('leftLabel', 'Trash Can'), ('rightLabel', 'Mailbox'), ('corrLabel', 'Trash Can')])
+60.8422 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+60.8429 	DATA 	Keypress: 1
+60.8494 	EXP 	question_text: autoDraw = False
+60.8494 	EXP 	cue_image: autoDraw = False
+60.8494 	EXP 	cue_label_stim: autoDraw = False
+60.8494 	EXP 	left_image: autoDraw = False
+60.8494 	EXP 	left_label_stim: autoDraw = False
+60.8494 	EXP 	right_image: autoDraw = False
+60.8494 	EXP 	right_label_stim: autoDraw = False
+60.8494 	EXP 	fixation: autoDraw = True
+61.0410 	EXP 	Device response: <KeyPress from None: t=60.83788380003534, value=1, duration=0.20006840000860393>
+61.8527 	INFO 	Keyboard events cleared
+61.8526 	EXP 	fixation: autoDraw = False
+61.8526 	EXP 	cue_image: image = 'stimuli/brick_piano.png'
+61.8526 	EXP 	left_image: image = 'stimuli/brick_trashcan.png'
+61.8526 	EXP 	right_image: image = 'stimuli/brick_mailbox.png'
+61.8526 	EXP 	cue_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	cue_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	cue_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	cue_label_stim: text = 'Piano'
+61.8526 	EXP 	left_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	left_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	left_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	left_label_stim: text = 'Trash Can'
+61.8526 	EXP 	right_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	right_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	right_label_stim: height = np.float64(0.042)
+61.8526 	EXP 	right_label_stim: text = 'Mailbox'
+61.8526 	EXP 	question_text: height = np.float64(0.055)
+61.8526 	EXP 	question_text: height = np.float64(0.055)
+61.8526 	EXP 	question_text: height = np.float64(0.055)
+61.8526 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+61.8526 	EXP 	question_text: autoDraw = True
+61.8526 	EXP 	cue_image: autoDraw = True
+61.8526 	EXP 	cue_label_stim: autoDraw = True
+61.8526 	EXP 	left_image: autoDraw = True
+61.8526 	EXP 	left_label_stim: autoDraw = True
+61.8526 	EXP 	right_image: autoDraw = True
+61.8526 	EXP 	right_label_stim: autoDraw = True
+62.3084 	EXP 	Device response: <KeyPress from None: t=62.30710520001594, value=2, duration=None>
+62.3098 	EXP 	New trial (rep=0, index=11): OrderedDict([('cueImage', 'stimuli/brick_chair.png'), ('leftImage', 'stimuli/brick_piano.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Chair'), ('leftLabel', 'Piano'), ('rightLabel', 'Well'), ('corrLabel', 'Well')])
+62.3102 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+62.3111 	DATA 	Keypress: 2
+62.3162 	EXP 	question_text: autoDraw = False
+62.3162 	EXP 	cue_image: autoDraw = False
+62.3162 	EXP 	cue_label_stim: autoDraw = False
+62.3162 	EXP 	left_image: autoDraw = False
+62.3162 	EXP 	left_label_stim: autoDraw = False
+62.3162 	EXP 	right_image: autoDraw = False
+62.3162 	EXP 	right_label_stim: autoDraw = False
+62.3162 	EXP 	fixation: autoDraw = True
+62.5580 	EXP 	Device response: <KeyPress from None: t=62.30710520001594, value=2, duration=0.24560180003754795>
+63.3376 	INFO 	Keyboard events cleared
+63.3374 	EXP 	fixation: autoDraw = False
+63.3374 	EXP 	cue_image: image = 'stimuli/brick_chair.png'
+63.3374 	EXP 	left_image: image = 'stimuli/brick_piano.png'
+63.3374 	EXP 	right_image: image = 'stimuli/brick_well.png'
+63.3374 	EXP 	cue_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	cue_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	cue_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	cue_label_stim: text = 'Chair'
+63.3374 	EXP 	left_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	left_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	left_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	left_label_stim: text = 'Piano'
+63.3374 	EXP 	right_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	right_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	right_label_stim: height = np.float64(0.042)
+63.3374 	EXP 	right_label_stim: text = 'Well'
+63.3374 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+63.3374 	EXP 	question_text: autoDraw = True
+63.3374 	EXP 	cue_image: autoDraw = True
+63.3374 	EXP 	cue_label_stim: autoDraw = True
+63.3374 	EXP 	left_image: autoDraw = True
+63.3374 	EXP 	left_label_stim: autoDraw = True
+63.3374 	EXP 	right_image: autoDraw = True
+63.3374 	EXP 	right_label_stim: autoDraw = True
+63.4510 	EXP 	Device response: <KeyPress from None: t=63.44388870004332, value=2, duration=None>
+63.4515 	EXP 	New trial (rep=0, index=12): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_bookshelf.png'), ('rightImage', 'stimuli/brick_mailbox.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Telescope'), ('leftLabel', 'Bookshelf'), ('rightLabel', 'Mailbox'), ('corrLabel', 'Mailbox')])
+63.4517 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+63.4521 	DATA 	Keypress: 2
+63.4580 	EXP 	question_text: autoDraw = False
+63.4580 	EXP 	cue_image: autoDraw = False
+63.4580 	EXP 	cue_label_stim: autoDraw = False
+63.4580 	EXP 	left_image: autoDraw = False
+63.4580 	EXP 	left_label_stim: autoDraw = False
+63.4580 	EXP 	right_image: autoDraw = False
+63.4580 	EXP 	right_label_stim: autoDraw = False
+63.4580 	EXP 	fixation: autoDraw = True
+63.6584 	EXP 	Device response: <KeyPress from None: t=63.44388870004332, value=2, duration=0.20798649999778718>
+64.2584 	EXP 	Device response: <KeyPress from None: t=64.25572120002471, value=2, duration=None>
+64.2589 	DATA 	Keypress: 2
+64.4689 	INFO 	Keyboard events cleared
+64.4688 	EXP 	fixation: autoDraw = False
+64.4688 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+64.4688 	EXP 	left_image: image = 'stimuli/brick_bookshelf.png'
+64.4688 	EXP 	right_image: image = 'stimuli/brick_mailbox.png'
+64.4688 	EXP 	cue_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	cue_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	cue_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	cue_label_stim: text = 'Telescope'
+64.4688 	EXP 	left_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	left_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	left_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	left_label_stim: text = 'Bookshelf'
+64.4688 	EXP 	right_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	right_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	right_label_stim: height = np.float64(0.042)
+64.4688 	EXP 	right_label_stim: text = 'Mailbox'
+64.4688 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+64.4688 	EXP 	question_text: autoDraw = True
+64.4688 	EXP 	cue_image: autoDraw = True
+64.4688 	EXP 	cue_label_stim: autoDraw = True
+64.4688 	EXP 	left_image: autoDraw = True
+64.4688 	EXP 	left_label_stim: autoDraw = True
+64.4688 	EXP 	right_image: autoDraw = True
+64.4688 	EXP 	right_label_stim: autoDraw = True
+64.6252 	EXP 	Device response: <KeyPress from None: t=64.6240214999998, value=2, duration=None>
+64.6259 	EXP 	New trial (rep=0, index=13): OrderedDict([('cueImage', 'stimuli/brick_picnicTable.png'), ('leftImage', 'stimuli/brick_wheelbarrow.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Picnic Table'), ('leftLabel', 'Wheelbarrow'), ('rightLabel', 'Well'), ('corrLabel', 'Wheelbarrow')])
+64.6261 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+64.6267 	DATA 	Keypress: 2
+64.6330 	EXP 	question_text: autoDraw = False
+64.6330 	EXP 	cue_image: autoDraw = False
+64.6330 	EXP 	cue_label_stim: autoDraw = False
+64.6330 	EXP 	left_image: autoDraw = False
+64.6330 	EXP 	left_label_stim: autoDraw = False
+64.6330 	EXP 	right_image: autoDraw = False
+64.6330 	EXP 	right_label_stim: autoDraw = False
+64.6330 	EXP 	fixation: autoDraw = True
+64.9001 	EXP 	Device response: <KeyPress from None: t=64.25572120002471, value=2, duration=0.6399655999848619>
+65.6435 	INFO 	Keyboard events cleared
+65.6434 	EXP 	fixation: autoDraw = False
+65.6434 	EXP 	cue_image: image = 'stimuli/brick_picnicTable.png'
+65.6434 	EXP 	left_image: image = 'stimuli/brick_wheelbarrow.png'
+65.6434 	EXP 	right_image: image = 'stimuli/brick_well.png'
+65.6434 	EXP 	cue_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	cue_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	cue_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	cue_label_stim: text = 'Picnic Table'
+65.6434 	EXP 	left_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	left_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	left_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	left_label_stim: text = 'Wheelbarrow'
+65.6434 	EXP 	right_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	right_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	right_label_stim: height = np.float64(0.042)
+65.6434 	EXP 	right_label_stim: text = 'Well'
+65.6434 	EXP 	question_text: height = np.float64(0.055)
+65.6434 	EXP 	question_text: height = np.float64(0.055)
+65.6434 	EXP 	question_text: height = np.float64(0.055)
+65.6434 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+65.6434 	EXP 	question_text: autoDraw = True
+65.6434 	EXP 	cue_image: autoDraw = True
+65.6434 	EXP 	cue_label_stim: autoDraw = True
+65.6434 	EXP 	left_image: autoDraw = True
+65.6434 	EXP 	left_label_stim: autoDraw = True
+65.6434 	EXP 	right_image: autoDraw = True
+65.6434 	EXP 	right_label_stim: autoDraw = True
+65.7756 	EXP 	Device response: <KeyPress from None: t=65.77378620003583, value=2, duration=None>
+65.7762 	EXP 	New trial (rep=0, index=14): OrderedDict([('cueImage', 'stimuli/brick_wheelbarrow.png'), ('leftImage', 'stimuli/brick_picnicTable.png'), ('rightImage', 'stimuli/brick_mailbox.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Wheelbarrow'), ('leftLabel', 'Picnic Table'), ('rightLabel', 'Mailbox'), ('corrLabel', 'Picnic Table')])
+65.7764 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+65.7777 	DATA 	Keypress: 2
+65.7833 	EXP 	question_text: autoDraw = False
+65.7833 	EXP 	cue_image: autoDraw = False
+65.7833 	EXP 	cue_label_stim: autoDraw = False
+65.7833 	EXP 	left_image: autoDraw = False
+65.7833 	EXP 	left_label_stim: autoDraw = False
+65.7833 	EXP 	right_image: autoDraw = False
+65.7833 	EXP 	right_label_stim: autoDraw = False
+65.7833 	EXP 	fixation: autoDraw = True
+66.0419 	EXP 	Device response: <KeyPress from None: t=64.6240214999998, value=2, duration=1.4127338000107557>
+66.7504 	EXP 	Device response: <KeyPress from None: t=66.74784200004069, value=2, duration=None>
+66.7509 	DATA 	Keypress: 2
+66.7952 	INFO 	Keyboard events cleared
+66.7950 	EXP 	fixation: autoDraw = False
+66.7950 	EXP 	cue_image: image = 'stimuli/brick_wheelbarrow.png'
+66.7950 	EXP 	left_image: image = 'stimuli/brick_picnicTable.png'
+66.7950 	EXP 	right_image: image = 'stimuli/brick_mailbox.png'
+66.7950 	EXP 	cue_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	cue_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	cue_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	cue_label_stim: text = 'Wheelbarrow'
+66.7950 	EXP 	left_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	left_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	left_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	left_label_stim: text = 'Picnic Table'
+66.7950 	EXP 	right_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	right_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	right_label_stim: height = np.float64(0.042)
+66.7950 	EXP 	right_label_stim: text = 'Mailbox'
+66.7950 	EXP 	question_text: height = np.float64(0.055)
+66.7950 	EXP 	question_text: height = np.float64(0.055)
+66.7950 	EXP 	question_text: height = np.float64(0.055)
+66.7950 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+66.7950 	EXP 	question_text: autoDraw = True
+66.7950 	EXP 	cue_image: autoDraw = True
+66.7950 	EXP 	cue_label_stim: autoDraw = True
+66.7950 	EXP 	left_image: autoDraw = True
+66.7950 	EXP 	left_label_stim: autoDraw = True
+66.7950 	EXP 	right_image: autoDraw = True
+66.7950 	EXP 	right_label_stim: autoDraw = True
+67.0255 	EXP 	Device response: <KeyPress from None: t=65.77378620003583, value=2, duration=1.251308600010816>
+67.2183 	EXP 	Device response: <KeyPress from None: t=67.21698350005317, value=2, duration=None>
+67.2188 	EXP 	New trial (rep=0, index=15): OrderedDict([('cueImage', 'stimuli/brick_harp.png'), ('leftImage', 'stimuli/brick_wheelbarrow.png'), ('rightImage', 'stimuli/brick_oven.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Harp'), ('leftLabel', 'Wheelbarrow'), ('rightLabel', 'Oven'), ('corrLabel', 'Wheelbarrow')])
+67.2190 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+67.2194 	DATA 	Keypress: 2
+67.2249 	EXP 	question_text: autoDraw = False
+67.2249 	EXP 	cue_image: autoDraw = False
+67.2249 	EXP 	cue_label_stim: autoDraw = False
+67.2249 	EXP 	left_image: autoDraw = False
+67.2249 	EXP 	left_label_stim: autoDraw = False
+67.2249 	EXP 	right_image: autoDraw = False
+67.2249 	EXP 	right_label_stim: autoDraw = False
+67.2249 	EXP 	fixation: autoDraw = True
+67.4422 	EXP 	Device response: <KeyPress from None: t=66.74784200004069, value=2, duration=0.692898899957072>
+68.1856 	DATA 	Keypress: 1
+68.1923 	EXP 	Device response: <KeyPress from None: t=68.18451990000904, value=1, duration=None>
+68.2364 	INFO 	Keyboard events cleared
+68.2363 	EXP 	fixation: autoDraw = False
+68.2363 	EXP 	cue_image: image = 'stimuli/brick_harp.png'
+68.2363 	EXP 	left_image: image = 'stimuli/brick_wheelbarrow.png'
+68.2363 	EXP 	right_image: image = 'stimuli/brick_oven.png'
+68.2363 	EXP 	cue_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	cue_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	cue_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	cue_label_stim: text = 'Harp'
+68.2363 	EXP 	left_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	left_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	left_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	left_label_stim: text = 'Wheelbarrow'
+68.2363 	EXP 	right_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	right_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	right_label_stim: height = np.float64(0.042)
+68.2363 	EXP 	right_label_stim: text = 'Oven'
+68.2363 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+68.2363 	EXP 	question_text: autoDraw = True
+68.2363 	EXP 	cue_image: autoDraw = True
+68.2363 	EXP 	cue_label_stim: autoDraw = True
+68.2363 	EXP 	left_image: autoDraw = True
+68.2363 	EXP 	left_label_stim: autoDraw = True
+68.2363 	EXP 	right_image: autoDraw = True
+68.2363 	EXP 	right_label_stim: autoDraw = True
+68.3921 	EXP 	Device response: <KeyPress from None: t=68.18451990000904, value=1, duration=0.20433060004143044>
+68.6005 	EXP 	Device response: <KeyPress from None: t=68.59425760002341, value=1, duration=None>
+68.6012 	EXP 	New trial (rep=0, index=16): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Telescope'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Well'), ('corrLabel', 'Mailbox')])
+68.6014 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+68.6019 	DATA 	Keypress: 1
+68.6088 	EXP 	question_text: autoDraw = False
+68.6088 	EXP 	cue_image: autoDraw = False
+68.6088 	EXP 	cue_label_stim: autoDraw = False
+68.6088 	EXP 	left_image: autoDraw = False
+68.6088 	EXP 	left_label_stim: autoDraw = False
+68.6088 	EXP 	right_image: autoDraw = False
+68.6088 	EXP 	right_label_stim: autoDraw = False
+68.6088 	EXP 	fixation: autoDraw = True
+68.7927 	EXP 	Device response: <KeyPress from None: t=68.59425760002341, value=1, duration=0.18995430000359192>
+69.6209 	INFO 	Keyboard events cleared
+69.6208 	EXP 	fixation: autoDraw = False
+69.6208 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+69.6208 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+69.6208 	EXP 	right_image: image = 'stimuli/brick_well.png'
+69.6208 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	cue_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	cue_label_stim: text = 'Telescope'
+69.6208 	EXP 	left_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	left_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	left_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	left_label_stim: text = 'Mailbox'
+69.6208 	EXP 	right_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	right_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	right_label_stim: height = np.float64(0.042)
+69.6208 	EXP 	right_label_stim: text = 'Well'
+69.6208 	EXP 	question_text: height = np.float64(0.055)
+69.6208 	EXP 	question_text: height = np.float64(0.055)
+69.6208 	EXP 	question_text: height = np.float64(0.055)
+69.6208 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+69.6208 	EXP 	question_text: autoDraw = True
+69.6208 	EXP 	cue_image: autoDraw = True
+69.6208 	EXP 	cue_label_stim: autoDraw = True
+69.6208 	EXP 	left_image: autoDraw = True
+69.6208 	EXP 	left_label_stim: autoDraw = True
+69.6208 	EXP 	right_image: autoDraw = True
+69.6208 	EXP 	right_label_stim: autoDraw = True
+69.9340 	EXP 	Device response: <KeyPress from None: t=69.9297227000352, value=2, duration=None>
+69.9346 	EXP 	New trial (rep=0, index=17): OrderedDict([('cueImage', 'stimuli/brick_plant.png'), ('leftImage', 'stimuli/brick_well.png'), ('rightImage', 'stimuli/brick_oven.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Plant'), ('leftLabel', 'Well'), ('rightLabel', 'Oven'), ('corrLabel', 'Oven')])
+69.9348 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+69.9352 	DATA 	Keypress: 2
+69.9421 	EXP 	question_text: autoDraw = False
+69.9421 	EXP 	cue_image: autoDraw = False
+69.9421 	EXP 	cue_label_stim: autoDraw = False
+69.9421 	EXP 	left_image: autoDraw = False
+69.9421 	EXP 	left_label_stim: autoDraw = False
+69.9421 	EXP 	right_image: autoDraw = False
+69.9421 	EXP 	right_label_stim: autoDraw = False
+69.9421 	EXP 	fixation: autoDraw = True
+70.1341 	EXP 	Device response: <KeyPress from None: t=67.21698350005317, value=2, duration=2.912093899969477>
+70.9518 	INFO 	Keyboard events cleared
+70.9517 	EXP 	fixation: autoDraw = False
+70.9517 	EXP 	cue_image: image = 'stimuli/brick_plant.png'
+70.9517 	EXP 	left_image: image = 'stimuli/brick_well.png'
+70.9517 	EXP 	right_image: image = 'stimuli/brick_oven.png'
+70.9517 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	cue_label_stim: text = 'Plant'
+70.9517 	EXP 	left_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	left_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	left_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	left_label_stim: text = 'Well'
+70.9517 	EXP 	right_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	right_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	right_label_stim: height = np.float64(0.042)
+70.9517 	EXP 	right_label_stim: text = 'Oven'
+70.9517 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+70.9517 	EXP 	question_text: autoDraw = True
+70.9517 	EXP 	cue_image: autoDraw = True
+70.9517 	EXP 	cue_label_stim: autoDraw = True
+70.9517 	EXP 	left_image: autoDraw = True
+70.9517 	EXP 	left_label_stim: autoDraw = True
+70.9517 	EXP 	right_image: autoDraw = True
+70.9517 	EXP 	right_label_stim: autoDraw = True
+77.2847 	EXP 	Device response: <KeyPress from None: t=77.27771010005381, value=2, duration=None>
+77.2853 	EXP 	New trial (rep=0, index=18): OrderedDict([('cueImage', 'stimuli/brick_oven.png'), ('leftImage', 'stimuli/brick_chair.png'), ('rightImage', 'stimuli/brick_picnicTable.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Oven'), ('leftLabel', 'Chair'), ('rightLabel', 'Picnic Table'), ('corrLabel', 'Picnic Table')])
+77.2856 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+77.2861 	DATA 	Keypress: 2
+77.2933 	EXP 	question_text: autoDraw = False
+77.2933 	EXP 	cue_image: autoDraw = False
+77.2933 	EXP 	cue_label_stim: autoDraw = False
+77.2933 	EXP 	left_image: autoDraw = False
+77.2933 	EXP 	left_label_stim: autoDraw = False
+77.2933 	EXP 	right_image: autoDraw = False
+77.2933 	EXP 	right_label_stim: autoDraw = False
+77.2933 	EXP 	fixation: autoDraw = True
+77.3684 	EXP 	Device response: <KeyPress from None: t=69.9297227000352, value=2, duration=7.432027600007132>
+78.3035 	INFO 	Keyboard events cleared
+78.3035 	EXP 	fixation: autoDraw = False
+78.3035 	EXP 	cue_image: image = 'stimuli/brick_oven.png'
+78.3035 	EXP 	left_image: image = 'stimuli/brick_chair.png'
+78.3035 	EXP 	right_image: image = 'stimuli/brick_picnicTable.png'
+78.3035 	EXP 	cue_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	cue_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	cue_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	cue_label_stim: text = 'Oven'
+78.3035 	EXP 	left_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	left_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	left_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	left_label_stim: text = 'Chair'
+78.3035 	EXP 	right_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	right_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	right_label_stim: height = np.float64(0.042)
+78.3035 	EXP 	right_label_stim: text = 'Picnic Table'
+78.3035 	EXP 	question_text: height = np.float64(0.055)
+78.3035 	EXP 	question_text: height = np.float64(0.055)
+78.3035 	EXP 	question_text: height = np.float64(0.055)
+78.3035 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+78.3035 	EXP 	question_text: autoDraw = True
+78.3035 	EXP 	cue_image: autoDraw = True
+78.3035 	EXP 	cue_label_stim: autoDraw = True
+78.3035 	EXP 	left_image: autoDraw = True
+78.3035 	EXP 	left_label_stim: autoDraw = True
+78.3035 	EXP 	right_image: autoDraw = True
+78.3035 	EXP 	right_label_stim: autoDraw = True
+78.7189 	EXP 	Device response: <KeyPress from None: t=78.71683910000138, value=1, duration=None>
+78.7194 	EXP 	New trial (rep=0, index=19): OrderedDict([('cueImage', 'stimuli/brick_bookshelf.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_harp.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Bookshelf'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Harp'), ('corrLabel', 'Harp')])
+78.7196 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+78.7200 	DATA 	Keypress: 1
+78.7265 	EXP 	question_text: autoDraw = False
+78.7265 	EXP 	cue_image: autoDraw = False
+78.7265 	EXP 	cue_label_stim: autoDraw = False
+78.7265 	EXP 	left_image: autoDraw = False
+78.7265 	EXP 	left_label_stim: autoDraw = False
+78.7265 	EXP 	right_image: autoDraw = False
+78.7265 	EXP 	right_label_stim: autoDraw = False
+78.7265 	EXP 	fixation: autoDraw = True
+78.9526 	EXP 	Device response: <KeyPress from None: t=78.71683910000138, value=1, duration=0.22991009999532253>
+79.7371 	INFO 	Keyboard events cleared
+79.7371 	EXP 	fixation: autoDraw = False
+79.7371 	EXP 	cue_image: image = 'stimuli/brick_bookshelf.png'
+79.7371 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+79.7371 	EXP 	right_image: image = 'stimuli/brick_harp.png'
+79.7371 	EXP 	cue_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	cue_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	cue_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	cue_label_stim: text = 'Bookshelf'
+79.7371 	EXP 	left_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	left_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	left_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	left_label_stim: text = 'Mailbox'
+79.7371 	EXP 	right_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	right_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	right_label_stim: height = np.float64(0.042)
+79.7371 	EXP 	right_label_stim: text = 'Harp'
+79.7371 	EXP 	question_text: height = np.float64(0.055)
+79.7371 	EXP 	question_text: height = np.float64(0.055)
+79.7371 	EXP 	question_text: height = np.float64(0.055)
+79.7371 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+79.7371 	EXP 	question_text: autoDraw = True
+79.7371 	EXP 	cue_image: autoDraw = True
+79.7371 	EXP 	cue_label_stim: autoDraw = True
+79.7371 	EXP 	left_image: autoDraw = True
+79.7371 	EXP 	left_label_stim: autoDraw = True
+79.7371 	EXP 	right_image: autoDraw = True
+79.7371 	EXP 	right_label_stim: autoDraw = True
+80.9107 	EXP 	Device response: <KeyPress from None: t=80.90881860000081, value=1, duration=None>
+80.9115 	EXP 	New trial (rep=0, index=20): OrderedDict([('cueImage', 'stimuli/brick_bookshelf.png'), ('leftImage', 'stimuli/brick_trashcan.png'), ('rightImage', 'stimuli/brick_mailbox.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Bookshelf'), ('leftLabel', 'Trash Can'), ('rightLabel', 'Mailbox'), ('corrLabel', 'Trash Can')])
+80.9117 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+80.9122 	DATA 	Keypress: 1
+80.9183 	EXP 	question_text: autoDraw = False
+80.9183 	EXP 	cue_image: autoDraw = False
+80.9183 	EXP 	cue_label_stim: autoDraw = False
+80.9183 	EXP 	left_image: autoDraw = False
+80.9183 	EXP 	left_label_stim: autoDraw = False
+80.9183 	EXP 	right_image: autoDraw = False
+80.9183 	EXP 	right_label_stim: autoDraw = False
+80.9183 	EXP 	fixation: autoDraw = True
+81.0441 	EXP 	Device response: <KeyPress from None: t=80.90881860000081, value=1, duration=0.13009220000822097>
+81.9291 	INFO 	Keyboard events cleared
+81.9290 	EXP 	fixation: autoDraw = False
+81.9290 	EXP 	cue_image: image = 'stimuli/brick_bookshelf.png'
+81.9290 	EXP 	left_image: image = 'stimuli/brick_trashcan.png'
+81.9290 	EXP 	right_image: image = 'stimuli/brick_mailbox.png'
+81.9290 	EXP 	cue_label_stim: text = 'Bookshelf'
+81.9290 	EXP 	left_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	left_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	left_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	left_label_stim: text = 'Trash Can'
+81.9290 	EXP 	right_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	right_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	right_label_stim: height = np.float64(0.042)
+81.9290 	EXP 	right_label_stim: text = 'Mailbox'
+81.9290 	EXP 	question_text: height = np.float64(0.055)
+81.9290 	EXP 	question_text: height = np.float64(0.055)
+81.9290 	EXP 	question_text: height = np.float64(0.055)
+81.9290 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+81.9290 	EXP 	question_text: autoDraw = True
+81.9290 	EXP 	cue_image: autoDraw = True
+81.9290 	EXP 	cue_label_stim: autoDraw = True
+81.9290 	EXP 	left_image: autoDraw = True
+81.9290 	EXP 	left_label_stim: autoDraw = True
+81.9290 	EXP 	right_image: autoDraw = True
+81.9290 	EXP 	right_label_stim: autoDraw = True
+82.5697 	DATA 	Keypress: 2
+82.5771 	EXP 	Device response: <KeyPress from None: t=82.56888060003985, value=2, duration=None>
+82.5776 	EXP 	New trial (rep=0, index=21): OrderedDict([('cueImage', 'stimuli/brick_trashcan.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_piano.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Trash Can'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Piano'), ('corrLabel', 'Piano')])
+82.5778 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+82.5853 	EXP 	question_text: autoDraw = False
+82.5853 	EXP 	cue_image: autoDraw = False
+82.5853 	EXP 	cue_label_stim: autoDraw = False
+82.5853 	EXP 	left_image: autoDraw = False
+82.5853 	EXP 	left_label_stim: autoDraw = False
+82.5853 	EXP 	right_image: autoDraw = False
+82.5853 	EXP 	right_label_stim: autoDraw = False
+82.5853 	EXP 	fixation: autoDraw = True
+82.7355 	EXP 	Device response: <KeyPress from None: t=77.27771010005381, value=2, duration=5.454135799955111>
+83.5967 	INFO 	Keyboard events cleared
+83.5966 	EXP 	fixation: autoDraw = False
+83.5966 	EXP 	cue_image: image = 'stimuli/brick_trashcan.png'
+83.5966 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+83.5966 	EXP 	right_image: image = 'stimuli/brick_piano.png'
+83.5966 	EXP 	cue_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	cue_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	cue_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	cue_label_stim: text = 'Trash Can'
+83.5966 	EXP 	left_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	left_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	left_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	left_label_stim: text = 'Mailbox'
+83.5966 	EXP 	right_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	right_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	right_label_stim: height = np.float64(0.042)
+83.5966 	EXP 	right_label_stim: text = 'Piano'
+83.5966 	EXP 	question_text: height = np.float64(0.055)
+83.5966 	EXP 	question_text: height = np.float64(0.055)
+83.5966 	EXP 	question_text: height = np.float64(0.055)
+83.5966 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+83.5966 	EXP 	question_text: autoDraw = True
+83.5966 	EXP 	cue_image: autoDraw = True
+83.5966 	EXP 	cue_label_stim: autoDraw = True
+83.5966 	EXP 	left_image: autoDraw = True
+83.5966 	EXP 	left_label_stim: autoDraw = True
+83.5966 	EXP 	right_image: autoDraw = True
+83.5966 	EXP 	right_label_stim: autoDraw = True
+84.8864 	DATA 	Keypress: 2
+84.8943 	EXP 	Device response: <KeyPress from None: t=84.88605070003541, value=2, duration=None>
+84.8949 	EXP 	New trial (rep=0, index=22): OrderedDict([('cueImage', 'stimuli/brick_trashcan.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_bookshelf.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Trash Can'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Bookshelf'), ('corrLabel', 'Bookshelf')])
+84.8951 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+84.9020 	EXP 	question_text: autoDraw = False
+84.9020 	EXP 	cue_image: autoDraw = False
+84.9020 	EXP 	cue_label_stim: autoDraw = False
+84.9020 	EXP 	left_image: autoDraw = False
+84.9020 	EXP 	left_label_stim: autoDraw = False
+84.9020 	EXP 	right_image: autoDraw = False
+84.9020 	EXP 	right_label_stim: autoDraw = False
+84.9020 	EXP 	fixation: autoDraw = True
+85.1702 	EXP 	Device response: <KeyPress from None: t=82.56888060003985, value=2, duration=2.593365899985656>
+85.9116 	INFO 	Keyboard events cleared
+85.9116 	EXP 	fixation: autoDraw = False
+85.9116 	EXP 	cue_image: image = 'stimuli/brick_trashcan.png'
+85.9116 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+85.9116 	EXP 	right_image: image = 'stimuli/brick_bookshelf.png'
+85.9116 	EXP 	cue_label_stim: text = 'Trash Can'
+85.9116 	EXP 	left_label_stim: text = 'Mailbox'
+85.9116 	EXP 	right_label_stim: height = np.float64(0.042)
+85.9116 	EXP 	right_label_stim: height = np.float64(0.042)
+85.9116 	EXP 	right_label_stim: height = np.float64(0.042)
+85.9116 	EXP 	right_label_stim: text = 'Bookshelf'
+85.9116 	EXP 	question_text: height = np.float64(0.055)
+85.9116 	EXP 	question_text: height = np.float64(0.055)
+85.9116 	EXP 	question_text: height = np.float64(0.055)
+85.9116 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+85.9116 	EXP 	question_text: autoDraw = True
+85.9116 	EXP 	cue_image: autoDraw = True
+85.9116 	EXP 	cue_label_stim: autoDraw = True
+85.9116 	EXP 	left_image: autoDraw = True
+85.9116 	EXP 	left_label_stim: autoDraw = True
+85.9116 	EXP 	right_image: autoDraw = True
+85.9116 	EXP 	right_label_stim: autoDraw = True
+87.2305 	DATA 	Keypress: 1
+87.2360 	EXP 	Device response: <KeyPress from None: t=87.22970000002533, value=1, duration=None>
+87.2367 	EXP 	New trial (rep=0, index=23): OrderedDict([('cueImage', 'stimuli/brick_piano.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_bookshelf.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Piano'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Bookshelf'), ('corrLabel', 'Bookshelf')])
+87.2370 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+87.2442 	EXP 	question_text: autoDraw = False
+87.2442 	EXP 	cue_image: autoDraw = False
+87.2442 	EXP 	cue_label_stim: autoDraw = False
+87.2442 	EXP 	left_image: autoDraw = False
+87.2442 	EXP 	left_label_stim: autoDraw = False
+87.2442 	EXP 	right_image: autoDraw = False
+87.2442 	EXP 	right_label_stim: autoDraw = False
+87.2442 	EXP 	fixation: autoDraw = True
+87.4279 	EXP 	Device response: <KeyPress from None: t=87.22970000002533, value=1, duration=0.1907876000041142>
+88.2531 	INFO 	Keyboard events cleared
+88.2530 	EXP 	fixation: autoDraw = False
+88.2530 	EXP 	cue_image: image = 'stimuli/brick_piano.png'
+88.2530 	EXP 	left_image: image = 'stimuli/brick_mailbox.png'
+88.2530 	EXP 	right_image: image = 'stimuli/brick_bookshelf.png'
+88.2530 	EXP 	cue_label_stim: height = np.float64(0.042)
+88.2530 	EXP 	cue_label_stim: height = np.float64(0.042)
+88.2530 	EXP 	cue_label_stim: height = np.float64(0.042)
+88.2530 	EXP 	cue_label_stim: text = 'Piano'
+88.2530 	EXP 	left_label_stim: text = 'Mailbox'
+88.2530 	EXP 	right_label_stim: text = 'Bookshelf'
+88.2530 	EXP 	question_text: height = np.float64(0.055)
+88.2530 	EXP 	question_text: height = np.float64(0.055)
+88.2530 	EXP 	question_text: height = np.float64(0.055)
+88.2530 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+88.2530 	EXP 	question_text: autoDraw = True
+88.2530 	EXP 	cue_image: autoDraw = True
+88.2530 	EXP 	cue_label_stim: autoDraw = True
+88.2530 	EXP 	left_image: autoDraw = True
+88.2530 	EXP 	left_label_stim: autoDraw = True
+88.2530 	EXP 	right_image: autoDraw = True
+88.2530 	EXP 	right_label_stim: autoDraw = True
+91.9373 	EXP 	Device response: <KeyPress from None: t=91.93490230001044, value=2, duration=None>
+91.9979 	DATA 	Keypress: 2
+92.0074 	INFO 	Keyboard events cleared
+92.0073 	EXP 	question_text: autoDraw = False
+92.0073 	EXP 	cue_image: autoDraw = False
+92.0073 	EXP 	cue_label_stim: autoDraw = False
+92.0073 	EXP 	left_image: autoDraw = False
+92.0073 	EXP 	left_label_stim: autoDraw = False
+92.0073 	EXP 	right_image: autoDraw = False
+92.0073 	EXP 	right_label_stim: autoDraw = False
+92.0073 	EXP 	env_label: height = np.float64(0.048)
+92.0073 	EXP 	env_label: height = np.float64(0.048)
+92.0073 	EXP 	env_label: height = np.float64(0.048)
+92.0073 	EXP 	env_label: text = 'Environment: hedge maze'
+92.0073 	EXP 	env_maze_image: image = 'stimuli/hedge_maze.png'
+92.0073 	EXP 	env_label: autoDraw = True
+92.0073 	EXP 	env_maze_image: autoDraw = True
+92.0073 	EXP 	env_advance: autoDraw = True
+92.1783 	EXP 	Device response: <KeyPress from None: t=84.88605070003541, value=2, duration=7.288705600018147>
+98.8720 	DATA 	Keypress: 1
+98.8793 	EXP 	Device response: <KeyPress from None: t=98.87118800001917, value=1, duration=None>
+98.8877 	DEBUG 	Read csv file with pandas: nav_task_practice_hedge.csv
+98.8883 	DEBUG 	Clearing unnamed columns from nav_task_practice_hedge.csv
+98.8888 	EXP 	Imported nav_task_practice_hedge.csv as conditions, 2 conditions, 9 params
+98.8890 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+98.8891 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/maze_compass.png'), ('leftImage', 'stimuli/maze_lampPost.png'), ('rightImage', 'stimuli/maze_snowman.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Compass'), ('leftLabel', 'Lamp Post'), ('rightLabel', 'Snowman'), ('corrLabel', 'Snowman')])
+98.8893 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+98.8917 	EXP 	env_label: autoDraw = False
+98.8917 	EXP 	env_maze_image: autoDraw = False
+98.8917 	EXP 	env_advance: autoDraw = False
+98.8917 	EXP 	fixation: autoDraw = True
+99.1045 	EXP 	Device response: <KeyPress from None: t=98.87118800001917, value=1, duration=0.22865409997757524>
+99.9399 	INFO 	Keyboard events cleared
+99.9399 	EXP 	fixation: autoDraw = False
+99.9399 	EXP 	cue_image: image = 'stimuli/maze_compass.png'
+99.9399 	EXP 	left_image: image = 'stimuli/maze_lampPost.png'
+99.9399 	EXP 	right_image: image = 'stimuli/maze_snowman.png'
+99.9399 	EXP 	cue_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	cue_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	cue_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	cue_label_stim: text = 'Compass'
+99.9399 	EXP 	left_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	left_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	left_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	left_label_stim: text = 'Lamp Post'
+99.9399 	EXP 	right_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	right_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	right_label_stim: height = np.float64(0.042)
+99.9399 	EXP 	right_label_stim: text = 'Snowman'
+99.9399 	EXP 	question_text: height = np.float64(0.055)
+99.9399 	EXP 	question_text: height = np.float64(0.055)
+99.9399 	EXP 	question_text: height = np.float64(0.055)
+99.9399 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+99.9399 	EXP 	question_text: autoDraw = True
+99.9399 	EXP 	cue_image: autoDraw = True
+99.9399 	EXP 	cue_label_stim: autoDraw = True
+99.9399 	EXP 	left_image: autoDraw = True
+99.9399 	EXP 	left_label_stim: autoDraw = True
+99.9399 	EXP 	right_image: autoDraw = True
+99.9399 	EXP 	right_label_stim: autoDraw = True
+101.0961 	EXP 	Device response: <KeyPress from None: t=101.0939213000238, value=2, duration=None>
+101.1020 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+101.1028 	DATA 	Keypress: 2
+101.1076 	EXP 	question_text: autoDraw = False
+101.1076 	EXP 	cue_image: autoDraw = False
+101.1076 	EXP 	cue_label_stim: autoDraw = False
+101.1076 	EXP 	left_image: autoDraw = False
+101.1076 	EXP 	left_label_stim: autoDraw = False
+101.1076 	EXP 	right_image: autoDraw = False
+101.1076 	EXP 	right_label_stim: autoDraw = False
+101.1076 	EXP 	fb_text_right: height = np.float64(0.046)
+101.1076 	EXP 	fb_text_right: height = np.float64(0.046)
+101.1076 	EXP 	fb_text_right: height = np.float64(0.046)
+101.1076 	EXP 	fb_text_right: text = 'Correct answer:\nSnowman'
+101.1076 	EXP 	question_text: autoDraw = True
+101.1076 	EXP 	cue_image: autoDraw = True
+101.1076 	EXP 	cue_label_stim: autoDraw = True
+101.1076 	EXP 	left_image: autoDraw = True
+101.1076 	EXP 	left_label_stim: autoDraw = True
+101.1076 	EXP 	right_image: autoDraw = True
+101.1076 	EXP 	right_label_stim: autoDraw = True
+101.1076 	EXP 	fb_text_right: autoDraw = True
+101.1076 	EXP 	fb_line_right: autoDraw = True
+101.1076 	EXP 	fb_head_right: autoDraw = True
+101.3295 	EXP 	Device response: <KeyPress from None: t=91.93490230001044, value=2, duration=9.387963799992576>
+103.1052 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/maze_compass.png'), ('leftImage', 'stimuli/maze_lampPost.png'), ('rightImage', 'stimuli/maze_snowman.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Compass'), ('leftLabel', 'Lamp Post'), ('rightLabel', 'Snowman'), ('corrLabel', 'Lamp Post')])
+103.1055 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+103.1125 	EXP 	question_text: autoDraw = False
+103.1125 	EXP 	cue_image: autoDraw = False
+103.1125 	EXP 	cue_label_stim: autoDraw = False
+103.1125 	EXP 	left_image: autoDraw = False
+103.1125 	EXP 	left_label_stim: autoDraw = False
+103.1125 	EXP 	right_image: autoDraw = False
+103.1125 	EXP 	right_label_stim: autoDraw = False
+103.1125 	EXP 	fb_text_right: autoDraw = False
+103.1125 	EXP 	fb_line_right: autoDraw = False
+103.1125 	EXP 	fb_head_right: autoDraw = False
+103.1125 	EXP 	fixation: autoDraw = True
+104.1324 	INFO 	Keyboard events cleared
+104.1323 	EXP 	fixation: autoDraw = False
+104.1323 	EXP 	cue_image: image = 'stimuli/maze_compass.png'
+104.1323 	EXP 	left_image: image = 'stimuli/maze_lampPost.png'
+104.1323 	EXP 	right_image: image = 'stimuli/maze_snowman.png'
+104.1323 	EXP 	cue_label_stim: text = 'Compass'
+104.1323 	EXP 	left_label_stim: text = 'Lamp Post'
+104.1323 	EXP 	right_label_stim: text = 'Snowman'
+104.1323 	EXP 	question_text: height = np.float64(0.055)
+104.1323 	EXP 	question_text: height = np.float64(0.055)
+104.1323 	EXP 	question_text: height = np.float64(0.055)
+104.1323 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+104.1323 	EXP 	question_text: autoDraw = True
+104.1323 	EXP 	cue_image: autoDraw = True
+104.1323 	EXP 	cue_label_stim: autoDraw = True
+104.1323 	EXP 	left_image: autoDraw = True
+104.1323 	EXP 	left_label_stim: autoDraw = True
+104.1323 	EXP 	right_image: autoDraw = True
+104.1323 	EXP 	right_label_stim: autoDraw = True
+107.3732 	DATA 	Keypress: 1
+107.3801 	EXP 	Device response: <KeyPress from None: t=107.37197040003957, value=1, duration=None>
+107.3826 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+107.3879 	EXP 	question_text: autoDraw = False
+107.3879 	EXP 	cue_image: autoDraw = False
+107.3879 	EXP 	cue_label_stim: autoDraw = False
+107.3879 	EXP 	left_image: autoDraw = False
+107.3879 	EXP 	left_label_stim: autoDraw = False
+107.3879 	EXP 	right_image: autoDraw = False
+107.3879 	EXP 	right_label_stim: autoDraw = False
+107.3879 	EXP 	fb_text_left: height = np.float64(0.046)
+107.3879 	EXP 	fb_text_left: height = np.float64(0.046)
+107.3879 	EXP 	fb_text_left: height = np.float64(0.046)
+107.3879 	EXP 	fb_text_left: text = 'Correct answer:\nLamp Post'
+107.3879 	EXP 	question_text: autoDraw = True
+107.3879 	EXP 	cue_image: autoDraw = True
+107.3879 	EXP 	cue_label_stim: autoDraw = True
+107.3879 	EXP 	left_image: autoDraw = True
+107.3879 	EXP 	left_label_stim: autoDraw = True
+107.3879 	EXP 	right_image: autoDraw = True
+107.3879 	EXP 	right_label_stim: autoDraw = True
+107.3879 	EXP 	fb_text_left: autoDraw = True
+107.3879 	EXP 	fb_line_left: autoDraw = True
+107.3879 	EXP 	fb_head_left: autoDraw = True
+107.5801 	EXP 	Device response: <KeyPress from None: t=107.37197040003957, value=1, duration=0.20678199996473268>
+109.3895 	INFO 	Keyboard events cleared
+109.4322 	DEBUG 	Read csv file with pandas: nav_task_conditions.csv
+109.4327 	DEBUG 	Clearing unnamed columns from nav_task_conditions.csv
+109.4333 	EXP 	Imported nav_task_conditions.csv as conditions, 16 conditions, 9 params
+109.4335 	EXP 	Created sequence: random, trialTypes=16, nReps=1, seed=None
+109.4337 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/maze_compass.png'), ('leftImage', 'stimuli/maze_snowman.png'), ('rightImage', 'stimuli/maze_chair.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Compass'), ('leftLabel', 'Snowman'), ('rightLabel', 'Chair'), ('corrLabel', 'Snowman')])
+109.4339 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+109.4356 	EXP 	question_text: autoDraw = False
+109.4356 	EXP 	cue_image: autoDraw = False
+109.4356 	EXP 	cue_label_stim: autoDraw = False
+109.4356 	EXP 	left_image: autoDraw = False
+109.4356 	EXP 	left_label_stim: autoDraw = False
+109.4356 	EXP 	right_image: autoDraw = False
+109.4356 	EXP 	right_label_stim: autoDraw = False
+109.4356 	EXP 	fb_text_left: autoDraw = False
+109.4356 	EXP 	fb_line_left: autoDraw = False
+109.4356 	EXP 	fb_head_left: autoDraw = False
+109.4356 	EXP 	fixation: autoDraw = True
+110.4661 	INFO 	Keyboard events cleared
+110.4661 	EXP 	fixation: autoDraw = False
+110.4661 	EXP 	cue_image: image = 'stimuli/maze_compass.png'
+110.4661 	EXP 	left_image: image = 'stimuli/maze_snowman.png'
+110.4661 	EXP 	right_image: image = 'stimuli/maze_chair.png'
+110.4661 	EXP 	cue_label_stim: text = 'Compass'
+110.4661 	EXP 	left_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	left_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	left_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	left_label_stim: text = 'Snowman'
+110.4661 	EXP 	right_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	right_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	right_label_stim: height = np.float64(0.042)
+110.4661 	EXP 	right_label_stim: text = 'Chair'
+110.4661 	EXP 	question_text: height = np.float64(0.055)
+110.4661 	EXP 	question_text: height = np.float64(0.055)
+110.4661 	EXP 	question_text: height = np.float64(0.055)
+110.4661 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+110.4661 	EXP 	question_text: autoDraw = True
+110.4661 	EXP 	cue_image: autoDraw = True
+110.4661 	EXP 	cue_label_stim: autoDraw = True
+110.4661 	EXP 	left_image: autoDraw = True
+110.4661 	EXP 	left_label_stim: autoDraw = True
+110.4661 	EXP 	right_image: autoDraw = True
+110.4661 	EXP 	right_label_stim: autoDraw = True
+120.4662 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/maze_guitar.png'), ('leftImage', 'stimuli/maze_clock.png'), ('rightImage', 'stimuli/maze_umbrella.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Guitar'), ('leftLabel', 'Clock'), ('rightLabel', 'Umbrella'), ('corrLabel', 'Umbrella')])
+120.4665 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+120.4731 	EXP 	question_text: autoDraw = False
+120.4731 	EXP 	cue_image: autoDraw = False
+120.4731 	EXP 	cue_label_stim: autoDraw = False
+120.4731 	EXP 	left_image: autoDraw = False
+120.4731 	EXP 	left_label_stim: autoDraw = False
+120.4731 	EXP 	right_image: autoDraw = False
+120.4731 	EXP 	right_label_stim: autoDraw = False
+120.4731 	EXP 	fixation: autoDraw = True
+121.5089 	INFO 	Keyboard events cleared
+121.5088 	EXP 	fixation: autoDraw = False
+121.5088 	EXP 	cue_image: image = 'stimuli/maze_guitar.png'
+121.5088 	EXP 	left_image: image = 'stimuli/maze_clock.png'
+121.5088 	EXP 	right_image: image = 'stimuli/maze_umbrella.png'
+121.5088 	EXP 	cue_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	cue_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	cue_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	cue_label_stim: text = 'Guitar'
+121.5088 	EXP 	left_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	left_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	left_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	left_label_stim: text = 'Clock'
+121.5088 	EXP 	right_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	right_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	right_label_stim: height = np.float64(0.042)
+121.5088 	EXP 	right_label_stim: text = 'Umbrella'
+121.5088 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+121.5088 	EXP 	question_text: autoDraw = True
+121.5088 	EXP 	cue_image: autoDraw = True
+121.5088 	EXP 	cue_label_stim: autoDraw = True
+121.5088 	EXP 	left_image: autoDraw = True
+121.5088 	EXP 	left_label_stim: autoDraw = True
+121.5088 	EXP 	right_image: autoDraw = True
+121.5088 	EXP 	right_label_stim: autoDraw = True
+121.8736 	EXP 	Device response: <KeyPress from None: t=121.87199549999787, value=1, duration=None>
+121.8746 	EXP 	New trial (rep=0, index=2): OrderedDict([('cueImage', 'stimuli/maze_compass.png'), ('leftImage', 'stimuli/maze_umbrella.png'), ('rightImage', 'stimuli/maze_lampPost.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Compass'), ('leftLabel', 'Umbrella'), ('rightLabel', 'Lamp Post'), ('corrLabel', 'Umbrella')])
+121.8749 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+121.8755 	DATA 	Keypress: 1
+121.8818 	EXP 	question_text: autoDraw = False
+121.8818 	EXP 	cue_image: autoDraw = False
+121.8818 	EXP 	cue_label_stim: autoDraw = False
+121.8818 	EXP 	left_image: autoDraw = False
+121.8818 	EXP 	left_label_stim: autoDraw = False
+121.8818 	EXP 	right_image: autoDraw = False
+121.8818 	EXP 	right_label_stim: autoDraw = False
+121.8818 	EXP 	fixation: autoDraw = True
+122.0902 	EXP 	Device response: <KeyPress from None: t=121.87199549999787, value=1, duration=0.2110918000107631>
+122.4571 	EXP 	Device response: <KeyPress from None: t=122.45186200004537, value=2, duration=None>
+122.4575 	DATA 	Keypress: 2
+122.6235 	EXP 	Device response: <KeyPress from None: t=101.0939213000238, value=2, duration=21.52350770001067>
+122.7737 	EXP 	Device response: <KeyPress from None: t=122.77079130004859, value=2, duration=None>
+122.7743 	DATA 	Keypress: 2
+122.9028 	INFO 	Keyboard events cleared
+122.9027 	EXP 	fixation: autoDraw = False
+122.9027 	EXP 	cue_image: image = 'stimuli/maze_compass.png'
+122.9027 	EXP 	left_image: image = 'stimuli/maze_umbrella.png'
+122.9027 	EXP 	right_image: image = 'stimuli/maze_lampPost.png'
+122.9027 	EXP 	cue_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	cue_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	cue_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	cue_label_stim: text = 'Compass'
+122.9027 	EXP 	left_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	left_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	left_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	left_label_stim: text = 'Umbrella'
+122.9027 	EXP 	right_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	right_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	right_label_stim: height = np.float64(0.042)
+122.9027 	EXP 	right_label_stim: text = 'Lamp Post'
+122.9027 	EXP 	question_text: height = np.float64(0.055)
+122.9027 	EXP 	question_text: height = np.float64(0.055)
+122.9027 	EXP 	question_text: height = np.float64(0.055)
+122.9027 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+122.9027 	EXP 	question_text: autoDraw = True
+122.9027 	EXP 	cue_image: autoDraw = True
+122.9027 	EXP 	cue_label_stim: autoDraw = True
+122.9027 	EXP 	left_image: autoDraw = True
+122.9027 	EXP 	left_label_stim: autoDraw = True
+122.9027 	EXP 	right_image: autoDraw = True
+122.9027 	EXP 	right_label_stim: autoDraw = True
+122.9069 	EXP 	Device response: <KeyPress from None: t=122.45186200004537, value=2, duration=0.4512480999692343>
+123.0489 	EXP 	Device response: <KeyPress from None: t=123.04468040005304, value=1, duration=None>
+123.0496 	EXP 	New trial (rep=0, index=3): OrderedDict([('cueImage', 'stimuli/maze_snowman.png'), ('leftImage', 'stimuli/maze_chair.png'), ('rightImage', 'stimuli/maze_compass.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Snowman'), ('leftLabel', 'Chair'), ('rightLabel', 'Compass'), ('corrLabel', 'Compass')])
+123.0498 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+123.0504 	DATA 	Keypress: 1
+123.0568 	EXP 	question_text: autoDraw = False
+123.0568 	EXP 	cue_image: autoDraw = False
+123.0568 	EXP 	cue_label_stim: autoDraw = False
+123.0568 	EXP 	left_image: autoDraw = False
+123.0568 	EXP 	left_label_stim: autoDraw = False
+123.0568 	EXP 	right_image: autoDraw = False
+123.0568 	EXP 	right_label_stim: autoDraw = False
+123.0568 	EXP 	fixation: autoDraw = True
+123.1902 	EXP 	Device response: <KeyPress from None: t=123.04468040005304, value=1, duration=0.1441810999531299>
+123.2991 	EXP 	Device response: <KeyPress from None: t=123.29832300002454, value=1, duration=None>
+123.2998 	DATA 	Keypress: 1
+123.4403 	EXP 	Device response: <KeyPress from None: t=123.29832300002454, value=1, duration=0.1356180000002496>
+123.5654 	EXP 	Device response: <KeyPress from None: t=123.56274080002913, value=1, duration=None>
+123.5659 	DATA 	Keypress: 1
+123.6992 	EXP 	Device response: <KeyPress from None: t=123.56274080002913, value=1, duration=0.1293537999736145>
+123.8321 	EXP 	Device response: <KeyPress from None: t=123.82511580002028, value=1, duration=None>
+123.8327 	DATA 	Keypress: 1
+123.9489 	EXP 	Device response: <KeyPress from None: t=123.82511580002028, value=1, duration=0.11578100000042468>
+124.0644 	EXP 	Device response: <KeyPress from None: t=124.05603360000532, value=1, duration=None>
+124.0656 	DATA 	Keypress: 1
+124.0681 	INFO 	Keyboard events cleared
+124.0681 	EXP 	fixation: autoDraw = False
+124.0681 	EXP 	cue_image: image = 'stimuli/maze_snowman.png'
+124.0681 	EXP 	left_image: image = 'stimuli/maze_chair.png'
+124.0681 	EXP 	right_image: image = 'stimuli/maze_compass.png'
+124.0681 	EXP 	cue_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	cue_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	cue_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	cue_label_stim: text = 'Snowman'
+124.0681 	EXP 	left_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	left_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	left_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	left_label_stim: text = 'Chair'
+124.0681 	EXP 	right_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	right_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	right_label_stim: height = np.float64(0.042)
+124.0681 	EXP 	right_label_stim: text = 'Compass'
+124.0681 	EXP 	question_text: height = np.float64(0.055)
+124.0681 	EXP 	question_text: height = np.float64(0.055)
+124.0681 	EXP 	question_text: height = np.float64(0.055)
+124.0681 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+124.0681 	EXP 	question_text: autoDraw = True
+124.0681 	EXP 	cue_image: autoDraw = True
+124.0681 	EXP 	cue_label_stim: autoDraw = True
+124.0681 	EXP 	left_image: autoDraw = True
+124.0681 	EXP 	left_label_stim: autoDraw = True
+124.0681 	EXP 	right_image: autoDraw = True
+124.0681 	EXP 	right_label_stim: autoDraw = True
+124.1572 	EXP 	Device response: <KeyPress from None: t=124.05603360000532, value=1, duration=0.09406380000291392>
+124.2655 	EXP 	Device response: <KeyPress from None: t=124.26380930002779, value=1, duration=None>
+124.2662 	EXP 	New trial (rep=0, index=4): OrderedDict([('cueImage', 'stimuli/maze_lampPost.png'), ('leftImage', 'stimuli/maze_shuttle.png'), ('rightImage', 'stimuli/maze_snowman.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Lamp Post'), ('leftLabel', 'Space Shuttle'), ('rightLabel', 'Snowman'), ('corrLabel', 'Space Shuttle')])
+124.2665 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+124.2668 	DATA 	Keypress: 1
+124.2736 	EXP 	question_text: autoDraw = False
+124.2736 	EXP 	cue_image: autoDraw = False
+124.2736 	EXP 	cue_label_stim: autoDraw = False
+124.2736 	EXP 	left_image: autoDraw = False
+124.2736 	EXP 	left_label_stim: autoDraw = False
+124.2736 	EXP 	right_image: autoDraw = False
+124.2736 	EXP 	right_label_stim: autoDraw = False
+124.2736 	EXP 	fixation: autoDraw = True
+124.3822 	EXP 	Device response: <KeyPress from None: t=124.26380930002779, value=1, duration=0.11695080000208691>
+124.4996 	EXP 	Device response: <KeyPress from None: t=124.49545440002112, value=1, duration=None>
+124.5003 	DATA 	Keypress: 1
+124.6156 	EXP 	Device response: <KeyPress from None: t=124.49545440002112, value=1, duration=0.11471380002330989>
+124.7408 	EXP 	Device response: <KeyPress from None: t=124.73623960005352, value=1, duration=None>
+124.7413 	DATA 	Keypress: 1
+124.8493 	EXP 	Device response: <KeyPress from None: t=124.73623960005352, value=1, duration=0.10997409996343777>
+124.9738 	EXP 	Device response: <KeyPress from None: t=124.96969970001373, value=1, duration=None>
+124.9741 	DATA 	Keypress: 1
+125.0746 	EXP 	Device response: <KeyPress from None: t=124.96969970001373, value=1, duration=0.09812460001558065>
+125.2071 	EXP 	Device response: <KeyPress from None: t=125.20100300002377, value=1, duration=None>
+125.2075 	DATA 	Keypress: 1
+125.3053 	INFO 	Keyboard events cleared
+125.3052 	EXP 	fixation: autoDraw = False
+125.3052 	EXP 	cue_image: image = 'stimuli/maze_lampPost.png'
+125.3052 	EXP 	left_image: image = 'stimuli/maze_shuttle.png'
+125.3052 	EXP 	right_image: image = 'stimuli/maze_snowman.png'
+125.3052 	EXP 	cue_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	cue_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	cue_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	cue_label_stim: text = 'Lamp Post'
+125.3052 	EXP 	left_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	left_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	left_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	left_label_stim: text = 'Space Shuttle'
+125.3052 	EXP 	right_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	right_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	right_label_stim: height = np.float64(0.042)
+125.3052 	EXP 	right_label_stim: text = 'Snowman'
+125.3052 	EXP 	question_text: height = np.float64(0.055)
+125.3052 	EXP 	question_text: height = np.float64(0.055)
+125.3052 	EXP 	question_text: height = np.float64(0.055)
+125.3052 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+125.3052 	EXP 	question_text: autoDraw = True
+125.3052 	EXP 	cue_image: autoDraw = True
+125.3052 	EXP 	cue_label_stim: autoDraw = True
+125.3052 	EXP 	left_image: autoDraw = True
+125.3052 	EXP 	left_label_stim: autoDraw = True
+125.3052 	EXP 	right_image: autoDraw = True
+125.3052 	EXP 	right_label_stim: autoDraw = True
+125.3158 	EXP 	Device response: <KeyPress from None: t=125.20100300002377, value=1, duration=0.11286430002655834>
+125.4497 	EXP 	Device response: <KeyPress from None: t=125.44269690004876, value=1, duration=None>
+125.4504 	EXP 	New trial (rep=0, index=5): OrderedDict([('cueImage', 'stimuli/maze_clock.png'), ('leftImage', 'stimuli/maze_compass.png'), ('rightImage', 'stimuli/maze_guitar.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Clock'), ('leftLabel', 'Compass'), ('rightLabel', 'Guitar'), ('corrLabel', 'Compass')])
+125.4507 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+125.4512 	DATA 	Keypress: 1
+125.4573 	EXP 	question_text: autoDraw = False
+125.4573 	EXP 	cue_image: autoDraw = False
+125.4573 	EXP 	cue_label_stim: autoDraw = False
+125.4573 	EXP 	left_image: autoDraw = False
+125.4573 	EXP 	left_label_stim: autoDraw = False
+125.4573 	EXP 	right_image: autoDraw = False
+125.4573 	EXP 	right_label_stim: autoDraw = False
+125.4573 	EXP 	fixation: autoDraw = True
+125.5574 	EXP 	Device response: <KeyPress from None: t=125.44269690004876, value=1, duration=0.1075561000034213>
+125.6692 	DATA 	Keypress: 1
+125.6744 	EXP 	Device response: <KeyPress from None: t=125.66797810001299, value=1, duration=None>
+125.7658 	EXP 	Device response: <KeyPress from None: t=125.66797810001299, value=1, duration=0.09179239999502897>
+125.8738 	EXP 	Device response: <KeyPress from None: t=125.86871880001854, value=1, duration=None>
+125.8744 	DATA 	Keypress: 1
+126.0166 	EXP 	Device response: <KeyPress from None: t=125.86871880001854, value=1, duration=0.14626970002427697>
+126.4730 	INFO 	Keyboard events cleared
+126.4729 	EXP 	fixation: autoDraw = False
+126.4729 	EXP 	cue_image: image = 'stimuli/maze_clock.png'
+126.4729 	EXP 	left_image: image = 'stimuli/maze_compass.png'
+126.4729 	EXP 	right_image: image = 'stimuli/maze_guitar.png'
+126.4729 	EXP 	cue_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	cue_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	cue_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	cue_label_stim: text = 'Clock'
+126.4729 	EXP 	left_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	left_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	left_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	left_label_stim: text = 'Compass'
+126.4729 	EXP 	right_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	right_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	right_label_stim: height = np.float64(0.042)
+126.4729 	EXP 	right_label_stim: text = 'Guitar'
+126.4729 	EXP 	question_text: height = np.float64(0.055)
+126.4729 	EXP 	question_text: height = np.float64(0.055)
+126.4729 	EXP 	question_text: height = np.float64(0.055)
+126.4729 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+126.4729 	EXP 	question_text: autoDraw = True
+126.4729 	EXP 	cue_image: autoDraw = True
+126.4729 	EXP 	cue_label_stim: autoDraw = True
+126.4729 	EXP 	left_image: autoDraw = True
+126.4729 	EXP 	left_label_stim: autoDraw = True
+126.4729 	EXP 	right_image: autoDraw = True
+126.4729 	EXP 	right_label_stim: autoDraw = True
+126.7075 	EXP 	Device response: <KeyPress from None: t=126.70231900003273, value=1, duration=None>
+126.7080 	EXP 	New trial (rep=0, index=6): OrderedDict([('cueImage', 'stimuli/maze_shuttle.png'), ('leftImage', 'stimuli/maze_lampPost.png'), ('rightImage', 'stimuli/maze_clock.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Space Shuttle'), ('leftLabel', 'Lamp Post'), ('rightLabel', 'Clock'), ('corrLabel', 'Lamp Post')])
+126.7082 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+126.7087 	DATA 	Keypress: 1
+126.7158 	EXP 	question_text: autoDraw = False
+126.7158 	EXP 	cue_image: autoDraw = False
+126.7158 	EXP 	cue_label_stim: autoDraw = False
+126.7158 	EXP 	left_image: autoDraw = False
+126.7158 	EXP 	left_label_stim: autoDraw = False
+126.7158 	EXP 	right_image: autoDraw = False
+126.7158 	EXP 	right_label_stim: autoDraw = False
+126.7158 	EXP 	fixation: autoDraw = True
+126.8909 	EXP 	Device response: <KeyPress from None: t=126.70231900003273, value=1, duration=0.18244429997866973>
+127.4657 	EXP 	Device response: <KeyPress from None: t=127.46274930000072, value=1, duration=None>
+127.4664 	DATA 	Keypress: 1
+127.6328 	EXP 	Device response: <KeyPress from None: t=127.46274930000072, value=1, duration=0.16478160000406206>
+127.7368 	INFO 	Keyboard events cleared
+127.7367 	EXP 	fixation: autoDraw = False
+127.7367 	EXP 	cue_image: image = 'stimuli/maze_shuttle.png'
+127.7367 	EXP 	left_image: image = 'stimuli/maze_lampPost.png'
+127.7367 	EXP 	right_image: image = 'stimuli/maze_clock.png'
+127.7367 	EXP 	cue_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	cue_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	cue_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	cue_label_stim: text = 'Space Shuttle'
+127.7367 	EXP 	left_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	left_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	left_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	left_label_stim: text = 'Lamp Post'
+127.7367 	EXP 	right_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	right_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	right_label_stim: height = np.float64(0.042)
+127.7367 	EXP 	right_label_stim: text = 'Clock'
+127.7367 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+127.7367 	EXP 	question_text: autoDraw = True
+127.7367 	EXP 	cue_image: autoDraw = True
+127.7367 	EXP 	cue_label_stim: autoDraw = True
+127.7367 	EXP 	left_image: autoDraw = True
+127.7367 	EXP 	left_label_stim: autoDraw = True
+127.7367 	EXP 	right_image: autoDraw = True
+127.7367 	EXP 	right_label_stim: autoDraw = True
+127.8992 	EXP 	Device response: <KeyPress from None: t=127.89702580001904, value=1, duration=None>
+127.8999 	EXP 	New trial (rep=0, index=7): OrderedDict([('cueImage', 'stimuli/maze_guitar.png'), ('leftImage', 'stimuli/maze_umbrella.png'), ('rightImage', 'stimuli/maze_clock.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Guitar'), ('leftLabel', 'Umbrella'), ('rightLabel', 'Clock'), ('corrLabel', 'Umbrella')])
+127.9001 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+127.9007 	DATA 	Keypress: 1
+127.9075 	EXP 	question_text: autoDraw = False
+127.9075 	EXP 	cue_image: autoDraw = False
+127.9075 	EXP 	cue_label_stim: autoDraw = False
+127.9075 	EXP 	left_image: autoDraw = False
+127.9075 	EXP 	left_label_stim: autoDraw = False
+127.9075 	EXP 	right_image: autoDraw = False
+127.9075 	EXP 	right_label_stim: autoDraw = False
+127.9075 	EXP 	fixation: autoDraw = True
+128.0407 	EXP 	Device response: <KeyPress from None: t=127.89702580001904, value=1, duration=0.14270339999347925>
+128.9227 	EXP 	Device response: <KeyPress from None: t=128.90792100003455, value=1, duration=None>
+128.9238 	DATA 	Keypress: 1
+128.9267 	INFO 	Keyboard events cleared
+128.9265 	EXP 	fixation: autoDraw = False
+128.9265 	EXP 	cue_image: image = 'stimuli/maze_guitar.png'
+128.9265 	EXP 	left_image: image = 'stimuli/maze_umbrella.png'
+128.9265 	EXP 	right_image: image = 'stimuli/maze_clock.png'
+128.9265 	EXP 	cue_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	cue_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	cue_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	cue_label_stim: text = 'Guitar'
+128.9265 	EXP 	left_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	left_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	left_label_stim: height = np.float64(0.042)
+128.9265 	EXP 	left_label_stim: text = 'Umbrella'
+128.9265 	EXP 	right_label_stim: text = 'Clock'
+128.9265 	EXP 	question_text: height = np.float64(0.055)
+128.9265 	EXP 	question_text: height = np.float64(0.055)
+128.9265 	EXP 	question_text: height = np.float64(0.055)
+128.9265 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+128.9265 	EXP 	question_text: autoDraw = True
+128.9265 	EXP 	cue_image: autoDraw = True
+128.9265 	EXP 	cue_label_stim: autoDraw = True
+128.9265 	EXP 	left_image: autoDraw = True
+128.9265 	EXP 	left_label_stim: autoDraw = True
+128.9265 	EXP 	right_image: autoDraw = True
+128.9265 	EXP 	right_label_stim: autoDraw = True
+128.9827 	EXP 	Device response: <KeyPress from None: t=128.90792100003455, value=1, duration=0.07284799998160452>
+129.2515 	EXP 	Device response: <KeyPress from None: t=129.24651590001304, value=1, duration=None>
+129.2521 	EXP 	New trial (rep=0, index=8): OrderedDict([('cueImage', 'stimuli/maze_chair.png'), ('leftImage', 'stimuli/maze_clock.png'), ('rightImage', 'stimuli/maze_guitar.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Chair'), ('leftLabel', 'Clock'), ('rightLabel', 'Guitar'), ('corrLabel', 'Clock')])
+129.2523 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+129.2528 	DATA 	Keypress: 1
+129.2575 	EXP 	question_text: autoDraw = False
+129.2575 	EXP 	cue_image: autoDraw = False
+129.2575 	EXP 	cue_label_stim: autoDraw = False
+129.2575 	EXP 	left_image: autoDraw = False
+129.2575 	EXP 	left_label_stim: autoDraw = False
+129.2575 	EXP 	right_image: autoDraw = False
+129.2575 	EXP 	right_label_stim: autoDraw = False
+129.2575 	EXP 	fixation: autoDraw = True
+129.3501 	EXP 	Device response: <KeyPress from None: t=129.24651590001304, value=1, duration=0.09924409998347983>
+130.2766 	INFO 	Keyboard events cleared
+130.2765 	EXP 	fixation: autoDraw = False
+130.2765 	EXP 	cue_image: image = 'stimuli/maze_chair.png'
+130.2765 	EXP 	left_image: image = 'stimuli/maze_clock.png'
+130.2765 	EXP 	right_image: image = 'stimuli/maze_guitar.png'
+130.2765 	EXP 	cue_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	cue_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	cue_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	cue_label_stim: text = 'Chair'
+130.2765 	EXP 	left_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	left_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	left_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	left_label_stim: text = 'Clock'
+130.2765 	EXP 	right_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	right_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	right_label_stim: height = np.float64(0.042)
+130.2765 	EXP 	right_label_stim: text = 'Guitar'
+130.2765 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+130.2765 	EXP 	question_text: autoDraw = True
+130.2765 	EXP 	cue_image: autoDraw = True
+130.2765 	EXP 	cue_label_stim: autoDraw = True
+130.2765 	EXP 	left_image: autoDraw = True
+130.2765 	EXP 	left_label_stim: autoDraw = True
+130.2765 	EXP 	right_image: autoDraw = True
+130.2765 	EXP 	right_label_stim: autoDraw = True
+130.5832 	EXP 	Device response: <KeyPress from None: t=130.58020970004145, value=1, duration=None>
+130.5840 	EXP 	New trial (rep=0, index=9): OrderedDict([('cueImage', 'stimuli/maze_umbrella.png'), ('leftImage', 'stimuli/maze_guitar.png'), ('rightImage', 'stimuli/maze_clock.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Umbrella'), ('leftLabel', 'Guitar'), ('rightLabel', 'Clock'), ('corrLabel', 'Guitar')])
+130.5847 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+130.5853 	DATA 	Keypress: 1
+130.5911 	EXP 	question_text: autoDraw = False
+130.5911 	EXP 	cue_image: autoDraw = False
+130.5911 	EXP 	cue_label_stim: autoDraw = False
+130.5911 	EXP 	left_image: autoDraw = False
+130.5911 	EXP 	left_label_stim: autoDraw = False
+130.5911 	EXP 	right_image: autoDraw = False
+130.5911 	EXP 	right_label_stim: autoDraw = False
+130.5911 	EXP 	fixation: autoDraw = True
+130.7329 	EXP 	Device response: <KeyPress from None: t=130.58020970004145, value=1, duration=0.1496466000098735>
+131.6104 	INFO 	Keyboard events cleared
+131.6103 	EXP 	fixation: autoDraw = False
+131.6103 	EXP 	cue_image: image = 'stimuli/maze_umbrella.png'
+131.6103 	EXP 	left_image: image = 'stimuli/maze_guitar.png'
+131.6103 	EXP 	right_image: image = 'stimuli/maze_clock.png'
+131.6103 	EXP 	cue_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	cue_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	cue_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	cue_label_stim: text = 'Umbrella'
+131.6103 	EXP 	left_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	left_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	left_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	left_label_stim: text = 'Guitar'
+131.6103 	EXP 	right_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	right_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	right_label_stim: height = np.float64(0.042)
+131.6103 	EXP 	right_label_stim: text = 'Clock'
+131.6103 	EXP 	question_text: height = np.float64(0.055)
+131.6103 	EXP 	question_text: height = np.float64(0.055)
+131.6103 	EXP 	question_text: height = np.float64(0.055)
+131.6103 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+131.6103 	EXP 	question_text: autoDraw = True
+131.6103 	EXP 	cue_image: autoDraw = True
+131.6103 	EXP 	cue_label_stim: autoDraw = True
+131.6103 	EXP 	left_image: autoDraw = True
+131.6103 	EXP 	left_label_stim: autoDraw = True
+131.6103 	EXP 	right_image: autoDraw = True
+131.6103 	EXP 	right_label_stim: autoDraw = True
+132.5417 	EXP 	Device response: <KeyPress from None: t=132.5388576000114, value=1, duration=None>
+132.5423 	EXP 	New trial (rep=0, index=10): OrderedDict([('cueImage', 'stimuli/maze_lampPost.png'), ('leftImage', 'stimuli/maze_snowman.png'), ('rightImage', 'stimuli/maze_shuttle.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Lamp Post'), ('leftLabel', 'Snowman'), ('rightLabel', 'Space Shuttle'), ('corrLabel', 'Space Shuttle')])
+132.5425 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+132.5430 	DATA 	Keypress: 1
+132.5494 	EXP 	question_text: autoDraw = False
+132.5494 	EXP 	cue_image: autoDraw = False
+132.5494 	EXP 	cue_label_stim: autoDraw = False
+132.5494 	EXP 	left_image: autoDraw = False
+132.5494 	EXP 	left_label_stim: autoDraw = False
+132.5494 	EXP 	right_image: autoDraw = False
+132.5494 	EXP 	right_label_stim: autoDraw = False
+132.5494 	EXP 	fixation: autoDraw = True
+132.7334 	EXP 	Device response: <KeyPress from None: t=132.5388576000114, value=1, duration=0.19018440000945702>
+133.5710 	INFO 	Keyboard events cleared
+133.5710 	EXP 	fixation: autoDraw = False
+133.5710 	EXP 	cue_image: image = 'stimuli/maze_lampPost.png'
+133.5710 	EXP 	left_image: image = 'stimuli/maze_snowman.png'
+133.5710 	EXP 	right_image: image = 'stimuli/maze_shuttle.png'
+133.5710 	EXP 	cue_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	cue_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	cue_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	cue_label_stim: text = 'Lamp Post'
+133.5710 	EXP 	left_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	left_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	left_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	left_label_stim: text = 'Snowman'
+133.5710 	EXP 	right_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	right_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	right_label_stim: height = np.float64(0.042)
+133.5710 	EXP 	right_label_stim: text = 'Space Shuttle'
+133.5710 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+133.5710 	EXP 	question_text: autoDraw = True
+133.5710 	EXP 	cue_image: autoDraw = True
+133.5710 	EXP 	cue_label_stim: autoDraw = True
+133.5710 	EXP 	left_image: autoDraw = True
+133.5710 	EXP 	left_label_stim: autoDraw = True
+133.5710 	EXP 	right_image: autoDraw = True
+133.5710 	EXP 	right_label_stim: autoDraw = True
+134.0582 	EXP 	Device response: <KeyPress from None: t=134.0549325000029, value=1, duration=None>
+134.0588 	EXP 	New trial (rep=0, index=11): OrderedDict([('cueImage', 'stimuli/maze_shuttle.png'), ('leftImage', 'stimuli/maze_umbrella.png'), ('rightImage', 'stimuli/maze_snowman.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Space Shuttle'), ('leftLabel', 'Umbrella'), ('rightLabel', 'Snowman'), ('corrLabel', 'Umbrella')])
+134.0592 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+134.0599 	DATA 	Keypress: 1
+134.0664 	EXP 	question_text: autoDraw = False
+134.0664 	EXP 	cue_image: autoDraw = False
+134.0664 	EXP 	cue_label_stim: autoDraw = False
+134.0664 	EXP 	left_image: autoDraw = False
+134.0664 	EXP 	left_label_stim: autoDraw = False
+134.0664 	EXP 	right_image: autoDraw = False
+134.0664 	EXP 	right_label_stim: autoDraw = False
+134.0664 	EXP 	fixation: autoDraw = True
+134.2085 	EXP 	Device response: <KeyPress from None: t=134.0549325000029, value=1, duration=0.14984050003113225>
+134.8675 	DATA 	Keypress: 1
+134.8751 	EXP 	Device response: <KeyPress from None: t=134.86708260001615, value=1, duration=None>
+135.0171 	EXP 	Device response: <KeyPress from None: t=134.86708260001615, value=1, duration=0.14702410000609234>
+135.0922 	INFO 	Keyboard events cleared
+135.0921 	EXP 	fixation: autoDraw = False
+135.0921 	EXP 	cue_image: image = 'stimuli/maze_shuttle.png'
+135.0921 	EXP 	left_image: image = 'stimuli/maze_umbrella.png'
+135.0921 	EXP 	right_image: image = 'stimuli/maze_snowman.png'
+135.0921 	EXP 	cue_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	cue_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	cue_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	cue_label_stim: text = 'Space Shuttle'
+135.0921 	EXP 	left_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	left_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	left_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	left_label_stim: text = 'Umbrella'
+135.0921 	EXP 	right_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	right_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	right_label_stim: height = np.float64(0.042)
+135.0921 	EXP 	right_label_stim: text = 'Snowman'
+135.0921 	EXP 	question_text: height = np.float64(0.055)
+135.0921 	EXP 	question_text: height = np.float64(0.055)
+135.0921 	EXP 	question_text: height = np.float64(0.055)
+135.0921 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+135.0921 	EXP 	question_text: autoDraw = True
+135.0921 	EXP 	cue_image: autoDraw = True
+135.0921 	EXP 	cue_label_stim: autoDraw = True
+135.0921 	EXP 	left_image: autoDraw = True
+135.0921 	EXP 	left_label_stim: autoDraw = True
+135.0921 	EXP 	right_image: autoDraw = True
+135.0921 	EXP 	right_label_stim: autoDraw = True
+135.4750 	EXP 	Device response: <KeyPress from None: t=135.47388740000315, value=1, duration=None>
+135.4754 	EXP 	New trial (rep=0, index=12): OrderedDict([('cueImage', 'stimuli/maze_umbrella.png'), ('leftImage', 'stimuli/maze_shuttle.png'), ('rightImage', 'stimuli/maze_snowman.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Umbrella'), ('leftLabel', 'Space Shuttle'), ('rightLabel', 'Snowman'), ('corrLabel', 'Space Shuttle')])
+135.4756 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+135.4761 	DATA 	Keypress: 1
+135.4834 	EXP 	question_text: autoDraw = False
+135.4834 	EXP 	cue_image: autoDraw = False
+135.4834 	EXP 	cue_label_stim: autoDraw = False
+135.4834 	EXP 	left_image: autoDraw = False
+135.4834 	EXP 	left_label_stim: autoDraw = False
+135.4834 	EXP 	right_image: autoDraw = False
+135.4834 	EXP 	right_label_stim: autoDraw = False
+135.4834 	EXP 	fixation: autoDraw = True
+135.6837 	EXP 	Device response: <KeyPress from None: t=135.47388740000315, value=1, duration=0.20137000002432615>
+136.1503 	EXP 	Device response: <KeyPress from None: t=136.1488357000053, value=1, duration=None>
+136.1511 	DATA 	Keypress: 1
+136.3092 	EXP 	Device response: <KeyPress from None: t=136.1488357000053, value=1, duration=0.15310039999894798>
+136.5036 	INFO 	Keyboard events cleared
+136.5035 	EXP 	fixation: autoDraw = False
+136.5035 	EXP 	cue_image: image = 'stimuli/maze_umbrella.png'
+136.5035 	EXP 	left_image: image = 'stimuli/maze_shuttle.png'
+136.5035 	EXP 	right_image: image = 'stimuli/maze_snowman.png'
+136.5035 	EXP 	cue_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	cue_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	cue_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	cue_label_stim: text = 'Umbrella'
+136.5035 	EXP 	left_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	left_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	left_label_stim: height = np.float64(0.042)
+136.5035 	EXP 	left_label_stim: text = 'Space Shuttle'
+136.5035 	EXP 	right_label_stim: text = 'Snowman'
+136.5035 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+136.5035 	EXP 	question_text: autoDraw = True
+136.5035 	EXP 	cue_image: autoDraw = True
+136.5035 	EXP 	cue_label_stim: autoDraw = True
+136.5035 	EXP 	left_image: autoDraw = True
+136.5035 	EXP 	left_label_stim: autoDraw = True
+136.5035 	EXP 	right_image: autoDraw = True
+136.5035 	EXP 	right_label_stim: autoDraw = True
+136.9838 	EXP 	Device response: <KeyPress from None: t=136.98010919999797, value=1, duration=None>
+136.9848 	EXP 	New trial (rep=0, index=13): OrderedDict([('cueImage', 'stimuli/maze_clock.png'), ('leftImage', 'stimuli/maze_guitar.png'), ('rightImage', 'stimuli/maze_chair.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Clock'), ('leftLabel', 'Guitar'), ('rightLabel', 'Chair'), ('corrLabel', 'Chair')])
+136.9852 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+136.9857 	DATA 	Keypress: 1
+136.9917 	EXP 	question_text: autoDraw = False
+136.9917 	EXP 	cue_image: autoDraw = False
+136.9917 	EXP 	cue_label_stim: autoDraw = False
+136.9917 	EXP 	left_image: autoDraw = False
+136.9917 	EXP 	left_label_stim: autoDraw = False
+136.9917 	EXP 	right_image: autoDraw = False
+136.9917 	EXP 	right_label_stim: autoDraw = False
+136.9917 	EXP 	fixation: autoDraw = True
+137.1167 	EXP 	Device response: <KeyPress from None: t=136.98010919999797, value=1, duration=0.1336087000090629>
+138.0221 	INFO 	Keyboard events cleared
+138.0219 	EXP 	fixation: autoDraw = False
+138.0219 	EXP 	cue_image: image = 'stimuli/maze_clock.png'
+138.0219 	EXP 	left_image: image = 'stimuli/maze_guitar.png'
+138.0219 	EXP 	right_image: image = 'stimuli/maze_chair.png'
+138.0219 	EXP 	cue_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	cue_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	cue_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	cue_label_stim: text = 'Clock'
+138.0219 	EXP 	left_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	left_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	left_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	left_label_stim: text = 'Guitar'
+138.0219 	EXP 	right_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	right_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	right_label_stim: height = np.float64(0.042)
+138.0219 	EXP 	right_label_stim: text = 'Chair'
+138.0219 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+138.0219 	EXP 	question_text: autoDraw = True
+138.0219 	EXP 	cue_image: autoDraw = True
+138.0219 	EXP 	cue_label_stim: autoDraw = True
+138.0219 	EXP 	left_image: autoDraw = True
+138.0219 	EXP 	left_label_stim: autoDraw = True
+138.0219 	EXP 	right_image: autoDraw = True
+138.0219 	EXP 	right_label_stim: autoDraw = True
+138.3172 	EXP 	Device response: <KeyPress from None: t=138.31582710001385, value=1, duration=None>
+138.3178 	EXP 	New trial (rep=0, index=14): OrderedDict([('cueImage', 'stimuli/maze_snowman.png'), ('leftImage', 'stimuli/maze_compass.png'), ('rightImage', 'stimuli/maze_lampPost.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Snowman'), ('leftLabel', 'Compass'), ('rightLabel', 'Lamp Post'), ('corrLabel', 'Compass')])
+138.3180 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+138.3183 	DATA 	Keypress: 1
+138.3253 	EXP 	question_text: autoDraw = False
+138.3253 	EXP 	cue_image: autoDraw = False
+138.3253 	EXP 	cue_label_stim: autoDraw = False
+138.3253 	EXP 	left_image: autoDraw = False
+138.3253 	EXP 	left_label_stim: autoDraw = False
+138.3253 	EXP 	right_image: autoDraw = False
+138.3253 	EXP 	right_label_stim: autoDraw = False
+138.3253 	EXP 	fixation: autoDraw = True
+138.4842 	EXP 	Device response: <KeyPress from None: t=138.31582710001385, value=1, duration=0.16425460000755265>
+139.3459 	INFO 	Keyboard events cleared
+139.3457 	EXP 	fixation: autoDraw = False
+139.3457 	EXP 	cue_image: image = 'stimuli/maze_snowman.png'
+139.3457 	EXP 	left_image: image = 'stimuli/maze_compass.png'
+139.3457 	EXP 	right_image: image = 'stimuli/maze_lampPost.png'
+139.3457 	EXP 	cue_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	cue_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	cue_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	cue_label_stim: text = 'Snowman'
+139.3457 	EXP 	left_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	left_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	left_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	left_label_stim: text = 'Compass'
+139.3457 	EXP 	right_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	right_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	right_label_stim: height = np.float64(0.042)
+139.3457 	EXP 	right_label_stim: text = 'Lamp Post'
+139.3457 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+139.3457 	EXP 	question_text: autoDraw = True
+139.3457 	EXP 	cue_image: autoDraw = True
+139.3457 	EXP 	cue_label_stim: autoDraw = True
+139.3457 	EXP 	left_image: autoDraw = True
+139.3457 	EXP 	left_label_stim: autoDraw = True
+139.3457 	EXP 	right_image: autoDraw = True
+139.3457 	EXP 	right_label_stim: autoDraw = True
+139.8424 	EXP 	Device response: <KeyPress from None: t=139.84014240000397, value=1, duration=None>
+139.8429 	EXP 	New trial (rep=0, index=15): OrderedDict([('cueImage', 'stimuli/maze_chair.png'), ('leftImage', 'stimuli/maze_guitar.png'), ('rightImage', 'stimuli/maze_shuttle.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Chair'), ('leftLabel', 'Guitar'), ('rightLabel', 'Space Shuttle'), ('corrLabel', 'Space Shuttle')])
+139.8430 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+139.8435 	DATA 	Keypress: 1
+139.8505 	EXP 	question_text: autoDraw = False
+139.8505 	EXP 	cue_image: autoDraw = False
+139.8505 	EXP 	cue_label_stim: autoDraw = False
+139.8505 	EXP 	left_image: autoDraw = False
+139.8505 	EXP 	left_label_stim: autoDraw = False
+139.8505 	EXP 	right_image: autoDraw = False
+139.8505 	EXP 	right_label_stim: autoDraw = False
+139.8505 	EXP 	fixation: autoDraw = True
+140.0596 	EXP 	Device response: <KeyPress from None: t=139.84014240000397, value=1, duration=0.21568080002907664>
+140.8714 	INFO 	Keyboard events cleared
+140.8713 	EXP 	fixation: autoDraw = False
+140.8713 	EXP 	cue_image: image = 'stimuli/maze_chair.png'
+140.8713 	EXP 	left_image: image = 'stimuli/maze_guitar.png'
+140.8713 	EXP 	right_image: image = 'stimuli/maze_shuttle.png'
+140.8713 	EXP 	cue_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	cue_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	cue_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	cue_label_stim: text = 'Chair'
+140.8713 	EXP 	left_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	left_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	left_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	left_label_stim: text = 'Guitar'
+140.8713 	EXP 	right_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	right_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	right_label_stim: height = np.float64(0.042)
+140.8713 	EXP 	right_label_stim: text = 'Space Shuttle'
+140.8713 	EXP 	question_text: height = np.float64(0.055)
+140.8713 	EXP 	question_text: height = np.float64(0.055)
+140.8713 	EXP 	question_text: height = np.float64(0.055)
+140.8713 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+140.8713 	EXP 	question_text: autoDraw = True
+140.8713 	EXP 	cue_image: autoDraw = True
+140.8713 	EXP 	cue_label_stim: autoDraw = True
+140.8713 	EXP 	left_image: autoDraw = True
+140.8713 	EXP 	left_label_stim: autoDraw = True
+140.8713 	EXP 	right_image: autoDraw = True
+140.8713 	EXP 	right_label_stim: autoDraw = True
+141.4341 	EXP 	Device response: <KeyPress from None: t=141.42725360003533, value=1, duration=None>
+141.4404 	INFO 	saved data to F:\Github\PaperFolding\data/123_GraphMaze_Navigation_2026-10-02_20h30.00.206brick_trials.csv
+141.4483 	INFO 	saved data to F:\Github\PaperFolding\data/123_GraphMaze_Navigation_2026-10-02_20h30.00.206hedge_trials.csv
+141.4510 	DATA 	Keypress: 1
+141.4527 	INFO 	Keyboard events cleared
+141.4526 	EXP 	question_text: autoDraw = False
+141.4526 	EXP 	cue_image: autoDraw = False
+141.4526 	EXP 	cue_label_stim: autoDraw = False
+141.4526 	EXP 	left_image: autoDraw = False
+141.4526 	EXP 	left_label_stim: autoDraw = False
+141.4526 	EXP 	right_image: autoDraw = False
+141.4526 	EXP 	right_label_stim: autoDraw = False
+141.4526 	EXP 	thankyou: autoDraw = True
+141.4526 	EXP 	finalslide: autoDraw = True
+141.7347 	EXP 	Device response: <KeyPress from None: t=141.42725360003533, value=1, duration=0.30309860000852495>
+142.0926 	EXP 	Device response: <KeyPress from None: t=142.0917643000139, value=1, duration=None>
+142.0929 	DATA 	Keypress: 1
+142.1005 	EXP 	thankyou: autoDraw = False
+142.1005 	EXP 	finalslide: autoDraw = False
+142.1022 	INFO 	saved data to 'F:\\Github\\PaperFolding\\data/123_GraphMaze_Navigation_2026-10-02_20h30.00.206.csv'
+142.1035 	INFO 	saved data to F:\Github\PaperFolding\data/123_GraphMaze_Navigation_2026-10-02_20h30.00.206.psydat
+142.2075 	DEBUG 	Saving data for GraphMaze_Navigation ExperimentHandler
+142.2112 	INFO 	Stopping keyboard key buffers.

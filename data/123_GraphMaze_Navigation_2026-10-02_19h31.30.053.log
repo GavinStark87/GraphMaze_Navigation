@@ -1,0 +1,525 @@
+27.4530 	INFO 	Loaded monitor calibration from ['2026_09_21 04:14']
+27.4874 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+28.3771 	INFO 	Using renderer 'AMD Radeon RX 7900 XT' for graphics
+28.3771 	INFO 	OpenGL version supported by driver is 4..
+28.5015 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5106 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5200 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5299 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5584 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5858 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.5954 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6049 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6142 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6233 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6420 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6518 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6610 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6698 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6817 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6911 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.6914 	DEBUG 	Uploading Texture Font fontname to graphics card
+28.6923 	DEBUG 	Upload of Texture Font fontname complete
+28.7129 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.7237 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.7346 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.7349 	DEBUG 	Uploading Texture Font fontname to graphics card
+28.7359 	DEBUG 	Upload of Texture Font fontname complete
+29.7604 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AB93823D00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AB93823D60>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AB94A01CC0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+29.7604 	EXP 	window1: backgroundImage = None
+29.7605 	EXP 	window1: backgroundFit = 'cover'
+29.7619 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+29.7619 	EXP 	window1: recordFrameIntervals = False
+29.8435 	EXP 	window1: recordFrameIntervals = True
+30.0560 	WARNING 	t of last frame was 20.81ms (=1/48)
+30.4700 	WARNING 	t of last frame was 10.03ms (=1/99)
+30.5371 	WARNING 	t of last frame was 10.22ms (=1/97)
+30.6771 	EXP 	window1: recordFrameIntervals = False
+30.6771 	EXP 	Screen (0) actual frame rate measured at 119.92Hz
+31.8898 	INFO 	keyboard.Keyboard is using ptb backend.
+32.1579 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.12), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+32.1637 	EXP 	Created maze_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='maze_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.03]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+32.1720 	EXP 	Created maze_title_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.048), italic=False, languageStyle='LTR', name='maze_title_stim', opacity=1, ori=0, pos=array([0.  , 0.43]), rgb=UNKNOWN, text='Example Practice Maze', units='height', win=Window(...), wrapWidth=1.4)
+32.1731 	EXP 	Created env_maze_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='env_maze_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.06]), size=array([0.72, 0.72]), texRes=128.0, units='height', win=Window(...))
+32.1735 	EXP 	Created env_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.048, italic=False, languageStyle='LTR', name='env_label', opacity=1, ori=0, pos=array([0.  , 0.43]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.4)
+32.1793 	EXP 	Created env_advance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.038), italic=False, languageStyle='LTR', name='env_advance', opacity=1, ori=0, pos=array([ 0.  , -0.46]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+32.1804 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.055, italic=False, languageStyle='LTR', name='question_text', opacity=1, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.5)
+32.1816 	EXP 	Created cue_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='cue_image', opacity=1, ori=0.0, pos=array([0.  , 0.12]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+32.1821 	EXP 	Created cue_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='cue_label_stim', opacity=1, ori=0, pos=array([ 0.  , -0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.5)
+32.1829 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1, ori=0.0, pos=array([-0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+32.1833 	EXP 	Created left_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='left_label_stim', opacity=1, ori=0, pos=array([-0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+32.1841 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='sin', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1, ori=0.0, pos=array([ 0.22, -0.22]), size=array([0.22, 0.22]), texRes=512, units='height', win=Window(...))
+32.1845 	EXP 	Created right_label_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.042, italic=False, languageStyle='LTR', name='right_label_stim', opacity=1, ori=0, pos=array([ 0.22, -0.36]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.35)
+32.1850 	EXP 	Created fb_text_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_left', opacity=1, ori=0, pos=array([-0.65,  0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+32.1851 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1968 	EXP 	Created fb_line_left = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=3.0, name='fb_line_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[-0.52, -0.07],
+       [-0.35, -0.17]]), win=Window(...), windingRule=None)
+32.1969 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1970 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1977 	EXP 	Created fb_head_left = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.  , 0.32, 0.  ]), fillColorSpace='rgb', fillRGB=array([0.  , 0.32, 0.  ]), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=1.5, name='fb_head_left', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+32.1980 	EXP 	Created fb_text_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.046, italic=False, languageStyle='LTR', name='fb_text_right', opacity=1, ori=0, pos=array([0.65, 0.02]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.25)
+32.1981 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1986 	EXP 	Created fb_line_right = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([0.  , 0.32, 0.  ]), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=3.0, name='fb_line_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=array([[ 0.52, -0.07],
+       [ 0.35, -0.17]]), win=Window(...), windingRule=None)
+32.1987 	WARNING 	fillColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1987 	WARNING 	lineColorSpace parameter is deprecated. Please use colorSpace instead.
+32.1993 	EXP 	Created fb_head_right = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.  , 0.32, 0.  ]), fillColorSpace='rgb', fillRGB=array([0.  , 0.32, 0.  ]), interpolate=True, lineColor=array([0.  , 0.32, 0.  ]), lineColorSpace='rgb', lineRGB=array([0.  , 0.32, 0.  ]), lineWidth=1.5, name='fb_head_right', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+32.2089 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='thankyou', opacity=1, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.2146 	EXP 	Created finalslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='finalslide', opacity=1, ori=0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='Press any number to exit.', units='height', win=Window(...), wrapWidth=1)
+32.2216 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.39]), rgb=UNKNOWN, text='Practice Trials + Instructions', units='height', win=Window(...), wrapWidth=1.5)
+32.2368 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.036), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.03]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+32.2418 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.2 , 0.55, 0.95]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Blue background  =  path distance trials', units='height', win=Window(...), wrapWidth=1)
+32.2449 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.914, 0.506, 0.09 ]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.032), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.2479 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.4, 0.4, 0.4]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.030999999999999996), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.47]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+32.2531 	INFO 	Keyboard events cleared
+32.2530 	EXP 	unnamed TextStim: autoDraw = True
+32.2530 	EXP 	unnamed TextStim: autoDraw = True
+32.2530 	EXP 	unnamed TextStim: autoDraw = True
+32.2530 	EXP 	unnamed TextStim: autoDraw = True
+32.2530 	EXP 	unnamed TextStim: autoDraw = True
+34.4885 	EXP 	Device response: <KeyPress from None: t=34.43851850001374, value=2, duration=None>
+34.5070 	DATA 	Keypress: 2
+34.5086 	INFO 	Keyboard events cleared
+34.5085 	EXP 	unnamed TextStim: autoDraw = False
+34.5085 	EXP 	unnamed TextStim: autoDraw = False
+34.5085 	EXP 	unnamed TextStim: autoDraw = False
+34.5085 	EXP 	unnamed TextStim: autoDraw = False
+34.5085 	EXP 	unnamed TextStim: autoDraw = False
+34.5085 	EXP 	maze_image: image = 'stimuli/prac_maze.png'
+34.5085 	EXP 	maze_image: autoDraw = True
+34.5085 	EXP 	maze_title_stim: autoDraw = True
+34.5085 	EXP 	env_advance: autoDraw = True
+34.6110 	EXP 	Device response: <KeyPress from None: t=34.43851850001374, value=2, duration=0.16930909996153787>
+35.9207 	DATA 	Keypress: 2
+35.9275 	EXP 	Device response: <KeyPress from None: t=35.920260299986694, value=2, duration=None>
+35.9497 	DEBUG 	Read csv file with pandas: nav_task_practice_fruit.csv
+35.9534 	DEBUG 	Clearing unnamed columns from nav_task_practice_fruit.csv
+35.9543 	EXP 	Imported nav_task_practice_fruit.csv as conditions, 4 conditions, 9 params
+35.9545 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+35.9547 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_banana.png'), ('corrAns', 'right'), ('trial_type', 'route'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Banana'), ('corrLabel', 'Banana')])
+35.9549 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+35.9567 	EXP 	maze_image: autoDraw = False
+35.9567 	EXP 	maze_title_stim: autoDraw = False
+35.9567 	EXP 	env_advance: autoDraw = False
+35.9567 	EXP 	fixation: autoDraw = True
+36.0610 	EXP 	Device response: <KeyPress from None: t=35.920260299986694, value=2, duration=0.13633090001530945>
+37.0047 	INFO 	Keyboard events cleared
+37.0046 	EXP 	fixation: autoDraw = False
+37.0046 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+37.0046 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+37.0046 	EXP 	right_image: image = 'stimuli/prac_banana.png'
+37.0046 	EXP 	cue_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	cue_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	cue_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	cue_label_stim: text = 'Apple'
+37.0046 	EXP 	left_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	left_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	left_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	left_label_stim: text = 'Orange'
+37.0046 	EXP 	right_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	right_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	right_label_stim: height = np.float64(0.042)
+37.0046 	EXP 	right_label_stim: text = 'Banana'
+37.0046 	EXP 	question_text: height = np.float64(0.055)
+37.0046 	EXP 	question_text: height = np.float64(0.055)
+37.0046 	EXP 	question_text: height = np.float64(0.055)
+37.0046 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+37.0046 	EXP 	question_text: autoDraw = True
+37.0046 	EXP 	cue_image: autoDraw = True
+37.0046 	EXP 	cue_label_stim: autoDraw = True
+37.0046 	EXP 	left_image: autoDraw = True
+37.0046 	EXP 	left_label_stim: autoDraw = True
+37.0046 	EXP 	right_image: autoDraw = True
+37.0046 	EXP 	right_label_stim: autoDraw = True
+38.0698 	EXP 	Device response: <KeyPress from None: t=38.06505630002357, value=1, duration=None>
+38.0767 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+38.0786 	DATA 	Keypress: 1
+38.0806 	EXP 	question_text: autoDraw = False
+38.0806 	EXP 	cue_image: autoDraw = False
+38.0806 	EXP 	cue_label_stim: autoDraw = False
+38.0806 	EXP 	left_image: autoDraw = False
+38.0806 	EXP 	left_label_stim: autoDraw = False
+38.0806 	EXP 	right_image: autoDraw = False
+38.0806 	EXP 	right_label_stim: autoDraw = False
+38.0806 	EXP 	fb_text_right: height = np.float64(0.046)
+38.0806 	EXP 	fb_text_right: height = np.float64(0.046)
+38.0806 	EXP 	fb_text_right: height = np.float64(0.046)
+38.0806 	EXP 	fb_text_right: text = 'Correct answer:\nBanana'
+38.0806 	EXP 	question_text: autoDraw = True
+38.0806 	EXP 	cue_image: autoDraw = True
+38.0806 	EXP 	cue_label_stim: autoDraw = True
+38.0806 	EXP 	left_image: autoDraw = True
+38.0806 	EXP 	left_label_stim: autoDraw = True
+38.0806 	EXP 	right_image: autoDraw = True
+38.0806 	EXP 	right_label_stim: autoDraw = True
+38.0806 	EXP 	fb_text_right: autoDraw = True
+38.0806 	EXP 	fb_line_right: autoDraw = True
+38.0806 	EXP 	fb_head_right: autoDraw = True
+38.1944 	EXP 	Device response: <KeyPress from None: t=38.06505630002357, value=1, duration=0.12283189996378496>
+40.0787 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_banana.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Banana'), ('corrLabel', 'Banana')])
+40.0789 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+40.0860 	EXP 	question_text: autoDraw = False
+40.0860 	EXP 	cue_image: autoDraw = False
+40.0860 	EXP 	cue_label_stim: autoDraw = False
+40.0860 	EXP 	left_image: autoDraw = False
+40.0860 	EXP 	left_label_stim: autoDraw = False
+40.0860 	EXP 	right_image: autoDraw = False
+40.0860 	EXP 	right_label_stim: autoDraw = False
+40.0860 	EXP 	fb_text_right: autoDraw = False
+40.0860 	EXP 	fb_line_right: autoDraw = False
+40.0860 	EXP 	fb_head_right: autoDraw = False
+40.0860 	EXP 	fixation: autoDraw = True
+41.0943 	INFO 	Keyboard events cleared
+41.0942 	EXP 	fixation: autoDraw = False
+41.0942 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+41.0942 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+41.0942 	EXP 	right_image: image = 'stimuli/prac_banana.png'
+41.0942 	EXP 	cue_label_stim: text = 'Apple'
+41.0942 	EXP 	left_label_stim: text = 'Orange'
+41.0942 	EXP 	right_label_stim: text = 'Banana'
+41.0942 	EXP 	question_text: height = np.float64(0.055)
+41.0942 	EXP 	question_text: height = np.float64(0.055)
+41.0942 	EXP 	question_text: height = np.float64(0.055)
+41.0942 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+41.0942 	EXP 	question_text: autoDraw = True
+41.0942 	EXP 	cue_image: autoDraw = True
+41.0942 	EXP 	cue_label_stim: autoDraw = True
+41.0942 	EXP 	left_image: autoDraw = True
+41.0942 	EXP 	left_label_stim: autoDraw = True
+41.0942 	EXP 	right_image: autoDraw = True
+41.0942 	EXP 	right_label_stim: autoDraw = True
+50.4046 	EXP 	Device response: <KeyPress from None: t=50.401863600010984, value=1, duration=None>
+50.4050 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+50.4066 	DATA 	Keypress: 1
+50.4125 	EXP 	question_text: autoDraw = False
+50.4125 	EXP 	cue_image: autoDraw = False
+50.4125 	EXP 	cue_label_stim: autoDraw = False
+50.4125 	EXP 	left_image: autoDraw = False
+50.4125 	EXP 	left_label_stim: autoDraw = False
+50.4125 	EXP 	right_image: autoDraw = False
+50.4125 	EXP 	right_label_stim: autoDraw = False
+50.4125 	EXP 	fb_text_right: text = 'Correct answer:\nBanana'
+50.4125 	EXP 	question_text: autoDraw = True
+50.4125 	EXP 	cue_image: autoDraw = True
+50.4125 	EXP 	cue_label_stim: autoDraw = True
+50.4125 	EXP 	left_image: autoDraw = True
+50.4125 	EXP 	left_label_stim: autoDraw = True
+50.4125 	EXP 	right_image: autoDraw = True
+50.4125 	EXP 	right_label_stim: autoDraw = True
+50.4125 	EXP 	fb_text_right: autoDraw = True
+50.4125 	EXP 	fb_line_right: autoDraw = True
+50.4125 	EXP 	fb_head_right: autoDraw = True
+50.5876 	EXP 	Device response: <KeyPress from None: t=50.401863600010984, value=1, duration=0.17910130001837388>
+52.4134 	EXP 	New trial (rep=0, index=2): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_grape.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Grape'), ('corrLabel', 'Orange')])
+52.4218 	INFO 	Keyboard events cleared
+52.4216 	EXP 	question_text: autoDraw = False
+52.4216 	EXP 	cue_image: autoDraw = False
+52.4216 	EXP 	cue_label_stim: autoDraw = False
+52.4216 	EXP 	left_image: autoDraw = False
+52.4216 	EXP 	left_label_stim: autoDraw = False
+52.4216 	EXP 	right_image: autoDraw = False
+52.4216 	EXP 	right_label_stim: autoDraw = False
+52.4216 	EXP 	fb_text_right: autoDraw = False
+52.4216 	EXP 	fb_line_right: autoDraw = False
+52.4216 	EXP 	fb_head_right: autoDraw = False
+52.4216 	EXP 	maze_image: image = 'stimuli/prac_maze.png'
+52.4216 	EXP 	maze_image: autoDraw = True
+52.4216 	EXP 	maze_title_stim: autoDraw = True
+52.4216 	EXP 	env_advance: autoDraw = True
+53.0212 	EXP 	Device response: <KeyPress from None: t=53.01783470000373, value=space, duration=None>
+53.0218 	DATA 	Keypress: space
+53.2133 	EXP 	Device response: <KeyPress from None: t=53.01783470000373, value=space, duration=0.19182439998257905>
+53.6630 	EXP 	Device response: <KeyPress from None: t=53.659634899988305, value=2, duration=None>
+53.6632 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+53.6636 	DATA 	Keypress: 2
+53.6711 	EXP 	maze_image: autoDraw = False
+53.6711 	EXP 	maze_title_stim: autoDraw = False
+53.6711 	EXP 	env_advance: autoDraw = False
+53.6711 	EXP 	fixation: autoDraw = True
+53.8475 	EXP 	Device response: <KeyPress from None: t=53.659634899988305, value=2, duration=0.1813193000270985>
+54.6897 	INFO 	Keyboard events cleared
+54.6896 	EXP 	fixation: autoDraw = False
+54.6896 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+54.6896 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+54.6896 	EXP 	right_image: image = 'stimuli/prac_grape.png'
+54.6896 	EXP 	cue_label_stim: text = 'Apple'
+54.6896 	EXP 	left_label_stim: text = 'Orange'
+54.6896 	EXP 	right_label_stim: height = np.float64(0.042)
+54.6896 	EXP 	right_label_stim: height = np.float64(0.042)
+54.6896 	EXP 	right_label_stim: height = np.float64(0.042)
+54.6896 	EXP 	right_label_stim: text = 'Grape'
+54.6896 	EXP 	question_text: height = np.float64(0.055)
+54.6896 	EXP 	question_text: height = np.float64(0.055)
+54.6896 	EXP 	question_text: height = np.float64(0.055)
+54.6896 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+54.6896 	EXP 	question_text: autoDraw = True
+54.6896 	EXP 	cue_image: autoDraw = True
+54.6896 	EXP 	cue_label_stim: autoDraw = True
+54.6896 	EXP 	left_image: autoDraw = True
+54.6896 	EXP 	left_label_stim: autoDraw = True
+54.6896 	EXP 	right_image: autoDraw = True
+54.6896 	EXP 	right_label_stim: autoDraw = True
+58.8974 	EXP 	Device response: <KeyPress from None: t=58.894020200008526, value=1, duration=None>
+58.9004 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+58.9021 	DATA 	Keypress: 1
+58.9050 	EXP 	question_text: autoDraw = False
+58.9050 	EXP 	cue_image: autoDraw = False
+58.9050 	EXP 	cue_label_stim: autoDraw = False
+58.9050 	EXP 	left_image: autoDraw = False
+58.9050 	EXP 	left_label_stim: autoDraw = False
+58.9050 	EXP 	right_image: autoDraw = False
+58.9050 	EXP 	right_label_stim: autoDraw = False
+58.9050 	EXP 	fb_text_left: height = np.float64(0.046)
+58.9050 	EXP 	fb_text_left: height = np.float64(0.046)
+58.9050 	EXP 	fb_text_left: height = np.float64(0.046)
+58.9050 	EXP 	fb_text_left: text = 'Correct answer:\nOrange'
+58.9050 	EXP 	question_text: autoDraw = True
+58.9050 	EXP 	cue_image: autoDraw = True
+58.9050 	EXP 	cue_label_stim: autoDraw = True
+58.9050 	EXP 	left_image: autoDraw = True
+58.9050 	EXP 	left_label_stim: autoDraw = True
+58.9050 	EXP 	right_image: autoDraw = True
+58.9050 	EXP 	right_label_stim: autoDraw = True
+58.9050 	EXP 	fb_text_left: autoDraw = True
+58.9050 	EXP 	fb_line_left: autoDraw = True
+58.9050 	EXP 	fb_head_left: autoDraw = True
+59.0221 	EXP 	Device response: <KeyPress from None: t=58.894020200008526, value=1, duration=0.12161410000408068>
+60.9067 	EXP 	New trial (rep=0, index=3): OrderedDict([('cueImage', 'stimuli/prac_apple.png'), ('leftImage', 'stimuli/prac_orange.png'), ('rightImage', 'stimuli/prac_grape.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Apple'), ('leftLabel', 'Orange'), ('rightLabel', 'Grape'), ('corrLabel', 'Grape')])
+60.9069 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+60.9137 	EXP 	question_text: autoDraw = False
+60.9137 	EXP 	cue_image: autoDraw = False
+60.9137 	EXP 	cue_label_stim: autoDraw = False
+60.9137 	EXP 	left_image: autoDraw = False
+60.9137 	EXP 	left_label_stim: autoDraw = False
+60.9137 	EXP 	right_image: autoDraw = False
+60.9137 	EXP 	right_label_stim: autoDraw = False
+60.9137 	EXP 	fb_text_left: autoDraw = False
+60.9137 	EXP 	fb_line_left: autoDraw = False
+60.9137 	EXP 	fb_head_left: autoDraw = False
+60.9137 	EXP 	fixation: autoDraw = True
+61.9242 	INFO 	Keyboard events cleared
+61.9241 	EXP 	fixation: autoDraw = False
+61.9241 	EXP 	cue_image: image = 'stimuli/prac_apple.png'
+61.9241 	EXP 	left_image: image = 'stimuli/prac_orange.png'
+61.9241 	EXP 	right_image: image = 'stimuli/prac_grape.png'
+61.9241 	EXP 	cue_label_stim: text = 'Apple'
+61.9241 	EXP 	left_label_stim: text = 'Orange'
+61.9241 	EXP 	right_label_stim: text = 'Grape'
+61.9241 	EXP 	question_text: height = np.float64(0.055)
+61.9241 	EXP 	question_text: height = np.float64(0.055)
+61.9241 	EXP 	question_text: height = np.float64(0.055)
+61.9241 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+61.9241 	EXP 	question_text: autoDraw = True
+61.9241 	EXP 	cue_image: autoDraw = True
+61.9241 	EXP 	cue_label_stim: autoDraw = True
+61.9241 	EXP 	left_image: autoDraw = True
+61.9241 	EXP 	left_label_stim: autoDraw = True
+61.9241 	EXP 	right_image: autoDraw = True
+61.9241 	EXP 	right_label_stim: autoDraw = True
+62.6727 	EXP 	Device response: <KeyPress from None: t=62.67058029997861, value=2, duration=None>
+62.6752 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+62.6760 	DATA 	Keypress: 2
+62.6805 	EXP 	question_text: autoDraw = False
+62.6805 	EXP 	cue_image: autoDraw = False
+62.6805 	EXP 	cue_label_stim: autoDraw = False
+62.6805 	EXP 	left_image: autoDraw = False
+62.6805 	EXP 	left_label_stim: autoDraw = False
+62.6805 	EXP 	right_image: autoDraw = False
+62.6805 	EXP 	right_label_stim: autoDraw = False
+62.6805 	EXP 	fb_text_right: height = np.float64(0.046)
+62.6805 	EXP 	fb_text_right: height = np.float64(0.046)
+62.6805 	EXP 	fb_text_right: height = np.float64(0.046)
+62.6805 	EXP 	fb_text_right: text = 'Correct answer:\nGrape'
+62.6805 	EXP 	question_text: autoDraw = True
+62.6805 	EXP 	cue_image: autoDraw = True
+62.6805 	EXP 	cue_label_stim: autoDraw = True
+62.6805 	EXP 	left_image: autoDraw = True
+62.6805 	EXP 	left_label_stim: autoDraw = True
+62.6805 	EXP 	right_image: autoDraw = True
+62.6805 	EXP 	right_label_stim: autoDraw = True
+62.6805 	EXP 	fb_text_right: autoDraw = True
+62.6805 	EXP 	fb_line_right: autoDraw = True
+62.6805 	EXP 	fb_head_right: autoDraw = True
+62.8562 	EXP 	Device response: <KeyPress from None: t=62.67058029997861, value=2, duration=0.1807634000433609>
+64.6995 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.036), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.  , 0.12]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+64.7076 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.4, 0.4, 0.4]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.030999999999999996), italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.47]), rgb=UNKNOWN, text='Press any number to continue.', units='height', win=Window(...), wrapWidth=1)
+64.7101 	INFO 	Keyboard events cleared
+64.7100 	EXP 	question_text: autoDraw = False
+64.7100 	EXP 	cue_image: autoDraw = False
+64.7100 	EXP 	cue_label_stim: autoDraw = False
+64.7100 	EXP 	left_image: autoDraw = False
+64.7100 	EXP 	left_label_stim: autoDraw = False
+64.7100 	EXP 	right_image: autoDraw = False
+64.7100 	EXP 	right_label_stim: autoDraw = False
+64.7100 	EXP 	fb_text_right: autoDraw = False
+64.7100 	EXP 	fb_line_right: autoDraw = False
+64.7100 	EXP 	fb_head_right: autoDraw = False
+64.7100 	EXP 	unnamed TextStim: autoDraw = True
+64.7100 	EXP 	unnamed TextStim: autoDraw = True
+67.3229 	EXP 	Device response: <KeyPress from None: t=67.3198578999727, value=space, duration=None>
+67.3234 	DATA 	Keypress: space
+67.5231 	EXP 	Device response: <KeyPress from None: t=67.3198578999727, value=space, duration=0.1979397000395693>
+68.0147 	EXP 	Device response: <KeyPress from None: t=68.00956039997982, value=2, duration=None>
+68.0423 	DATA 	Keypress: 2
+68.0518 	INFO 	Keyboard events cleared
+68.0517 	EXP 	unnamed TextStim: autoDraw = False
+68.0517 	EXP 	unnamed TextStim: autoDraw = False
+68.0517 	EXP 	env_label: height = np.float64(0.048)
+68.0517 	EXP 	env_label: height = np.float64(0.048)
+68.0517 	EXP 	env_label: height = np.float64(0.048)
+68.0517 	EXP 	env_label: text = 'Environment: brick maze'
+68.0517 	EXP 	env_maze_image: image = 'stimuli/brick_maze.png'
+68.0517 	EXP 	env_label: autoDraw = True
+68.0517 	EXP 	env_maze_image: autoDraw = True
+68.0517 	EXP 	env_advance: autoDraw = True
+68.2899 	EXP 	Device response: <KeyPress from None: t=68.00956039997982, value=2, duration=0.27346769999712706>
+69.6984 	EXP 	Device response: <KeyPress from None: t=69.69642519997433, value=2, duration=None>
+69.7063 	DEBUG 	Read csv file with pandas: nav_task_practice_brick.csv
+69.7077 	DEBUG 	Clearing unnamed columns from nav_task_practice_brick.csv
+69.7081 	EXP 	Imported nav_task_practice_brick.csv as conditions, 2 conditions, 9 params
+69.7083 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+69.7084 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_plant.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'route'), ('cueLabel', 'Telescope'), ('leftLabel', 'Plant'), ('rightLabel', 'Well'), ('corrLabel', 'Plant')])
+69.7086 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+69.7089 	DATA 	Keypress: 2
+69.7102 	EXP 	env_label: autoDraw = False
+69.7102 	EXP 	env_maze_image: autoDraw = False
+69.7102 	EXP 	env_advance: autoDraw = False
+69.7102 	EXP 	fixation: autoDraw = True
+69.9236 	EXP 	Device response: <KeyPress from None: t=69.69642519997433, value=2, duration=0.22116590000223368>
+70.7637 	INFO 	Keyboard events cleared
+70.7636 	EXP 	fixation: autoDraw = False
+70.7636 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+70.7636 	EXP 	left_image: image = 'stimuli/brick_plant.png'
+70.7636 	EXP 	right_image: image = 'stimuli/brick_well.png'
+70.7636 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	cue_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	cue_label_stim: text = 'Telescope'
+70.7636 	EXP 	left_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	left_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	left_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	left_label_stim: text = 'Plant'
+70.7636 	EXP 	right_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	right_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	right_label_stim: height = np.float64(0.042)
+70.7636 	EXP 	right_label_stim: text = 'Well'
+70.7636 	EXP 	question_text: height = np.float64(0.055)
+70.7636 	EXP 	question_text: height = np.float64(0.055)
+70.7636 	EXP 	question_text: height = np.float64(0.055)
+70.7636 	EXP 	question_text: text = 'Which is the shortest path distance from the start?'
+70.7636 	EXP 	question_text: autoDraw = True
+70.7636 	EXP 	cue_image: autoDraw = True
+70.7636 	EXP 	cue_label_stim: autoDraw = True
+70.7636 	EXP 	left_image: autoDraw = True
+70.7636 	EXP 	left_label_stim: autoDraw = True
+70.7636 	EXP 	right_image: autoDraw = True
+70.7636 	EXP 	right_label_stim: autoDraw = True
+72.6329 	DATA 	Keypress: 1
+72.6403 	EXP 	Device response: <KeyPress from None: t=72.63263639999786, value=1, duration=None>
+72.6458 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+72.6482 	EXP 	question_text: autoDraw = False
+72.6482 	EXP 	cue_image: autoDraw = False
+72.6482 	EXP 	cue_label_stim: autoDraw = False
+72.6482 	EXP 	left_image: autoDraw = False
+72.6482 	EXP 	left_label_stim: autoDraw = False
+72.6482 	EXP 	right_image: autoDraw = False
+72.6482 	EXP 	right_label_stim: autoDraw = False
+72.6482 	EXP 	fb_text_left: height = np.float64(0.046)
+72.6482 	EXP 	fb_text_left: height = np.float64(0.046)
+72.6482 	EXP 	fb_text_left: height = np.float64(0.046)
+72.6482 	EXP 	fb_text_left: text = 'Correct answer:\nPlant'
+72.6482 	EXP 	question_text: autoDraw = True
+72.6482 	EXP 	cue_image: autoDraw = True
+72.6482 	EXP 	cue_label_stim: autoDraw = True
+72.6482 	EXP 	left_image: autoDraw = True
+72.6482 	EXP 	left_label_stim: autoDraw = True
+72.6482 	EXP 	right_image: autoDraw = True
+72.6482 	EXP 	right_label_stim: autoDraw = True
+72.6482 	EXP 	fb_text_left: autoDraw = True
+72.6482 	EXP 	fb_line_left: autoDraw = True
+72.6482 	EXP 	fb_head_left: autoDraw = True
+72.8073 	EXP 	Device response: <KeyPress from None: t=72.63263639999786, value=1, duration=0.1741827999940142>
+74.6497 	EXP 	New trial (rep=0, index=1): OrderedDict([('cueImage', 'stimuli/brick_telescope.png'), ('leftImage', 'stimuli/brick_plant.png'), ('rightImage', 'stimuli/brick_well.png'), ('corrAns', 'left'), ('trial_type', 'line'), ('cueLabel', 'Telescope'), ('leftLabel', 'Plant'), ('rightLabel', 'Well'), ('corrLabel', 'Plant')])
+74.6499 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+74.6600 	EXP 	question_text: autoDraw = False
+74.6600 	EXP 	cue_image: autoDraw = False
+74.6600 	EXP 	cue_label_stim: autoDraw = False
+74.6600 	EXP 	left_image: autoDraw = False
+74.6600 	EXP 	left_label_stim: autoDraw = False
+74.6600 	EXP 	right_image: autoDraw = False
+74.6600 	EXP 	right_label_stim: autoDraw = False
+74.6600 	EXP 	fb_text_left: autoDraw = False
+74.6600 	EXP 	fb_line_left: autoDraw = False
+74.6600 	EXP 	fb_head_left: autoDraw = False
+74.6600 	EXP 	fixation: autoDraw = True
+75.6680 	INFO 	Keyboard events cleared
+75.6679 	EXP 	fixation: autoDraw = False
+75.6679 	EXP 	cue_image: image = 'stimuli/brick_telescope.png'
+75.6679 	EXP 	left_image: image = 'stimuli/brick_plant.png'
+75.6679 	EXP 	right_image: image = 'stimuli/brick_well.png'
+75.6679 	EXP 	cue_label_stim: text = 'Telescope'
+75.6679 	EXP 	left_label_stim: text = 'Plant'
+75.6679 	EXP 	right_label_stim: text = 'Well'
+75.6679 	EXP 	question_text: height = np.float64(0.055)
+75.6679 	EXP 	question_text: height = np.float64(0.055)
+75.6679 	EXP 	question_text: height = np.float64(0.055)
+75.6679 	EXP 	question_text: text = 'Which is the shortest straight-line distance from the start?'
+75.6679 	EXP 	question_text: autoDraw = True
+75.6679 	EXP 	cue_image: autoDraw = True
+75.6679 	EXP 	cue_label_stim: autoDraw = True
+75.6679 	EXP 	left_image: autoDraw = True
+75.6679 	EXP 	left_label_stim: autoDraw = True
+75.6679 	EXP 	right_image: autoDraw = True
+75.6679 	EXP 	right_label_stim: autoDraw = True
+77.5730 	DATA 	Mouse: Left button down, pos=(1384,553)
+77.6775 	DATA 	Mouse:  Left button up, pos=(1384,553)
+77.7911 	EXP 	Device response: <KeyPress from None: t=77.78463910002029, value=2, duration=None>
+77.7913 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+77.7922 	DATA 	Keypress: 2
+77.7992 	EXP 	question_text: autoDraw = False
+77.7992 	EXP 	cue_image: autoDraw = False
+77.7992 	EXP 	cue_label_stim: autoDraw = False
+77.7992 	EXP 	left_image: autoDraw = False
+77.7992 	EXP 	left_label_stim: autoDraw = False
+77.7992 	EXP 	right_image: autoDraw = False
+77.7992 	EXP 	right_label_stim: autoDraw = False
+77.7992 	EXP 	fb_text_left: text = 'Correct answer:\nPlant'
+77.7992 	EXP 	question_text: autoDraw = True
+77.7992 	EXP 	cue_image: autoDraw = True
+77.7992 	EXP 	cue_label_stim: autoDraw = True
+77.7992 	EXP 	left_image: autoDraw = True
+77.7992 	EXP 	left_label_stim: autoDraw = True
+77.7992 	EXP 	right_image: autoDraw = True
+77.7992 	EXP 	right_label_stim: autoDraw = True
+77.7992 	EXP 	fb_text_left: autoDraw = True
+77.7992 	EXP 	fb_line_left: autoDraw = True
+77.7992 	EXP 	fb_head_left: autoDraw = True
+77.9869 	EXP 	Device response: <KeyPress from None: t=77.78463910002029, value=2, duration=0.19417430000612512>
+79.8000 	INFO 	Keyboard events cleared
+79.8110 	DEBUG 	Read csv file with pandas: nav_task_conditions_brick.csv
+79.8114 	DEBUG 	Clearing unnamed columns from nav_task_conditions_brick.csv
+79.8122 	EXP 	Imported nav_task_conditions_brick.csv as conditions, 24 conditions, 9 params
+79.8124 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+79.8125 	EXP 	New trial (rep=0, index=0): OrderedDict([('cueImage', 'stimuli/brick_piano.png'), ('leftImage', 'stimuli/brick_mailbox.png'), ('rightImage', 'stimuli/brick_bookshelf.png'), ('corrAns', 'right'), ('trial_type', 'line'), ('cueLabel', 'Piano'), ('leftLabel', 'Mailbox'), ('rightLabel', 'Bookshelf'), ('corrLabel', 'Bookshelf')])
+79.8128 	DEPRECATION 	Clock.add() is deprecated in favor of .addTime() due to the counterintuitive design (it added time to the baseline, which reduced the values returned from getTime() )
+79.8141 	EXP 	question_text: autoDraw = False
+79.8141 	EXP 	cue_image: autoDraw = False
+79.8141 	EXP 	cue_label_stim: autoDraw = False
+79.8141 	EXP 	left_image: autoDraw = False
+79.8141 	EXP 	left_label_stim: autoDraw = False
+79.8141 	EXP 	right_image: autoDraw = False
+79.8141 	EXP 	right_label_stim: autoDraw = False
+79.8141 	EXP 	fb_text_left: autoDraw = False
+79.8141 	EXP 	fb_line_left: autoDraw = False
+79.8141 	EXP 	fb_head_left: autoDraw = False
+79.8141 	EXP 	fixation: autoDraw = True
+80.8324 	ERROR 	Couldn't find image stimuli/brick_bookshelf.png; check path? (tried: F:\Github\PaperFolding\stimuli\brick_bookshelf.png)
+80.9109 	DEBUG 	Saving data for GraphMaze_Navigation ExperimentHandler
+80.9120 	INFO 	saved data to F:\Github\PaperFolding\data\123_GraphMaze_Navigation_2026-10-02_19h31.30.053.psydat
+80.9126 	INFO 	saved data to 'F:\\Github\\PaperFolding\\data\\123_GraphMaze_Navigation_2026-10-02_19h31.30.053.csv'
+80.9179 	INFO 	Stopping keyboard key buffers.

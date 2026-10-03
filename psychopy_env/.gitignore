@@ -1,0 +1,21 @@
+# PsychoPy experiment data output -- never commit participant data
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# PsychoPy cache and logs
+*.log
+lastrun.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

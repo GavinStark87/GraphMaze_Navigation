@@ -1,0 +1,24 @@
+﻿cueImage,leftImage,rightImage,corrAns,trial_type,n,cue_image.file_raw,left_image.file_raw,right_image.file_raw,trial_resp.corr_mean,trial_resp.corr_raw,trial_resp.corr_std,trial_resp.keys_raw,trial_resp.rt_mean,trial_resp.rt_raw,trial_resp.rt_std,trial_type_raw,order
+stimuli/maze_compass,stimuli/maze_chair,stimuli/maze_guitar,left,route,1.0,'stimuli/maze_compass','stimuli/maze_chair','stimuli/maze_guitar',0.0,0.0,0.0,'right',0.3271835148334503,0.3271835148334503,0.0,'route',15.0
+stimuli/maze_compass,stimuli/maze_clock,stimuli/maze_umbrella,right,line,1.0,'stimuli/maze_compass','stimuli/maze_clock','stimuli/maze_umbrella',0.0,0.0,0.0,'left',0.5339004993438721,0.5339004993438721,0.0,'line',13.0
+stimuli/maze_snowman,stimuli/maze_lampPost,stimuli/maze_spaceShuttle,right,route,1.0,'stimuli/maze_snowman','stimuli/maze_lampPost','stimuli/maze_spaceShuttle',1.0,1.0,0.0,'right',0.7855646014213562,0.7855646014213562,0.0,'route',5.0
+stimuli/maze_snowman,stimuli/maze_guitar,stimuli/maze_compass,left,line,1.0,'stimuli/maze_snowman','stimuli/maze_guitar','stimuli/maze_compass',1.0,1.0,0.0,'left',6.160089015960693,6.160089015960693,0.0,'line',0.0
+stimuli/maze_spaceShuttle,stimuli/maze_umbrella,stimuli/maze_chair,left,route,1.0,'stimuli/maze_spaceShuttle','stimuli/maze_umbrella','stimuli/maze_chair',1.0,1.0,0.0,'left',0.33382779359817505,0.33382779359817505,0.0,'route',6.0
+stimuli/maze_spaceShuttle,stimuli/maze_snowman,stimuli/maze_clock,right,line,1.0,'stimuli/maze_spaceShuttle','stimuli/maze_snowman','stimuli/maze_clock',1.0,1.0,0.0,'right',1.9994062185287476,1.9994062185287476,0.0,'line',1.0
+stimuli/maze_guitar,stimuli/maze_compass,stimuli/maze_lampPost,right,route,1.0,'stimuli/maze_guitar','stimuli/maze_compass','stimuli/maze_lampPost',1.0,1.0,0.0,'right',5.58417272567749,5.58417272567749,0.0,'route',3.0
+stimuli/maze_guitar,stimuli/maze_chair,stimuli/maze_snowman,left,line,1.0,'stimuli/maze_guitar','stimuli/maze_chair','stimuli/maze_snowman',0.0,0.0,0.0,'right',0.23326189815998077,0.23326189815998077,0.0,'line',9.0
+stimuli/maze_clock,stimuli/maze_spaceShuttle,stimuli/maze_umbrella,left,route,1.0,'stimuli/maze_clock','stimuli/maze_spaceShuttle','stimuli/maze_umbrella',1.0,1.0,0.0,'left',0.3809798061847687,0.3809798061847687,0.0,'route',11.0
+stimuli/maze_clock,stimuli/maze_lampPost,stimuli/maze_compass,right,line,1.0,'stimuli/maze_clock','stimuli/maze_lampPost','stimuli/maze_compass',1.0,1.0,0.0,'right',0.37923869490623474,0.37923869490623474,0.0,'line',12.0
+stimuli/maze_umbrella,stimuli/maze_guitar,stimuli/maze_clock,right,route,1.0,'stimuli/maze_umbrella','stimuli/maze_guitar','stimuli/maze_clock',0.0,0.0,0.0,'left',1.620292067527771,1.620292067527771,0.0,'route',2.0
+stimuli/maze_umbrella,stimuli/maze_spaceShuttle,stimuli/maze_lampPost,left,line,1.0,'stimuli/maze_umbrella','stimuli/maze_spaceShuttle','stimuli/maze_lampPost',1.0,1.0,0.0,'left',0.3740173876285553,0.3740173876285553,0.0,'line',10.0
+stimuli/maze_lampPost,stimuli/maze_chair,stimuli/maze_guitar,left,route,1.0,'stimuli/maze_lampPost','stimuli/maze_chair','stimuli/maze_guitar',1.0,1.0,0.0,'left',0.22232529520988464,0.22232529520988464,0.0,'route',8.0
+stimuli/maze_lampPost,stimuli/maze_chair,stimuli/maze_guitar,left,line,1.0,'stimuli/maze_lampPost','stimuli/maze_chair','stimuli/maze_guitar',0.0,0.0,0.0,'right',0.2649487853050232,0.2649487853050232,0.0,'line',7.0
+stimuli/maze_chair,stimuli/maze_compass,stimuli/maze_spaceShuttle,right,route,1.0,'stimuli/maze_chair','stimuli/maze_compass','stimuli/maze_spaceShuttle',1.0,1.0,0.0,'right',1.5442452430725098,1.5442452430725098,0.0,'route',4.0
+stimuli/maze_chair,stimuli/maze_compass,stimuli/maze_spaceShuttle,left,line,1.0,'stimuli/maze_chair','stimuli/maze_compass','stimuli/maze_spaceShuttle',0.0,0.0,0.0,'right',0.3795399069786072,0.3795399069786072,0.0,'line',14.0
+
+extraInfo
+Participant ID,123
+date,2026-09-21_15h33.52.193
+expName,GraphMaze_Navigation
+psychopyVersion,2021.2.3
+frameRate,120.10727985623875
