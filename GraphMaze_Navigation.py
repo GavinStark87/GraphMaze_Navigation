@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Graph Maze Navigation Task
+Graph Maze Navigation Task -- MAIN TASK
 MenoMaps Project - UC Irvine Spatial Neuroscience Lab
+
+Run after GraphMaze_Practice.py has been completed.
+Contains brick main trials and hedge main trials only -- no practice, no feedback.
 """
 
 from __future__ import absolute_import, division
@@ -21,7 +24,6 @@ from psychopy.hardware import keyboard
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
-# Create data directory before anything tries to write logs
 data_dir = os.path.join(_thisDir, 'data')
 if not os.path.isdir(data_dir):
     os.makedirs(data_dir)
@@ -65,7 +67,7 @@ else:
 
 defaultKeyboard = keyboard.Keyboard()
 
-# -- Background colors (PsychoPy rgb -1 to 1 scale) -------------------------
+# -- Colors ------------------------------------------------------------------
 COLOR_BLACK = [0, 0, 0]
 COLOR_BLUE  = [0.2, 0.55, 0.95]     # lighter blue -- path distance trials
 COLOR_PEACH = [0.914, 0.506, 0.090] # peach        -- straight-line trials
@@ -76,30 +78,16 @@ question_map = {
     'line':  'Which is the shortest straight-line distance from the start?'
 }
 
-# -- Instruction slide text -------------------------------------------------
-SLIDE1_TITLE = 'Practice Trials + Instructions'
-
-SLIDE1_BODY = (
-    "You are going to be shown a series of objects from one of two environments "
-    "you've previously learned in this study (one from the first session, one from today).\n\n"
-    "You will be given an object that you should imagine you have been placed in front of "
-    "(at the top of the screen), and then indicate, of two possible options, which object is "
-    "closest to the starting object, either via shortest path distance "
-    "(if you were to wayfind via set paths) or shortest straight-line distance "
-    "(if you could walk in a straight line to it).\n\n"
-    "If you think the object on the left is closest, you'll press the left button. "
-    "Similarly, if you think the object on the right is closest, you'll press the right button.\n\n"
-    "First, we'll practice with an example environment."
-)
-
-SLIDE2_BODY = (
-    "You will now begin the task. There will be a total of 40 trials across 2 different "
-    "environments that you have learned (one from your first session, one from today's session). "
-    "You will have 10 seconds to respond to each trial, and you will not be given feedback "
-    "on your performance.\n\n"
-    "As a final reminder, you will be asked to indicate which object is closer to your "
-    "starting point either via shortest path distance or shortest straight-line distance "
-    "(they may not be the same answer!).\n\n"
+# -- Ready slide text --------------------------------------------------------
+# Update trial count here if boss confirms final CSV sizes differ from 200.
+SLIDE_READY_BODY = (
+    "You will now begin the main task. There will be a total of 200 trials across "
+    "the two environments you have learned.\n\n"
+    "You will have 10 seconds to respond to each trial. "
+    "You will not be given feedback on your performance.\n\n"
+    "As a reminder, indicate which object is closer to your starting point "
+    "via shortest path distance (blue) or shortest straight-line distance (peach) -- "
+    "they may not be the same answer!\n\n"
     "Do you have any questions?"
 )
 
@@ -118,37 +106,14 @@ fixation = visual.TextStim(win=win, name='fixation',
     pos=(0, 0), height=0.12, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=0.0)
 
-# Practice maze display
-maze_image = visual.ImageStim(
-    win=win, name='maze_image',
-    image='sin', mask=None,
-    ori=0.0, pos=(0, -0.03), size=(0.75, 0.75),
-    color=[1, 1, 1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=0.0)
-maze_title_stim = visual.TextStim(win=win, name='maze_title_stim',
-    text='Example Practice Maze', font='Arial',
-    pos=(0, 0.43), height=0.048, wrapWidth=1.4, ori=0,
-    color='white', colorSpace='rgb', opacity=1, depth=-1.0)
-
-# Environment maze image
-env_maze_image = visual.ImageStim(
-    win=win, name='env_maze_image',
-    image='sin', mask=None,
-    ori=0.0, pos=(0, -0.06), size=(0.72, 0.72),
-    color=[1, 1, 1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
-
-# Environment label
+# Environment label -- large centered text, no maze image
 envClock = core.Clock()
 env_label = visual.TextStim(win=win, name='env_label',
     text='', font='Arial',
-    pos=(0, 0.43), height=0.048, wrapWidth=1.4, ori=0,
+    pos=(0, 0), height=0.14, wrapWidth=1.4, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=0.0)
-# FIX 1: pos y moved from -0.43 to -0.46 so the prompt sits lower on maze screens
 env_advance = visual.TextStim(win=win, name='env_advance',
-    text='Press any number to continue.',
+    text='Press 5 to continue.',
     font='Arial', pos=(0, -0.46), height=0.038, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=-1.0)
 
@@ -201,32 +166,6 @@ right_label_stim = visual.TextStim(win=win, name='right_label_stim',
 
 trial_resp = keyboard.Keyboard()
 
-# Feedback -- left side
-fb_text_left = visual.TextStim(win=win, name='fb_text_left',
-    text='', font='Arial',
-    pos=(-0.65, 0.02), height=0.046, wrapWidth=0.25, ori=0,
-    color=[0, 0.32, 0], colorSpace='rgb', opacity=1, depth=0.0)
-fb_line_left = visual.Line(win=win, name='fb_line_left',
-    start=(-0.52, -0.07), end=(-0.35, -0.17),
-    lineWidth=3.0, lineColor=[0, 0.32, 0], lineColorSpace='rgb')
-fb_head_left = visual.ShapeStim(win=win, name='fb_head_left',
-    vertices=[(-0.35, -0.17), (-0.395, -0.167), (-0.375, -0.133)],
-    fillColor=[0, 0.32, 0], lineColor=[0, 0.32, 0],
-    lineColorSpace='rgb', fillColorSpace='rgb', opacity=1, depth=-1.0)
-
-# Feedback -- right side
-fb_text_right = visual.TextStim(win=win, name='fb_text_right',
-    text='', font='Arial',
-    pos=(0.65, 0.02), height=0.046, wrapWidth=0.25, ori=0,
-    color=[0, 0.32, 0], colorSpace='rgb', opacity=1, depth=0.0)
-fb_line_right = visual.Line(win=win, name='fb_line_right',
-    start=(0.52, -0.07), end=(0.35, -0.17),
-    lineWidth=3.0, lineColor=[0, 0.32, 0], lineColorSpace='rgb')
-fb_head_right = visual.ShapeStim(win=win, name='fb_head_right',
-    vertices=[(0.35, -0.17), (0.375, -0.133), (0.395, -0.167)],
-    fillColor=[0, 0.32, 0], lineColor=[0, 0.32, 0],
-    lineColorSpace='rgb', fillColorSpace='rgb', opacity=1, depth=-1.0)
-
 # End screen
 endClock = core.Clock()
 thankyou = visual.TextStim(win=win, name='thankyou',
@@ -234,7 +173,7 @@ thankyou = visual.TextStim(win=win, name='thankyou',
     font='Arial', pos=(0, 0.1), height=0.06, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=0.0)
 finalslide = visual.TextStim(win=win, name='finalslide',
-    text='Press any number to exit.',
+    text='Press 5 to exit.',
     font='Arial', pos=(0, -0.2), height=0.04, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=-1.0)
 final_key = keyboard.Keyboard()
@@ -244,13 +183,7 @@ final_key = keyboard.Keyboard()
 # ===========================================================================
 
 def load_conditions(csv_path):
-    """
-    Load a conditions CSV. Quits with a clear console message if the file
-    is not found or if importConditions raises any exception.
-    FIX 2: removed thisExp.abort() from the error path -- it can itself
-    throw if called before all data is set up, causing a confusing double
-    crash. win.close() + core.quit() is sufficient.
-    """
+    """Load a conditions CSV, quitting with a clear message if not found."""
     if not os.path.isfile(csv_path):
         print('ERROR: conditions file not found: ' + csv_path)
         print('Expected location: ' + os.path.join(_thisDir, csv_path))
@@ -292,50 +225,24 @@ def show_fixation(duration=1.0):
     routineTimer.reset()
 
 
-def show_text_slide(title_text, body_text):
+def show_text_slide(body_text):
     """
-    Display a text-only instruction slide on a black background.
-    Advances on any number key. No PNG file required.
-    When title_text is provided, also shows colour-coded distance hints.
+    Display a text-only ready slide on a black background.
+    Key 5 to advance. No title, no color hints.
     """
     win.color = COLOR_BLACK
     slideClock = core.Clock()
-    vis_comps = []
-
-    if title_text:
-        title_stim = visual.TextStim(win,
-            text=title_text, font='Arial',
-            pos=(0, 0.39), height=0.060,
-            wrapWidth=1.5, color='white', colorSpace='rgb',
-            bold=True, depth=0.0)
-        vis_comps.append(title_stim)
-        body_pos_y = 0.03
-    else:
-        body_pos_y = 0.12
 
     body_stim = visual.TextStim(win,
         text=body_text, font='Arial',
-        pos=(0, body_pos_y), height=0.036,
+        pos=(0, 0.08), height=0.036,
         wrapWidth=1.5, color='white', colorSpace='rgb',
         depth=-1.0)
-    vis_comps.append(body_stim)
-
-    if title_text:
-        path_hint = visual.TextStim(win,
-            text='Blue background  =  path distance trials',
-            font='Arial', pos=(0, -0.40), height=0.032,
-            color=COLOR_BLUE, colorSpace='rgb', depth=-2.0)
-        line_hint = visual.TextStim(win,
-            text='Peach background  =  straight-line distance trials',
-            font='Arial', pos=(0, -0.44), height=0.032,
-            color=COLOR_PEACH, colorSpace='rgb', depth=-3.0)
-        vis_comps.extend([path_hint, line_hint])
-
     advance_stim = visual.TextStim(win,
-        text='Press any number to continue.',
+        text='Press 5 to begin.',
         font='Arial', pos=(0, -0.47), height=0.031,
-        color=[0.4, 0.4, 0.4], colorSpace='rgb', depth=-4.0)
-    vis_comps.append(advance_stim)
+        color=[0.4, 0.4, 0.4], colorSpace='rgb', depth=-2.0)
+    vis_comps = [body_stim, advance_stim]
 
     slide_resp = keyboard.Keyboard()
     for comp in vis_comps:
@@ -371,9 +278,7 @@ def show_text_slide(title_text, body_text):
             win.callOnFlip(slide_resp.clock.reset)
             win.callOnFlip(slide_resp.clearEvents, eventType='keyboard')
         if slide_resp.status == STARTED and not waitOnFlip:
-            theseKeys = slide_resp.getKeys(
-                keyList=['1','2','3','4','5','6','7','8','9','0'],
-                waitRelease=False)
+            theseKeys = slide_resp.getKeys(keyList=['5'], waitRelease=False)
             _allKeys.extend(theseKeys)
             if len(_allKeys):
                 continueRoutine = False
@@ -387,78 +292,14 @@ def show_text_slide(title_text, body_text):
     routineTimer.reset()
 
 
-def show_practice_maze():
+def show_env_label(label_text):
     """
-    Show the fruit practice maze image with title and advance prompt.
-    Number keys to advance.
-    FIX 1: env_advance is now included so the 'press any number' prompt
-    appears on this screen too, at the lowered y=-0.46 position.
-    """
-    win.color = COLOR_BLACK
-    maze_image.setImage('stimuli/prac_maze.png')
-    maze_resp = keyboard.Keyboard()
-    # FIX 1: add env_advance to the component list
-    display_comps = [maze_image, maze_title_stim, env_advance]
-    for comp in display_comps:
-        comp.status = NOT_STARTED
-        comp.tStart = None
-    maze_resp.status = NOT_STARTED
-    maze_resp.keys = []
-    _allKeys = []
-    continueRoutine = True
-    mazeClock = core.Clock()
-    _timeToFirstFrame = win.getFutureFlipTime(clock='now')
-    mazeClock.reset(-_timeToFirstFrame)
-    frameN = -1
-    while continueRoutine:
-        tThisFlip = win.getFutureFlipTime(clock=mazeClock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1
-        for comp in display_comps:
-            if comp.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
-                comp.frameNStart = frameN
-                comp.tStart = mazeClock.getTime()
-                comp.tStartRefresh = tThisFlipGlobal
-                win.timeOnFlip(comp, 'tStartRefresh')
-                comp.setAutoDraw(True)
-        waitOnFlip = False
-        if maze_resp.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
-            maze_resp.frameNStart = frameN
-            maze_resp.tStart = mazeClock.getTime()
-            maze_resp.tStartRefresh = tThisFlipGlobal
-            win.timeOnFlip(maze_resp, 'tStartRefresh')
-            maze_resp.status = STARTED
-            waitOnFlip = True
-            win.callOnFlip(maze_resp.clock.reset)
-            win.callOnFlip(maze_resp.clearEvents, eventType='keyboard')
-        if maze_resp.status == STARTED and not waitOnFlip:
-            theseKeys = maze_resp.getKeys(
-                keyList=['1','2','3','4','5','6','7','8','9','0'],
-                waitRelease=False)
-            _allKeys.extend(theseKeys)
-            if len(_allKeys):
-                continueRoutine = False
-        if endExpNow or defaultKeyboard.getKeys(keyList=['escape']):
-            core.quit()
-        if continueRoutine:
-            win.flip()
-    for comp in display_comps:
-        comp.setAutoDraw(False)
-    routineTimer.reset()
-
-
-def show_env_label(label_text, maze_path=None):
-    """
-    Display environment label on black background. Number keys to advance.
-    If maze_path is provided, shows the maze image below the label.
+    Display environment name as large centered text on black background.
+    No maze image. Key 5 to advance.
     """
     win.color = COLOR_BLACK
     env_label.setText(label_text)
-
     display_comps = [env_label, env_advance]
-    if maze_path:
-        env_maze_image.setImage(maze_path)
-        display_comps = [env_label, env_maze_image, env_advance]
 
     env_resp = keyboard.Keyboard()
     for comp in display_comps:
@@ -494,9 +335,7 @@ def show_env_label(label_text, maze_path=None):
             win.callOnFlip(env_resp.clock.reset)
             win.callOnFlip(env_resp.clearEvents, eventType='keyboard')
         if env_resp.status == STARTED and not waitOnFlip:
-            theseKeys = env_resp.getKeys(
-                keyList=['1','2','3','4','5','6','7','8','9','0'],
-                waitRelease=False)
+            theseKeys = env_resp.getKeys(keyList=['5'], waitRelease=False)
             _allKeys.extend(theseKeys)
             if len(_allKeys):
                 continueRoutine = False
@@ -510,10 +349,9 @@ def show_env_label(label_text, maze_path=None):
     routineTimer.reset()
 
 
-def run_trial(trialData, practice=False):
+def run_trial(trialData):
     """
-    Run one trial. Returns (keys, rt, corr).
-    practice=True shows green feedback arrow after response.
+    Run one main trial (no feedback). Returns (keys, rt, corr).
     Background: blue for route, peach for line.
     Key map: 1 = left, 2 = right.
     core.CountdownTimer(10) ends trial after 10 seconds if no response.
@@ -544,7 +382,6 @@ def run_trial(trialData, practice=False):
         if hasattr(comp, 'status'):
             comp.status = NOT_STARTED
 
-    # Countdown timer -- trial ends automatically after 10 seconds
     trialCountdown = core.CountdownTimer(10)
 
     continueRoutine = True
@@ -577,8 +414,7 @@ def run_trial(trialData, practice=False):
             win.callOnFlip(trial_resp.clearEvents, eventType='keyboard')
 
         if trial_resp.status == STARTED and not waitOnFlip:
-            theseKeys = trial_resp.getKeys(
-                keyList=['1', '2'], waitRelease=False)
+            theseKeys = trial_resp.getKeys(keyList=['1', '2'], waitRelease=False)
             _trial_allKeys.extend(theseKeys)
             if len(_trial_allKeys):
                 trial_resp.keys = _trial_allKeys[0].name
@@ -592,7 +428,6 @@ def run_trial(trialData, practice=False):
                     trial_resp.corr = 0
                 continueRoutine = False
 
-        # End trial if 10 seconds have elapsed with no response
         if trialCountdown.getTime() <= 0:
             continueRoutine = False
 
@@ -604,53 +439,10 @@ def run_trial(trialData, practice=False):
     for comp in vis_comps:
         comp.setAutoDraw(False)
 
-    # Handle no-response case
     if trial_resp.keys in ['', [], None]:
         trial_resp.keys = None
         trial_resp.rt   = None
         trial_resp.corr = 0
-
-    # -- Practice feedback ---------------------------------------------------
-    if practice:
-        corr_label = str(trialData['corrLabel'])
-        corr_side  = str(trialData['corrAns'])
-
-        if corr_side == 'left':
-            fb_text_left.setText('Correct answer:\n' + corr_label)
-            fb_comps = [fb_text_left, fb_line_left, fb_head_left]
-        else:
-            fb_text_right.setText('Correct answer:\n' + corr_label)
-            fb_comps = [fb_text_right, fb_line_right, fb_head_right]
-
-        for comp in vis_comps:
-            comp.setAutoDraw(True)
-        for comp in fb_comps:
-            comp.status = NOT_STARTED
-            comp.tStart = None
-
-        fbClock = core.Clock()
-        routineTimer.reset()
-        routineTimer.add(2.0)
-        _timeToFirstFrame = win.getFutureFlipTime(clock='now')
-        fbClock.reset(-_timeToFirstFrame)
-        frameN = -1
-        while routineTimer.getTime() > 0:
-            tThisFlip = win.getFutureFlipTime(clock=fbClock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1
-            for comp in fb_comps:
-                if comp.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
-                    comp.frameNStart = frameN
-                    comp.tStart = fbClock.getTime()
-                    comp.tStartRefresh = tThisFlipGlobal
-                    win.timeOnFlip(comp, 'tStartRefresh')
-                    comp.setAutoDraw(True)
-            if endExpNow or defaultKeyboard.getKeys(keyList=['escape']):
-                core.quit()
-            win.flip()
-        for comp in vis_comps + fb_comps:
-            comp.setAutoDraw(False)
-        routineTimer.reset()
 
     win.color = COLOR_BLACK
     return trial_resp.keys, trial_resp.rt, trial_resp.corr
@@ -660,86 +452,14 @@ def run_trial(trialData, practice=False):
 # EXPERIMENT FLOW
 # ===========================================================================
 
-# 1. Instruction text slide
-show_text_slide(SLIDE1_TITLE, SLIDE1_BODY)
-
-# 2. Practice maze -- first showing
-show_practice_maze()
-
-# 3. Fruit practice block (4 trials, sequential)
-fruit_handler = data.TrialHandler(nReps=1, method='sequential',
-    extraInfo=expInfo, originPath=-1,
-    trialList=load_conditions('nav_task_practice_fruit.csv'),
-    seed=None, name='fruit_practice')
-thisExp.addLoop(fruit_handler)
-
-trial_count = 0
-for thisFruit in fruit_handler:
-    currentLoop = fruit_handler
-    if thisFruit is not None:
-        for paramName in thisFruit:
-            exec('{} = thisFruit[paramName]'.format(paramName))
-
-    if trial_count == 2:
-        show_practice_maze()
-
-    show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisFruit, practice=True)
-
-    fruit_handler.addData('trial_resp.keys', respKeys)
-    fruit_handler.addData('trial_resp.corr', respCorr)
-    if respKeys is not None:
-        fruit_handler.addData('trial_resp.rt', respRT)
-    fruit_handler.addData('trial_type', thisFruit['trial_type'])
-    fruit_handler.addData('cue_image.file', thisFruit['cueImage'])
-
-    trial_count += 1
-    routineTimer.reset()
-    thisExp.nextEntry()
-
-# 4. Pre-task instruction slide
-show_text_slide('', SLIDE2_BODY)
+# 1. Ready slide (brief reminder + questions check)
+show_text_slide(SLIDE_READY_BODY)
 
 # ---------------------------------------------------------------------------
-# BRICK block: practice THEN main trials
+# BRICK main trials (randomised, no feedback)
 # ---------------------------------------------------------------------------
+show_env_label('Brick Maze')
 
-# 5. Brick maze env label + practice
-show_env_label('Environment: brick maze', maze_path='stimuli/brick_maze.png')
-
-brick_prac_handler = data.TrialHandler(nReps=1, method='sequential',
-    extraInfo=expInfo, originPath=-1,
-    trialList=load_conditions('nav_task_practice_brick.csv'),
-    seed=None, name='brick_practice')
-thisExp.addLoop(brick_prac_handler)
-
-for thisBrick in brick_prac_handler:
-    currentLoop = brick_prac_handler
-    if thisBrick is not None:
-        for paramName in thisBrick:
-            exec('{} = thisBrick[paramName]'.format(paramName))
-
-    show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisBrick, practice=True)
-
-    brick_prac_handler.addData('trial_resp.keys', respKeys)
-    brick_prac_handler.addData('trial_resp.corr', respCorr)
-    if respKeys is not None:
-        brick_prac_handler.addData('trial_resp.rt', respRT)
-    brick_prac_handler.addData('trial_type', thisBrick['trial_type'])
-    brick_prac_handler.addData('cue_image.file', thisBrick['cueImage'])
-
-    routineTimer.reset()
-    thisExp.nextEntry()
-
-# FIX 2: flush all stale key presses before entering the main trial loop.
-# A number key held or released at the end of the last practice trial can
-# be picked up immediately by the first main trial, ending it before any
-# stimulus has drawn -- most likely cause of the post-practice crash.
-event.clearEvents()
-defaultKeyboard.clearEvents()
-
-# 6. Brick maze main trials (randomised, no feedback)
 brick_trials = data.TrialHandler(nReps=1, method='random',
     extraInfo=expInfo, originPath=-1,
     trialList=load_conditions('nav_task_conditions_brick.csv'),
@@ -753,7 +473,7 @@ for thisTrial in brick_trials:
             exec('{} = thisTrial[paramName]'.format(paramName))
 
     show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisTrial, practice=False)
+    respKeys, respRT, respCorr = run_trial(thisTrial)
 
     brick_trials.addData('trial_resp.keys', respKeys)
     brick_trials.addData('trial_resp.corr', respCorr)
@@ -767,43 +487,14 @@ for thisTrial in brick_trials:
     routineTimer.reset()
     thisExp.nextEntry()
 
-# ---------------------------------------------------------------------------
-# HEDGE block: practice THEN main trials
-# ---------------------------------------------------------------------------
-
-# 7. Hedge maze env label + practice
-show_env_label('Environment: hedge maze', maze_path='stimuli/hedge_maze.png')
-
-hedge_prac_handler = data.TrialHandler(nReps=1, method='sequential',
-    extraInfo=expInfo, originPath=-1,
-    trialList=load_conditions('nav_task_practice_hedge.csv'),
-    seed=None, name='hedge_practice')
-thisExp.addLoop(hedge_prac_handler)
-
-for thisHedge in hedge_prac_handler:
-    currentLoop = hedge_prac_handler
-    if thisHedge is not None:
-        for paramName in thisHedge:
-            exec('{} = thisHedge[paramName]'.format(paramName))
-
-    show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisHedge, practice=True)
-
-    hedge_prac_handler.addData('trial_resp.keys', respKeys)
-    hedge_prac_handler.addData('trial_resp.corr', respCorr)
-    if respKeys is not None:
-        hedge_prac_handler.addData('trial_resp.rt', respRT)
-    hedge_prac_handler.addData('trial_type', thisHedge['trial_type'])
-    hedge_prac_handler.addData('cue_image.file', thisHedge['cueImage'])
-
-    routineTimer.reset()
-    thisExp.nextEntry()
-
-# FIX 2 (same as brick): flush stale key presses before hedge main trials
 event.clearEvents()
 defaultKeyboard.clearEvents()
 
-# 8. Hedge maze main trials (randomised, no feedback)
+# ---------------------------------------------------------------------------
+# HEDGE main trials (randomised, no feedback)
+# ---------------------------------------------------------------------------
+show_env_label('Hedge Maze')
+
 hedge_trials = data.TrialHandler(nReps=1, method='random',
     extraInfo=expInfo, originPath=-1,
     trialList=load_conditions('nav_task_conditions.csv'),
@@ -817,7 +508,7 @@ for thisTrial in hedge_trials:
             exec('{} = thisTrial[paramName]'.format(paramName))
 
     show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisTrial, practice=False)
+    respKeys, respRT, respCorr = run_trial(thisTrial)
 
     hedge_trials.addData('trial_resp.keys', respKeys)
     hedge_trials.addData('trial_resp.corr', respCorr)
@@ -842,7 +533,7 @@ for handler, label in [(brick_trials, 'brick'), (hedge_trials, 'hedge')]:
         dataOut=['n', 'all_mean', 'all_std', 'all_raw'])
 
 # ===========================================================================
-# END ROUTINE
+# END SCREEN
 # ===========================================================================
 win.color = COLOR_BLACK
 continueRoutine = True
@@ -884,9 +575,7 @@ while continueRoutine:
         win.callOnFlip(final_key.clock.reset)
         win.callOnFlip(final_key.clearEvents, eventType='keyboard')
     if final_key.status == STARTED and not waitOnFlip:
-        theseKeys = final_key.getKeys(
-            keyList=['1','2','3','4','5','6','7','8','9','0'],
-            waitRelease=False)
+        theseKeys = final_key.getKeys(keyList=['5'], waitRelease=False)
         _final_allKeys.extend(theseKeys)
         if len(_final_allKeys):
             final_key.keys = _final_allKeys[-1].name

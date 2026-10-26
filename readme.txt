@@ -3,7 +3,7 @@
 
 **Author:** Gavin Stark
 **Contact:** gestark@uci.edu
-**Last updated:** 10/2/2026
+**Last updated:** 10/20/2026
 
 ---
 
@@ -83,8 +83,8 @@ GraphMaze_Navigation/
 ├── nav_task_practice_fruit.csv      # Fruit practice (4 trials)
 ├── nav_task_practice_brick.csv      # Brick practice (2 trials)
 ├── nav_task_practice_hedge.csv      # Hedge practice (2 trials)
-├── nav_task_conditions_brick.csv    # Brick main trials (24)
-├── nav_task_conditions.csv          # Hedge main trials (16)
+├── nav_task_conditions_brick.csv    # Brick main trials (100)
+├── nav_task_conditions.csv          # Hedge main trials (100)
 ├── stimuli/
 │   ├── prac_maze.png                # Fruit practice maze image
 │   ├── brick_maze.png               # Brick environment screenshot
@@ -114,13 +114,13 @@ GraphMaze_Navigation/
 4. Pre-task instruction slide
 5. Brick maze environment label + maze image
 6. Brick practice block — 2 trials with feedback (sequential)
-7. Brick main trials — 24 trials, no feedback (randomised)
+7. Brick main trials — 100 trials, no feedback (randomised)
 8. Hedge maze environment label + maze image
 9. Hedge practice block — 2 trials with feedback (sequential)
-10. Hedge main trials — 16 trials, no feedback (randomised)
+10. Hedge main trials — 100 trials, no feedback (randomised)
 11. End screen
 
-**Total main trials: 40 (24 brick + 16 hedge)**
+**Total main trials: 200 (100 brick + 100 hedge)**
 **Response window: 10 seconds per trial**
 No-response trials are recorded as keys=None, rt=None, corr=0.
 
@@ -132,7 +132,7 @@ No-response trials are recorded as keys=None, rt=None, corr=0.
 |------------------|----------------------------------|
 | 1                | Left choice object               |
 | 2                | Right choice object              |
-| Any number (0–9) | Advance slide / continue         |
+| 5		   | Advance slide / continue         |
 | Esc              | Quit experiment at any time      |
 
 ---
@@ -187,6 +187,21 @@ Output files saved to data/:
 ---
 
 ## Version History
+
+### Version 1.1 Beta - 10/20/2026
+Expanded trial working version. Not yet signed off for data collection.
+
+- Text-based instructions slides: Updated advance key to = 5
+  (compared to any number key) to be MRI-compatible.
+- Increased total trial number from 24 to 100 (nav_task_conditions_brick.csv)
+- Increased total trial number from 16 to 100 (nav_task_conditions.csv)
+- Edited SLIDE1_BODY and SLIDE2_BODY to reflect trial and key changes.
+  Provided clarification for desktop users that the left response = 1
+  and right response = 2.
+- Increased practice trials to 4 for each of the brick and hedge mazes,
+  replaced the hedge maze practice trial for one not being used in testing.
+
+
 
 ### Version 1.0 Beta — 10/2/2026
 Initial working version. Not yet signed off for data collection.

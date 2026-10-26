@@ -1,3 +1,5 @@
 cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
 stimuli/brick_telescope.png,stimuli/brick_plant.png,stimuli/brick_well.png,left,route,Telescope,Plant,Well,Plant
 stimuli/brick_telescope.png,stimuli/brick_plant.png,stimuli/brick_well.png,left,line,Telescope,Plant,Well,Plant
+stimuli/brick_harp.png,stimuli/brick_well.png,stimuli/brick_bookshelf.png,left,route,Harp,Well,Bookshelf,Well
+stimuli/brick_harp.png,stimuli/brick_well.png,stimuli/brick_bookshelf.png,right,line,Harp,Well,Bookshelf,Bookshelf

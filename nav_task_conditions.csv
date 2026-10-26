@@ -1,17 +1,101 @@
-cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
-stimuli/maze_chair.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,right,route,Chair,Guitar,Space Shuttle,Space Shuttle
-stimuli/maze_clock.png,stimuli/maze_compass.png,stimuli/maze_guitar.png,left,route,Clock,Compass,Guitar,Compass
-stimuli/maze_compass.png,stimuli/maze_snowman.png,stimuli/maze_chair.png,left,route,Compass,Snowman,Chair,Snowman
-stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_umbrella.png,right,route,Guitar,Clock,Umbrella,Umbrella
-stimuli/maze_lampPost.png,stimuli/maze_snowman.png,stimuli/maze_shuttle.png,right,route,Lamp Post,Snowman,Space Shuttle,Space Shuttle
-stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_compass.png,right,route,Snowman,Chair,Compass,Compass
-stimuli/maze_shuttle.png,stimuli/maze_lampPost.png,stimuli/maze_clock.png,left,route,Space Shuttle,Lamp Post,Clock,Lamp Post
-stimuli/maze_umbrella.png,stimuli/maze_guitar.png,stimuli/maze_clock.png,left,route,Umbrella,Guitar,Clock,Guitar
-stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,left,line,Chair,Clock,Guitar,Clock
-stimuli/maze_clock.png,stimuli/maze_guitar.png,stimuli/maze_chair.png,right,line,Clock,Guitar,Chair,Chair
-stimuli/maze_compass.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,line,Compass,Umbrella,Lamp Post,Umbrella
-stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_clock.png,left,line,Guitar,Umbrella,Clock,Umbrella
+﻿cueImage,leftImage,rightImage,corrAns,trial_type,cueLabel,leftLabel,rightLabel,corrLabel
+stimuli/maze_umbrella.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,right,line,Umbrella,Guitar,Space Shuttle,Space Shuttle
 stimuli/maze_lampPost.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Lamp Post,Space Shuttle,Snowman,Space Shuttle
-stimuli/maze_snowman.png,stimuli/maze_compass.png,stimuli/maze_lampPost.png,left,line,Snowman,Compass,Lamp Post,Compass
-stimuli/maze_shuttle.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,line,Space Shuttle,Umbrella,Snowman,Umbrella
-stimuli/maze_umbrella.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Umbrella,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_shuttle.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,line,Space Shuttle,Lamp Post,Snowman,Lamp Post
+stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,line,Guitar,Umbrella,Lamp Post,Umbrella
+stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_snowman.png,left,line,Chair,Clock,Snowman,Clock
+stimuli/maze_chair.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Chair,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_chair.png,stimuli/maze_lampPost.png,stimuli/maze_compass.png,right,line,Chair,Lamp Post,Compass,Compass
+stimuli/maze_compass.png,stimuli/maze_clock.png,stimuli/maze_shuttle.png,right,line,Compass,Clock,Space Shuttle,Space Shuttle
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,left,line,Clock,Chair,Guitar,Chair
+stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,left,line,Chair,Clock,Guitar,Clock
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,left,line,Clock,Chair,Lamp Post,Chair
+stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,line,Guitar,Umbrella,Snowman,Umbrella
+stimuli/maze_shuttle.png,stimuli/maze_chair.png,stimuli/maze_compass.png,right,line,Space Shuttle,Chair,Compass,Compass
+stimuli/maze_compass.png,stimuli/maze_clock.png,stimuli/maze_umbrella.png,right,line,Compass,Clock,Umbrella,Umbrella
+stimuli/maze_guitar.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Guitar,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_compass.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,left,line,Compass,Chair,Lamp Post,Chair
+stimuli/maze_shuttle.png,stimuli/maze_chair.png,stimuli/maze_clock.png,left,line,Space Shuttle,Chair,Clock,Chair
+stimuli/maze_snowman.png,stimuli/maze_clock.png,stimuli/maze_lampPost.png,left,line,Snowman,Clock,Lamp Post,Clock
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_umbrella.png,left,line,Clock,Chair,Umbrella,Chair
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,left,line,Snowman,Chair,Lamp Post,Chair
+stimuli/maze_snowman.png,stimuli/maze_guitar.png,stimuli/maze_lampPost.png,left,line,Snowman,Guitar,Lamp Post,Guitar
+stimuli/maze_lampPost.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,line,Lamp Post,Umbrella,Snowman,Umbrella
+stimuli/maze_compass.png,stimuli/maze_guitar.png,stimuli/maze_lampPost.png,left,line,Compass,Guitar,Lamp Post,Guitar
+stimuli/maze_lampPost.png,stimuli/maze_chair.png,stimuli/maze_compass.png,left,line,Lamp Post,Chair,Compass,Chair
+stimuli/maze_chair.png,stimuli/maze_compass.png,stimuli/maze_snowman.png,left,line,Chair,Compass,Snowman,Compass
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_shuttle.png,left,line,Snowman,Chair,Space Shuttle,Chair
+stimuli/maze_lampPost.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,left,line,Lamp Post,Clock,Guitar,Clock
+stimuli/maze_lampPost.png,stimuli/maze_guitar.png,stimuli/maze_snowman.png,left,line,Lamp Post,Guitar,Snowman,Guitar
+stimuli/maze_shuttle.png,stimuli/maze_guitar.png,stimuli/maze_snowman.png,left,line,Space Shuttle,Guitar,Snowman,Guitar
+stimuli/maze_umbrella.png,stimuli/maze_compass.png,stimuli/maze_snowman.png,left,line,Umbrella,Compass,Snowman,Compass
+stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,line,Umbrella,Lamp Post,Snowman,Lamp Post
+stimuli/maze_lampPost.png,stimuli/maze_clock.png,stimuli/maze_compass.png,left,line,Lamp Post,Clock,Compass,Clock
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_umbrella.png,left,line,Snowman,Chair,Umbrella,Chair
+stimuli/maze_clock.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,line,Clock,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_clock.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,line,Clock,Lamp Post,Snowman,Lamp Post
+stimuli/maze_compass.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,line,Compass,Umbrella,Lamp Post,Umbrella
+stimuli/maze_shuttle.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,line,Space Shuttle,Clock,Compass,Compass
+stimuli/maze_guitar.png,stimuli/maze_chair.png,stimuli/maze_shuttle.png,right,line,Guitar,Chair,Space Shuttle,Space Shuttle
+stimuli/maze_compass.png,stimuli/maze_chair.png,stimuli/maze_clock.png,left,line,Compass,Chair,Clock,Chair
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,left,line,Snowman,Chair,Guitar,Chair
+stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_lampPost.png,right,line,Guitar,Clock,Lamp Post,Lamp Post
+stimuli/maze_umbrella.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,line,Umbrella,Clock,Compass,Compass
+stimuli/maze_umbrella.png,stimuli/maze_clock.png,stimuli/maze_shuttle.png,right,line,Umbrella,Clock,Space Shuttle,Space Shuttle
+stimuli/maze_chair.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,right,line,Chair,Guitar,Space Shuttle,Space Shuttle
+stimuli/maze_shuttle.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,line,Space Shuttle,Umbrella,Lamp Post,Umbrella
+stimuli/maze_snowman.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,line,Snowman,Clock,Compass,Compass
+stimuli/maze_clock.png,stimuli/maze_guitar.png,stimuli/maze_compass.png,right,line,Clock,Guitar,Compass,Compass
+stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,line,Guitar,Clock,Compass,Compass
+stimuli/maze_umbrella.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,right,line,Umbrella,Chair,Guitar,Guitar
+stimuli/maze_compass.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,right,line,Compass,Lamp Post,Snowman,Snowman
+stimuli/maze_umbrella.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,left,route,Umbrella,Guitar,Space Shuttle,Space Shuttle
+stimuli/maze_lampPost.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,route,Lamp Post,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_shuttle.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,route,Space Shuttle,Lamp Post,Snowman,Lamp Post
+stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,route,Guitar,Umbrella,Lamp Post,Umbrella
+stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_snowman.png,left,route,Chair,Clock,Snowman,Clock
+stimuli/maze_chair.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,left,route,Chair,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_chair.png,stimuli/maze_lampPost.png,stimuli/maze_compass.png,left,route,Chair,Lamp Post,Compass,Compass
+stimuli/maze_compass.png,stimuli/maze_clock.png,stimuli/maze_shuttle.png,left,route,Compass,Clock,Space Shuttle,Space Shuttle
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,left,route,Clock,Chair,Guitar,Chair
+stimuli/maze_chair.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,left,route,Chair,Clock,Guitar,Clock
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,left,route,Clock,Chair,Lamp Post,Chair
+stimuli/maze_guitar.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,route,Guitar,Umbrella,Snowman,Umbrella
+stimuli/maze_shuttle.png,stimuli/maze_chair.png,stimuli/maze_compass.png,left,route,Space Shuttle,Chair,Compass,Compass
+stimuli/maze_compass.png,stimuli/maze_clock.png,stimuli/maze_umbrella.png,left,route,Compass,Clock,Umbrella,Umbrella
+stimuli/maze_guitar.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,right,route,Guitar,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_compass.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,right,route,Compass,Chair,Lamp Post,Chair
+stimuli/maze_shuttle.png,stimuli/maze_chair.png,stimuli/maze_clock.png,left,route,Space Shuttle,Chair,Clock,Chair
+stimuli/maze_snowman.png,stimuli/maze_clock.png,stimuli/maze_lampPost.png,left,route,Snowman,Clock,Lamp Post,Clock
+stimuli/maze_clock.png,stimuli/maze_chair.png,stimuli/maze_umbrella.png,left,route,Clock,Chair,Umbrella,Chair
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_lampPost.png,right,route,Snowman,Chair,Lamp Post,Chair
+stimuli/maze_snowman.png,stimuli/maze_guitar.png,stimuli/maze_lampPost.png,left,route,Snowman,Guitar,Lamp Post,Guitar
+stimuli/maze_lampPost.png,stimuli/maze_umbrella.png,stimuli/maze_snowman.png,left,route,Lamp Post,Umbrella,Snowman,Umbrella
+stimuli/maze_compass.png,stimuli/maze_guitar.png,stimuli/maze_lampPost.png,left,route,Compass,Guitar,Lamp Post,Guitar
+stimuli/maze_lampPost.png,stimuli/maze_chair.png,stimuli/maze_compass.png,left,route,Lamp Post,Chair,Compass,Chair
+stimuli/maze_chair.png,stimuli/maze_compass.png,stimuli/maze_snowman.png,left,route,Chair,Compass,Snowman,Compass
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_shuttle.png,right,route,Snowman,Chair,Space Shuttle,Chair
+stimuli/maze_lampPost.png,stimuli/maze_clock.png,stimuli/maze_guitar.png,right,route,Lamp Post,Clock,Guitar,Clock
+stimuli/maze_lampPost.png,stimuli/maze_guitar.png,stimuli/maze_snowman.png,left,route,Lamp Post,Guitar,Snowman,Guitar
+stimuli/maze_shuttle.png,stimuli/maze_guitar.png,stimuli/maze_snowman.png,left,route,Space Shuttle,Guitar,Snowman,Guitar
+stimuli/maze_umbrella.png,stimuli/maze_compass.png,stimuli/maze_snowman.png,left,route,Umbrella,Compass,Snowman,Compass
+stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,left,route,Umbrella,Lamp Post,Snowman,Lamp Post
+stimuli/maze_lampPost.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,route,Lamp Post,Clock,Compass,Clock
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_umbrella.png,right,route,Snowman,Chair,Umbrella,Chair
+stimuli/maze_clock.png,stimuli/maze_shuttle.png,stimuli/maze_snowman.png,right,route,Clock,Space Shuttle,Snowman,Space Shuttle
+stimuli/maze_clock.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,right,route,Clock,Lamp Post,Snowman,Lamp Post
+stimuli/maze_compass.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,left,route,Compass,Umbrella,Lamp Post,Umbrella
+stimuli/maze_shuttle.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,route,Space Shuttle,Clock,Compass,Compass
+stimuli/maze_guitar.png,stimuli/maze_chair.png,stimuli/maze_shuttle.png,right,route,Guitar,Chair,Space Shuttle,Space Shuttle
+stimuli/maze_compass.png,stimuli/maze_chair.png,stimuli/maze_clock.png,right,route,Compass,Chair,Clock,Chair
+stimuli/maze_snowman.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,right,route,Snowman,Chair,Guitar,Chair
+stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_lampPost.png,right,route,Guitar,Clock,Lamp Post,Lamp Post
+stimuli/maze_umbrella.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,route,Umbrella,Clock,Compass,Compass
+stimuli/maze_umbrella.png,stimuli/maze_clock.png,stimuli/maze_shuttle.png,right,route,Umbrella,Clock,Space Shuttle,Space Shuttle
+stimuli/maze_chair.png,stimuli/maze_guitar.png,stimuli/maze_shuttle.png,right,route,Chair,Guitar,Space Shuttle,Space Shuttle
+stimuli/maze_shuttle.png,stimuli/maze_umbrella.png,stimuli/maze_lampPost.png,right,route,Space Shuttle,Umbrella,Lamp Post,Umbrella
+stimuli/maze_snowman.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,route,Snowman,Clock,Compass,Compass
+stimuli/maze_clock.png,stimuli/maze_guitar.png,stimuli/maze_compass.png,right,route,Clock,Guitar,Compass,Compass
+stimuli/maze_guitar.png,stimuli/maze_clock.png,stimuli/maze_compass.png,right,route,Guitar,Clock,Compass,Compass
+stimuli/maze_umbrella.png,stimuli/maze_chair.png,stimuli/maze_guitar.png,right,route,Umbrella,Chair,Guitar,Guitar
+stimuli/maze_compass.png,stimuli/maze_lampPost.png,stimuli/maze_snowman.png,right,route,Compass,Lamp Post,Snowman,Snowman

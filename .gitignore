@@ -1,5 +1,7 @@
 # PsychoPy experiment data output -- never commit participant data
 data/
+psychopy_env/
+.DS_Store
 
 # Python
 __pycache__/
