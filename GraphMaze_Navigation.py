@@ -6,6 +6,7 @@ MenoMaps Project - UC Irvine Spatial Neuroscience Lab
 
 Run after GraphMaze_Practice.py has been completed.
 Contains brick main trials and hedge main trials only -- no practice, no feedback.
+Environment presentation order can be forced or randomized (see FORCED_START_ENV below).
 """
 
 from __future__ import absolute_import, division
@@ -18,6 +19,7 @@ from numpy import (sin, cos, tan, log, log10, pi, average,
                    sqrt, std, deg2rad, rad2deg, linspace, asarray)
 from numpy.random import random, randint, normal, shuffle, choice as randchoice
 import os, sys
+import random as pyrandom
 from psychopy.hardware import keyboard
 
 # -- Paths -------------------------------------------------------------------
@@ -52,6 +54,28 @@ logging.console.setLevel(logging.WARNING)
 
 endExpNow = False
 frameTolerance = 0.001
+
+# ===========================================================================
+# ENVIRONMENT PRESENTATION ORDER
+# ===========================================================================
+# Set FORCED_START_ENV to 'brick' or 'hedge' to manually control which
+# environment runs first (e.g. for manual counterbalancing by participant
+# number). Set to None to randomize the order automatically.
+#
+# Either way, the chosen order is logged to the data file so it can be
+# matched up against EPI run order later.
+FORCED_START_ENV = None   # 'brick', 'hedge', or None for random
+
+if FORCED_START_ENV in ('brick', 'hedge'):
+    env_order = [FORCED_START_ENV, 'hedge' if FORCED_START_ENV == 'brick' else 'brick']
+else:
+    env_order = ['brick', 'hedge']
+    pyrandom.shuffle(env_order)
+
+thisExp.addData('env_order', '_'.join(env_order))
+thisExp.addData('env_1_first', env_order[0])
+thisExp.addData('env_2_second', env_order[1])
+thisExp.nextEntry()
 
 # -- Window ------------------------------------------------------------------
 win = visual.Window(
@@ -455,80 +479,65 @@ def run_trial(trialData):
 # 1. Ready slide (brief reminder + questions check)
 show_text_slide(SLIDE_READY_BODY)
 
-# ---------------------------------------------------------------------------
-# BRICK main trials (randomised, no feedback)
-# ---------------------------------------------------------------------------
-show_env_label('Brick Maze')
+# -- Environment config lookup table -----------------------------------------
+env_configs = {
+    'brick': {
+        'label': 'Brick Maze',
+        'conditions_file': 'nav_task_conditions_brick.csv',
+    },
+    'hedge': {
+        'label': 'Hedge Maze',
+        'conditions_file': 'nav_task_conditions.csv',
+    }
+}
 
-brick_trials = data.TrialHandler(nReps=1, method='random',
-    extraInfo=expInfo, originPath=-1,
-    trialList=load_conditions('nav_task_conditions_brick.csv'),
-    seed=None, name='brick_trials')
-thisExp.addLoop(brick_trials)
+# -- Run through environments in the order decided above ---------------------
+trial_handlers = {}
 
-for thisTrial in brick_trials:
-    currentLoop = brick_trials
-    if thisTrial is not None:
-        for paramName in thisTrial:
-            exec('{} = thisTrial[paramName]'.format(paramName))
+for env_name in env_order:
+    cfg = env_configs[env_name]
+    show_env_label(cfg['label'])
 
-    show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisTrial)
+    trials = data.TrialHandler(nReps=1, method='random',
+        extraInfo=expInfo, originPath=-1,
+        trialList=load_conditions(cfg['conditions_file']),
+        seed=None, name=env_name + '_trials')
+    thisExp.addLoop(trials)
+    trial_handlers[env_name] = trials
 
-    brick_trials.addData('trial_resp.keys', respKeys)
-    brick_trials.addData('trial_resp.corr', respCorr)
-    if respKeys is not None:
-        brick_trials.addData('trial_resp.rt', respRT)
-    brick_trials.addData('trial_type', thisTrial['trial_type'])
-    brick_trials.addData('cue_image.file', thisTrial['cueImage'])
-    brick_trials.addData('left_image.file', thisTrial['leftImage'])
-    brick_trials.addData('right_image.file', thisTrial['rightImage'])
+    for thisTrial in trials:
+        currentLoop = trials
+        if thisTrial is not None:
+            for paramName in thisTrial:
+                exec('{} = thisTrial[paramName]'.format(paramName))
 
-    routineTimer.reset()
-    thisExp.nextEntry()
+        show_fixation(1.0)
+        respKeys, respRT, respCorr = run_trial(thisTrial)
 
-event.clearEvents()
-defaultKeyboard.clearEvents()
+        trials.addData('trial_resp.keys', respKeys)
+        trials.addData('trial_resp.corr', respCorr)
+        if respKeys is not None:
+            trials.addData('trial_resp.rt', respRT)
+        trials.addData('trial_type', thisTrial['trial_type'])
+        trials.addData('cue_image.file', thisTrial['cueImage'])
+        trials.addData('left_image.file', thisTrial['leftImage'])
+        trials.addData('right_image.file', thisTrial['rightImage'])
+        trials.addData('env_order', env_name)   # tags every trial row with its environment
 
-# ---------------------------------------------------------------------------
-# HEDGE main trials (randomised, no feedback)
-# ---------------------------------------------------------------------------
-show_env_label('Hedge Maze')
+        routineTimer.reset()
+        thisExp.nextEntry()
 
-hedge_trials = data.TrialHandler(nReps=1, method='random',
-    extraInfo=expInfo, originPath=-1,
-    trialList=load_conditions('nav_task_conditions.csv'),
-    seed=None, name='hedge_trials')
-thisExp.addLoop(hedge_trials)
+    # Flush stale key presses before moving to the next environment block
+    event.clearEvents()
+    defaultKeyboard.clearEvents()
 
-for thisTrial in hedge_trials:
-    currentLoop = hedge_trials
-    if thisTrial is not None:
-        for paramName in thisTrial:
-            exec('{} = thisTrial[paramName]'.format(paramName))
-
-    show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisTrial)
-
-    hedge_trials.addData('trial_resp.keys', respKeys)
-    hedge_trials.addData('trial_resp.corr', respCorr)
-    if respKeys is not None:
-        hedge_trials.addData('trial_resp.rt', respRT)
-    hedge_trials.addData('trial_type', thisTrial['trial_type'])
-    hedge_trials.addData('cue_image.file', thisTrial['cueImage'])
-    hedge_trials.addData('left_image.file', thisTrial['leftImage'])
-    hedge_trials.addData('right_image.file', thisTrial['rightImage'])
-
-    routineTimer.reset()
-    thisExp.nextEntry()
-
-# Save per-environment trial files
-for handler, label in [(brick_trials, 'brick'), (hedge_trials, 'hedge')]:
-    if handler.trialList not in ([], [None], None):
-        params = handler.trialList[0].keys()
+# -- Save per-environment trial files ----------------------------------------
+for env_name, trials in trial_handlers.items():
+    if trials.trialList not in ([], [None], None):
+        params = trials.trialList[0].keys()
     else:
         params = []
-    handler.saveAsText(filename + label + '_trials.csv', delim=',',
+    trials.saveAsText(filename + env_name + '_trials.csv', delim=',',
         stimOut=params,
         dataOut=['n', 'all_mean', 'all_std', 'all_raw'])
 
