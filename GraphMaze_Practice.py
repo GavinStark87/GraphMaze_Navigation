@@ -6,7 +6,9 @@ MenoMaps Project - UC Irvine Spatial Neuroscience Lab
 
 Run this script independently before or during a structural scan.
 Covers: fruit practice, brick practice, hedge practice (all with feedback).
-Separate from the main task (GraphMaze_Navigation.py).
+Fruit practice keeps the full instructional question text. Brick and hedge
+practice use the short centered path/straight-line label (matching the
+main task). Separate from the main task (GraphMaze_Navigation.py).
 """
 
 from __future__ import absolute_import, division
@@ -73,36 +75,38 @@ COLOR_BLACK = [0, 0, 0]
 COLOR_BLUE  = [0.2, 0.55, 0.95]     # lighter blue -- path distance trials
 COLOR_PEACH = [0.914, 0.506, 0.090] # peach        -- straight-line trials
 
-# -- Question text map -------------------------------------------------------
+# -- Question text map (fruit practice ONLY) ---------------------------------
 question_map = {
-    'route': 'Which is the shortest path distance from the start?',
-    'line':  'Which is the shortest straight-line distance from the start?'
+    'route': 'Which is the shortest path distance from the top?',
+    'line':  'Which is the shortest straight-line distance from the top?'
 }
 
 # -- Instruction slide text -------------------------------------------------
-# Edit these strings to update instructions without touching any other code.
-
 SLIDE1_TITLE = 'Practice Trials + Instructions'
 
 SLIDE1_BODY = (
     "You are going to be shown a series of objects from one of two environments "
-    "you've previously learned in this study (one from the first session, one from today).\n\n"
-    "You will be given an object that you should imagine you have been placed in front of "
-    "(at the top of the screen), and then indicate, of two possible options, which object is "
-    "closest to the starting object, either via shortest path distance "
-    "(if you were to wayfind via set paths) or shortest straight-line distance "
-    "(if you could walk in a straight line to it).\n\n"
-    "If you think the object on the left is closest, you'll press the left button. "
-    "Similarly, if you think the object on the right is closest, you'll press the right button.\n\n"
+    "you've previously learned in this study. You will be shown an object at the top "
+    "of the screen, and two objects below it. You should indicate which of the two "
+    "bottom objects is closest to the top object.\n\n"
+    "Sometimes you will be asked about the shortest path distance (if you were to "
+    "walk in the hallways). Sometimes you will be asked about the shortest "
+    "straight-line distance (if you could walk through the walls to it).\n\n"
+    "If you think the object on the left is closest, you'll press the left (1) button. "
+    "Similarly, if you think the object on the right is closest, you'll press the right (2) button. "
+    "You will have 10 seconds to respond to each trial.\n\n"
     "First, we'll practice with an example environment."
 )
 
 SLIDE2_BODY = (
     "Great job! Now let's practice with the actual maze environments. "
     "You will complete a short practice block for each environment before the main task.\n\n"
-    "As a reminder, you will be asked to indicate which object is closer to your "
-    "starting point either via shortest path distance or straight-line distance "
-    "(they may not be the same answer!).\n\n"
+    "For these maze practice trials, instead of a full question, you'll see a short "
+    "label -- \"path\" or \"straight-line\" -- centered between the images. This tells you "
+    "which type of distance to judge, relative to the top object (they may not be the "
+    "same answer!).\n\n"
+    "As a reminder, path distance trials have a blue background and straight-line "
+    "distance trials have a peach background.\n\n"
     "Press 5 when you are ready to continue."
 )
 
@@ -134,7 +138,7 @@ maze_title_stim = visual.TextStim(win=win, name='maze_title_stim',
     pos=(0, 0.43), height=0.048, wrapWidth=1.4, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=-1.0)
 
-# Environment label -- large centered text, no maze image
+# Environment label -- title + maze reference image (brick / hedge practice)
 envClock = core.Clock()
 env_label = visual.TextStim(win=win, name='env_label',
     text='', font='Arial',
@@ -155,10 +159,17 @@ env_maze_image = visual.ImageStim(
 # Trial components (black text on colored backgrounds)
 trialClock = core.Clock()
 
+# Full question sentence -- fruit practice only
 question_text = visual.TextStim(win=win, name='question_text',
     text='', font='Arial',
     pos=(0, 0.40), height=0.055, wrapWidth=1.5, ori=0,
     color='black', colorSpace='rgb', opacity=1, depth=0.0)
+
+# Centered short label -- brick / hedge practice, matches main task
+trial_type_label = visual.TextStim(win=win, name='trial_type_label',
+    text='', font='Arial',
+    pos=(0, -0.07), height=0.05, wrapWidth=0.8, ori=0,
+    color='black', colorSpace='rgb', opacity=1, depth=0.0, bold=True)
 
 cue_image = visual.ImageStim(
     win=win, name='cue_image',
@@ -433,7 +444,7 @@ def show_practice_maze():
 
 def show_env_label(label_text, maze_path=None):
     """
-    Display environment name as large centered text on black background.
+    Display environment name as title text on black background.
     If maze_path is provided, display the corresponding maze image. Key 5 to advance.
     """
     win.color = COLOR_BLACK
@@ -491,13 +502,15 @@ def show_env_label(label_text, maze_path=None):
     routineTimer.reset()
 
 
-def run_trial(trialData, practice=False):
+def run_trial(trialData, practice=False, question_mode='full'):
     """
     Run one trial. Returns (keys, rt, corr).
+    question_mode='full'  -> shows the full instructional sentence (fruit only).
+    question_mode='short' -> shows centered 'path'/'straight-line' label
+                              (brick / hedge, matches main task).
     practice=True shows green feedback arrow after response.
     Background: blue for route, peach for line.
-    Key map: 1 = left, 2 = right.
-    core.CountdownTimer(10) ends trial after 10 seconds if no response.
+    Key map: 1 = left, 2 = right. 10-second response window.
     """
     trial_type = trialData['trial_type']
     win.color = COLOR_BLUE if trial_type == 'route' else COLOR_PEACH
@@ -508,13 +521,19 @@ def run_trial(trialData, practice=False):
     cue_label_stim.setText(trialData['cueLabel'])
     left_label_stim.setText(trialData['leftLabel'])
     right_label_stim.setText(trialData['rightLabel'])
-    question_text.setText(question_map.get(trial_type, 'Which object is closer?'))
+
+    if question_mode == 'full':
+        question_text.setText(question_map.get(trial_type, 'Which object is closer?'))
+        active_question_stim = question_text
+    else:
+        trial_type_label.setText('path' if trial_type == 'route' else 'straight-line')
+        active_question_stim = trial_type_label
 
     trial_resp.keys = []
     trial_resp.rt = []
     _trial_allKeys = []
 
-    vis_comps = [question_text, cue_image, cue_label_stim,
+    vis_comps = [active_question_stim, cue_image, cue_label_stim,
                  left_image, left_label_stim,
                  right_image, right_label_stim]
     for comp in vis_comps + [trial_resp]:
@@ -643,7 +662,7 @@ show_text_slide(SLIDE1_TITLE, SLIDE1_BODY)
 # 2. Practice maze -- first showing
 show_practice_maze()
 
-# 3. Fruit practice block (sequential, with feedback)
+# 3. Fruit practice block (sequential, with feedback, FULL question text)
 fruit_handler = data.TrialHandler(nReps=1, method='sequential',
     extraInfo=expInfo, originPath=-1,
     trialList=load_conditions('nav_task_practice_fruit.csv'),
@@ -661,7 +680,7 @@ for thisFruit in fruit_handler:
         show_practice_maze()
 
     show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisFruit, practice=True)
+    respKeys, respRT, respCorr = run_trial(thisFruit, practice=True, question_mode='full')
 
     fruit_handler.addData('trial_resp.keys', respKeys)
     fruit_handler.addData('trial_resp.corr', respCorr)
@@ -678,7 +697,7 @@ for thisFruit in fruit_handler:
 show_text_slide('', SLIDE2_BODY)
 
 # ---------------------------------------------------------------------------
-# BRICK practice
+# BRICK practice (SHORT centered label, matches main task)
 # ---------------------------------------------------------------------------
 show_env_label('Brick Maze', maze_path='stimuli/brick_maze.png')
 
@@ -695,7 +714,7 @@ for thisBrick in brick_prac_handler:
             exec('{} = thisBrick[paramName]'.format(paramName))
 
     show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisBrick, practice=True)
+    respKeys, respRT, respCorr = run_trial(thisBrick, practice=True, question_mode='short')
 
     brick_prac_handler.addData('trial_resp.keys', respKeys)
     brick_prac_handler.addData('trial_resp.corr', respCorr)
@@ -711,7 +730,7 @@ event.clearEvents()
 defaultKeyboard.clearEvents()
 
 # ---------------------------------------------------------------------------
-# HEDGE practice
+# HEDGE practice (SHORT centered label, matches main task)
 # ---------------------------------------------------------------------------
 show_env_label('Hedge Maze', maze_path='stimuli/hedge_maze.png')
 
@@ -728,7 +747,7 @@ for thisHedge in hedge_prac_handler:
             exec('{} = thisHedge[paramName]'.format(paramName))
 
     show_fixation(1.0)
-    respKeys, respRT, respCorr = run_trial(thisHedge, practice=True)
+    respKeys, respRT, respCorr = run_trial(thisHedge, practice=True, question_mode='short')
 
     hedge_prac_handler.addData('trial_resp.keys', respKeys)
     hedge_prac_handler.addData('trial_resp.corr', respCorr)

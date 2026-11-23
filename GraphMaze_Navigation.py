@@ -5,8 +5,13 @@ Graph Maze Navigation Task -- MAIN TASK
 MenoMaps Project - UC Irvine Spatial Neuroscience Lab
 
 Run after GraphMaze_Practice.py has been completed.
-Contains brick main trials and hedge main trials only -- no practice, no feedback.
-Environment presentation order can be forced or randomized (see FORCED_START_ENV below).
+4 runs total: 2 brick + 2 hedge, 40 trials each, 160 trials total.
+Environment start order (brick vs hedge first) is randomized, AND the
+order of each environment's two 40-trial runs is independently randomized.
+Each environment's two runs always stay adjacent to one another.
+No practice, no feedback. Trial type shown as a short centered label
+("path" / "straight-line") between the cue image and the two choice images.
+Env label screens show the maze reference image, matching the practice format.
 """
 
 from __future__ import absolute_import, division
@@ -59,11 +64,7 @@ frameTolerance = 0.001
 # ENVIRONMENT PRESENTATION ORDER
 # ===========================================================================
 # Set FORCED_START_ENV to 'brick' or 'hedge' to manually control which
-# environment runs first (e.g. for manual counterbalancing by participant
-# number). Set to None to randomize the order automatically.
-#
-# Either way, the chosen order is logged to the data file so it can be
-# matched up against EPI run order later.
+# environment runs first. Set to None to randomize automatically.
 FORCED_START_ENV = None   # 'brick', 'hedge', or None for random
 
 if FORCED_START_ENV in ('brick', 'hedge'):
@@ -96,21 +97,15 @@ COLOR_BLACK = [0, 0, 0]
 COLOR_BLUE  = [0.2, 0.55, 0.95]     # lighter blue -- path distance trials
 COLOR_PEACH = [0.914, 0.506, 0.090] # peach        -- straight-line trials
 
-# -- Question text map -------------------------------------------------------
-question_map = {
-    'route': 'Which is the shortest path distance from the start?',
-    'line':  'Which is the shortest straight-line distance from the start?'
-}
-
 # -- Ready slide text --------------------------------------------------------
-# Update trial count here if boss confirms final CSV sizes differ from 200.
 SLIDE_READY_BODY = (
-    "You will now begin the main task. There will be a total of 200 trials across "
-    "the two environments you have learned.\n\n"
+    "You will now begin the main task. \n\n"
+    "The task is split into 4 runs of 40 trials each, covering the two "
+    "environments you have learned.\n\n"
     "You will have 10 seconds to respond to each trial. "
     "You will not be given feedback on your performance.\n\n"
-    "As a reminder, indicate which object is closer to your starting point "
-    "via shortest path distance (blue) or shortest straight-line distance (peach) -- "
+    "During each trial, a label between the images will tell you whether to judge "
+    "path distance (blue) or straight-line distance (peach) to the top object -- "
     "they may not be the same answer!\n\n"
     "Do you have any questions?"
 )
@@ -130,24 +125,33 @@ fixation = visual.TextStim(win=win, name='fixation',
     pos=(0, 0), height=0.12, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=0.0)
 
-# Environment label -- large centered text, no maze image
+# Environment label + maze reference image (matches practice format exactly)
 envClock = core.Clock()
 env_label = visual.TextStim(win=win, name='env_label',
     text='', font='Arial',
-    pos=(0, 0), height=0.14, wrapWidth=1.4, ori=0,
+    pos=(0, 0.43), height=0.048, wrapWidth=1.4, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=0.0)
 env_advance = visual.TextStim(win=win, name='env_advance',
     text='Press 5 to continue.',
     font='Arial', pos=(0, -0.46), height=0.038, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1, depth=-1.0)
+env_maze_image = visual.ImageStim(
+    win=win, name='env_maze_image',
+    image='sin', mask=None,
+    ori=0.0, pos=(0, -0.06), size=(0.72, 0.72),
+    color=[1, 1, 1], colorSpace='rgb', opacity=None,
+    flipHoriz=False, flipVert=False,
+    texRes=128.0, interpolate=True, depth=-2.0)
 
 # Trial components (black text on colored backgrounds)
 trialClock = core.Clock()
 
-question_text = visual.TextStim(win=win, name='question_text',
+# Centered distance-type label -- replaces the full question sentence.
+# Sits between the cue image (top) and the left/right choice images (bottom).
+trial_type_label = visual.TextStim(win=win, name='trial_type_label',
     text='', font='Arial',
-    pos=(0, 0.40), height=0.055, wrapWidth=1.5, ori=0,
-    color='black', colorSpace='rgb', opacity=1, depth=0.0)
+    pos=(0, -0.07), height=0.05, wrapWidth=0.8, ori=0,
+    color='black', colorSpace='rgb', opacity=1, depth=0.0, bold=True)
 
 cue_image = visual.ImageStim(
     win=win, name='cue_image',
@@ -222,6 +226,28 @@ def load_conditions(csv_path):
         core.quit()
 
 
+def build_env_runs(conditions_list, n_runs=2, trials_per_run=40):
+    """
+    Shuffle a full condition list, split it into n_runs equal chunks,
+    then shuffle the ORDER of the chunks themselves. This means which
+    40-trial half ends up being labeled "Run 1" vs "Run 2" is randomized,
+    satisfying the "Randomized run order" requirement per environment.
+    """
+    shuffled = list(conditions_list)
+    pyrandom.shuffle(shuffled)
+    total_needed = n_runs * trials_per_run
+    if len(shuffled) < total_needed:
+        print('WARNING: only {} trials available, need {} for {} runs of {}'.format(
+            len(shuffled), total_needed, n_runs, trials_per_run))
+    chunks = []
+    for i in range(n_runs):
+        start = i * trials_per_run
+        end = start + trials_per_run
+        chunks.append(shuffled[start:end])
+    pyrandom.shuffle(chunks)   # randomize which chunk is presented first
+    return chunks
+
+
 def show_fixation(duration=1.0):
     """Display fixation cross for a fixed duration on black background."""
     win.color = COLOR_BLACK
@@ -250,10 +276,7 @@ def show_fixation(duration=1.0):
 
 
 def show_text_slide(body_text):
-    """
-    Display a text-only ready slide on a black background.
-    Key 5 to advance. No title, no color hints.
-    """
+    """Display a text-only slide on a black background. Key 5 to advance."""
     win.color = COLOR_BLACK
     slideClock = core.Clock()
 
@@ -263,7 +286,7 @@ def show_text_slide(body_text):
         wrapWidth=1.5, color='white', colorSpace='rgb',
         depth=-1.0)
     advance_stim = visual.TextStim(win,
-        text='Press 5 to begin.',
+        text='Press 5 to continue.',
         font='Arial', pos=(0, -0.47), height=0.031,
         color=[0.4, 0.4, 0.4], colorSpace='rgb', depth=-2.0)
     vis_comps = [body_stim, advance_stim]
@@ -316,14 +339,19 @@ def show_text_slide(body_text):
     routineTimer.reset()
 
 
-def show_env_label(label_text):
+def show_env_label(label_text, maze_path=None):
     """
-    Display environment name as large centered text on black background.
-    No maze image. Key 5 to advance.
+    Display environment name + title, same format as the practice maze
+    screen. Shows the maze reference image below the title if provided.
+    Key 5 to advance.
     """
     win.color = COLOR_BLACK
     env_label.setText(label_text)
+
     display_comps = [env_label, env_advance]
+    if maze_path:
+        env_maze_image.setImage(maze_path)
+        display_comps = [env_label, env_maze_image, env_advance]
 
     env_resp = keyboard.Keyboard()
     for comp in display_comps:
@@ -377,8 +405,8 @@ def run_trial(trialData):
     """
     Run one main trial (no feedback). Returns (keys, rt, corr).
     Background: blue for route, peach for line.
-    Key map: 1 = left, 2 = right.
-    core.CountdownTimer(10) ends trial after 10 seconds if no response.
+    trial_type_label shows 'path' or 'straight-line' centered between images.
+    Key map: 1 = left, 2 = right. 10-second response window.
     """
     trial_type = trialData['trial_type']
     win.color = COLOR_BLUE if trial_type == 'route' else COLOR_PEACH
@@ -389,13 +417,13 @@ def run_trial(trialData):
     cue_label_stim.setText(trialData['cueLabel'])
     left_label_stim.setText(trialData['leftLabel'])
     right_label_stim.setText(trialData['rightLabel'])
-    question_text.setText(question_map.get(trial_type, 'Which object is closer?'))
+    trial_type_label.setText('path' if trial_type == 'route' else 'straight-line')
 
     trial_resp.keys = []
     trial_resp.rt = []
     _trial_allKeys = []
 
-    vis_comps = [question_text, cue_image, cue_label_stim,
+    vis_comps = [trial_type_label, cue_image, cue_label_stim,
                  left_image, left_label_stim,
                  right_image, right_label_stim]
     for comp in vis_comps + [trial_resp]:
@@ -476,34 +504,65 @@ def run_trial(trialData):
 # EXPERIMENT FLOW
 # ===========================================================================
 
-# 1. Ready slide (brief reminder + questions check)
-show_text_slide(SLIDE_READY_BODY)
+RUNS_PER_ENV = 2
+TRIALS_PER_RUN = 40
 
-# -- Environment config lookup table -----------------------------------------
 env_configs = {
     'brick': {
         'label': 'Brick Maze',
         'conditions_file': 'nav_task_conditions_brick.csv',
+        'maze_image': 'stimuli/brick_maze.png',
     },
     'hedge': {
         'label': 'Hedge Maze',
         'conditions_file': 'nav_task_conditions.csv',
+        'maze_image': 'stimuli/hedge_maze.png',
     }
 }
 
-# -- Run through environments in the order decided above ---------------------
-trial_handlers = {}
-
+# -- Build run chunks for each environment. Chunk order (which half is
+#    Run 1 vs Run 2) is randomized independently for each environment. -----
+env_run_conditions = {}
 for env_name in env_order:
     cfg = env_configs[env_name]
-    show_env_label(cfg['label'])
+    full_conditions = load_conditions(cfg['conditions_file'])
+    env_run_conditions[env_name] = build_env_runs(
+        full_conditions, RUNS_PER_ENV, TRIALS_PER_RUN)
 
-    trials = data.TrialHandler(nReps=1, method='random',
+# -- Fixed run sequence: each env's two runs stay adjacent, in the order
+#    env_order already decided above. ----------------------------------------
+run_sequence = []
+for env_name in env_order:
+    for run_idx in range(1, RUNS_PER_ENV + 1):
+        run_sequence.append((env_name, run_idx))
+
+thisExp.addData('run_sequence', '_'.join(
+    ['{}Run{}'.format(e, r) for e, r in run_sequence]))
+thisExp.nextEntry()
+
+# 1. Ready slide
+show_text_slide(SLIDE_READY_BODY)
+
+trial_handlers = {}
+total_runs = len(run_sequence)
+run_counter = 0
+
+for env_name, run_idx in run_sequence:
+    run_counter += 1
+    cfg = env_configs[env_name]
+    run_conditions = env_run_conditions[env_name][run_idx - 1]
+
+    show_env_label(
+        '{} (Run {} of {})'.format(cfg['label'], run_idx, RUNS_PER_ENV),
+        maze_path=cfg['maze_image'])
+
+    handler_key = '{}_run{}'.format(env_name, run_idx)
+    trials = data.TrialHandler(nReps=1, method='sequential',
         extraInfo=expInfo, originPath=-1,
-        trialList=load_conditions(cfg['conditions_file']),
-        seed=None, name=env_name + '_trials')
+        trialList=run_conditions,
+        seed=None, name=handler_key)
     thisExp.addLoop(trials)
-    trial_handlers[env_name] = trials
+    trial_handlers[handler_key] = trials
 
     for thisTrial in trials:
         currentLoop = trials
@@ -522,22 +581,29 @@ for env_name in env_order:
         trials.addData('cue_image.file', thisTrial['cueImage'])
         trials.addData('left_image.file', thisTrial['leftImage'])
         trials.addData('right_image.file', thisTrial['rightImage'])
-        trials.addData('env_order', env_name)   # tags every trial row with its environment
+        trials.addData('env_name', env_name)
+        trials.addData('run_number', run_idx)
+        trials.addData('global_run_index', run_counter)
 
         routineTimer.reset()
         thisExp.nextEntry()
 
-    # Flush stale key presses before moving to the next environment block
     event.clearEvents()
     defaultKeyboard.clearEvents()
 
-# -- Save per-environment trial files ----------------------------------------
-for env_name, trials in trial_handlers.items():
+    if run_counter < total_runs:
+        show_text_slide(
+            'You have completed Run {} of {}.\n\n'
+            'Press 5 when you are ready to begin the next run.'.format(
+                run_counter, total_runs))
+
+# -- Save per-run trial files -------------------------------------------------
+for handler_key, trials in trial_handlers.items():
     if trials.trialList not in ([], [None], None):
         params = trials.trialList[0].keys()
     else:
         params = []
-    trials.saveAsText(filename + env_name + '_trials.csv', delim=',',
+    trials.saveAsText(filename + '_' + handler_key + '_trials.csv', delim=',',
         stimOut=params,
         dataOut=['n', 'all_mean', 'all_std', 'all_raw'])
 
